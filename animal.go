@@ -44,5 +44,8 @@ var (
 		Eagle,
 		Elephant,
 		FrillNeckedLizard,
-		FurSeal}
+		FurSeal,
+		Giraffe,
+		Goat,
+		Gorilla}
 )
