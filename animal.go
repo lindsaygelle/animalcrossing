@@ -32,5 +32,17 @@ var (
 		Boar,
 		Bovine,
 		Bull,
-		Camel}
+		Camel,
+		Cat,
+		Chameleon,
+		Chicken,
+		Cow,
+		Deer,
+		Dodo,
+		Dog,
+		Duck,
+		Eagle,
+		Elephant,
+		FrillNeckedLizard,
+		FurSeal}
 )
