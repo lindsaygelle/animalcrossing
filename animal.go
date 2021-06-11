@@ -11,11 +11,13 @@ type animal struct {
 	name string
 }
 
+// Name returns the animal's name.
 func (a animal) Name() string {
 	return a.name
 }
 
 var (
+	// validate animal implements Animal.
 	_ Animal = animal{}
 )
 
@@ -56,5 +58,19 @@ var (
 		Kangaroo,
 		Kappa,
 		Koala,
-		Lion}
+		Lion,
+		Mole,
+		Monkey,
+		Mouse,
+		Octopus,
+		Ostrich,
+		Otter,
+		Owl,
+		Panther,
+		Peacock,
+		Pelican,
+		Penguin,
+		Pig,
+		Pigeon}
 )
+
