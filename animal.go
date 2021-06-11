@@ -47,5 +47,14 @@ var (
 		FurSeal,
 		Giraffe,
 		Goat,
-		Gorilla}
+		Gorilla,
+		Gull,
+		Gyroid,
+		Hamster,
+		Hedgehog,
+		Hippo,
+		Kangaroo,
+		Kappa,
+		Koala,
+		Lion}
 )
