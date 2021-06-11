@@ -80,6 +80,12 @@ var (
 		Sheep,
 		Skunk,
 		Sloth,
-		Squirrel}
+		Squirrel,
+		Tapir,
+		Tiger,
+		Tortoise,
+		Turkey,
+		Walrus,
+		Wolf}
 )
 
