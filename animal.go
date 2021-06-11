@@ -71,6 +71,15 @@ var (
 		Pelican,
 		Penguin,
 		Pig,
-		Pigeon}
+		Pigeon,
+		Rabbit,
+		Raccoon,
+		Reindeer,
+		Reptile,
+		Rhinoceros,
+		Sheep,
+		Skunk,
+		Sloth,
+		Squirrel}
 )
 
