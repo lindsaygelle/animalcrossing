@@ -29,34 +29,42 @@ type species struct {
 	phylum       string
 }
 
+// Class returns the species class.
 func (s species) Class() string {
 	return s.class
 }
 
+// Conservation returns the species conservation status.
 func (s species) Conservation() string {
 	return s.conservation
 }
 
+// Domain returns the species domain.
 func (s species) Domain() string {
 	return s.domain
 }
 
+// Family returns the species family.
 func (s species) Family() string {
 	return s.family
 }
 
+// Kingdom returns the species kingdom.
 func (s species) Kingdom() string {
 	return s.kingdom
 }
 
+// Order returns the species order.
 func (s species) Order() string {
 	return s.order
 }
 
+// Phylum returns the species phylum.
 func (s species) Phylum() string {
 	return s.phylum
 }
 
 var (
+	// validate species implements Species.
 	_ Species = species{}
 )
