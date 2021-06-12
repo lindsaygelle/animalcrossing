@@ -71,6 +71,13 @@ func TestOrderArtiodactyla(t *testing.T) {
 	}
 }
 
+func TestOrderPilosa(t *testing.T) {
+	var s string = "Pilosa"
+	if ok := pilosa == s; !ok {
+		t.Fatal("pilosa != Pilosa")
+	}
+}
+
 func TestOrderCrocodylia(t *testing.T) {
 	var s string = "Crocodylia"
 	if ok := crocodylia == s; !ok {

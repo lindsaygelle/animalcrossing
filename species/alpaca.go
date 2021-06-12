@@ -1,7 +1,7 @@
 package species
 
 var (
-	// Alpaca is the species information for Alpaca.
+	// Alpaca is the species information for Alpacas.
 	Alpaca Species = species{
 		class:        mammalia,
 		conservation: domesticated,

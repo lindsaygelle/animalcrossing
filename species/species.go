@@ -115,6 +115,7 @@ const (
 const (
 	artiodactyla string = "Artiodactyla"
 	crocodylia   string = "Crocodylia"
+	pilosa       string = "Pilosa"
 )
 
 // phylum

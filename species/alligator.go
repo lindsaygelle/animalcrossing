@@ -9,5 +9,6 @@ var (
 		family:       alligatoridae,
 		genus:        alligator,
 		kingdom:      animalia,
+		order:        crocodylia,
 		phylum:       chordata}
 )
