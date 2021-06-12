@@ -88,4 +88,3 @@ var (
 		Walrus,
 		Wolf}
 )
-

@@ -32,7 +32,15 @@ func TestAlligatorKingdom(t *testing.T) {
 		t.Fatal("Alligator.Kingdom() != animalia")
 	}
 }
+
+func TestAlligatorOrder(t *testing.T) {
+	if ok := Alligator.Order() == crocodylia; !ok {
+		t.Fatal("Alligator.Order != crocodylia")
+	}
+}
+
 func TestAlligatorPhylum(t *testing.T) {
 	if ok := Alligator.Phylum() == chordata; !ok {
+		t.Fatal("Alligator.Phylum() != chordata")
 	}
 }

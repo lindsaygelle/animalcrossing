@@ -79,12 +79,14 @@ var (
 
 // class
 const (
+	mammalia string = "Mammalia"
 	reptilia string = "Reptilia"
 )
 
 // conservation
 const (
-	vulnerable string = "Vulnerable"
+	domesticated string = "Domesticated"
+	vulnerable   string = "Vulnerable"
 )
 
 // domain
@@ -95,11 +97,13 @@ const (
 // family
 const (
 	alligatoridae string = "Alligatoridae"
+	camelidae     string = "Camelidae"
 )
 
 // genus
 const (
 	alligator string = "Alligator"
+	vicugna   string = "Vicugna"
 )
 
 // kindgom
@@ -109,7 +113,8 @@ const (
 
 // order
 const (
-	crocodylia string = "Crocodylia"
+	artiodactyla string = "Artiodactyla"
+	crocodylia   string = "Crocodylia"
 )
 
 // phylum
