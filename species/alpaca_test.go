@@ -44,3 +44,9 @@ func TestAlpacaPhylum(t *testing.T) {
 		t.Fatal("Alpaca.Phylum() != chordata")
 	}
 }
+
+func TestAlpacaSpecies(t *testing.T) {
+	if ok := Alpaca.Species() == ""; !ok {
+		t.Fatal("Alpaca.Species() != \"\"")
+	}
+}

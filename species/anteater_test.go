@@ -44,3 +44,9 @@ func TestAnteaterPhylum(t *testing.T) {
 		t.Fatal("Anteater.Phylum() != chordata")
 	}
 }
+
+func TestAnteaterSpecies(t *testing.T) {
+	if ok := Anteater.Species() == ""; !ok {
+		t.Fatal("Anteater.Species() != \"\"")
+	}
+}

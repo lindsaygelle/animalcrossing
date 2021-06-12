@@ -10,5 +10,6 @@ var (
 		genus:        "",
 		kingdom:      animalia,
 		order:        pilosa,
-		phylum:       chordata}
+		phylum:       chordata,
+		species:      ""}
 )

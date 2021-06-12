@@ -10,5 +10,6 @@ var (
 		genus:        alligator,
 		kingdom:      animalia,
 		order:        crocodylia,
-		phylum:       chordata}
+		phylum:       chordata,
+		species:      ""}
 )

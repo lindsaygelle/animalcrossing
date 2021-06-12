@@ -44,3 +44,9 @@ func TestAlligatorPhylum(t *testing.T) {
 		t.Fatal("Alligator.Phylum() != chordata")
 	}
 }
+
+func TestAlligatorSpecies(t *testing.T) {
+	if ok := Alligator.Species() == ""; !ok {
+		t.Fatal("Alligator.Species() != \"\"")
+	}
+}

@@ -18,6 +18,8 @@ type Species interface {
 	Order() string
 	// Phylum is the phylum of the species.
 	Phylum() string
+	// Species is the species of the species.
+	Species() string
 }
 
 // species implements the Species interface.
@@ -30,6 +32,7 @@ type species struct {
 	kingdom      string
 	order        string
 	phylum       string
+	species      string
 }
 
 // Class returns the species class.
@@ -72,6 +75,11 @@ func (s species) Phylum() string {
 	return s.phylum
 }
 
+// Species returns the species.
+func (s species) Species() string {
+	return s.species
+}
+
 var (
 	// validate species implements Species.
 	_ Species = species{}
@@ -79,14 +87,16 @@ var (
 
 // class
 const (
+	amphibia string = "Amphibia"
 	mammalia string = "Mammalia"
 	reptilia string = "Reptilia"
 )
 
 // conservation
 const (
-	domesticated string = "Domesticated"
-	vulnerable   string = "Vulnerable"
+	criticallyEndangered string = "Critically Endangered"
+	domesticated         string = "Domesticated"
+	vulnerable           string = "Vulnerable"
 )
 
 // domain
@@ -96,13 +106,15 @@ const (
 
 // family
 const (
-	alligatoridae string = "Alligatoridae"
-	camelidae     string = "Camelidae"
+	alligatoridae  string = "Alligatoridae"
+	ambystomatidae string = "Ambystomatidae"
+	camelidae      string = "Camelidae"
 )
 
 // genus
 const (
 	alligator string = "Alligator"
+	ambystoma string = "Ambystoma"
 	vicugna   string = "Vicugna"
 )
 
@@ -114,6 +126,7 @@ const (
 // order
 const (
 	artiodactyla string = "Artiodactyla"
+	caudata      string = "Caudata"
 	crocodylia   string = "Crocodylia"
 	pilosa       string = "Pilosa"
 )
@@ -121,4 +134,9 @@ const (
 // phylum
 const (
 	chordata string = "Chordata"
+)
+
+// species
+const (
+	aMexicanum string = "A. mexicanum"
 )

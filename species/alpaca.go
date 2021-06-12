@@ -10,5 +10,6 @@ var (
 		genus:        vicugna,
 		kingdom:      animalia,
 		order:        artiodactyla,
-		phylum:       chordata}
+		phylum:       chordata,
+		species:      ""}
 )
