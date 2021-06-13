@@ -251,6 +251,13 @@ func TestFamilyMacropodidae(t *testing.T) {
 	}
 }
 
+func TestFamilyMuridae(t *testing.T) {
+	var s string = "Muridae"
+	if ok := muridae == s; !ok {
+		t.Fatalf("muridae != %s", s)
+	}
+}
+
 func TestFamilyOtariidae(t *testing.T) {
 	var s string = "Otariidae"
 	if ok := otariidae == s; !ok {
@@ -276,6 +283,13 @@ func TestFamilySuidae(t *testing.T) {
 	var s string = "Suidae"
 	if ok := suidae == s; !ok {
 		t.Fatalf("suidae != %s", s)
+	}
+}
+
+func TestFamilyTalpidae(t *testing.T) {
+	var s string = "Talpidae"
+	if ok := talpidae == s; !ok {
+		t.Fatalf("talpidae != %s", talpidae)
 	}
 }
 
@@ -388,6 +402,13 @@ func TestGenusMacropus(t *testing.T) {
 	var s string = "Macropus"
 	if ok := macropus == s; !ok {
 		t.Fatalf("macropus != %s", s)
+	}
+}
+
+func TestGenusMus(t *testing.T) {
+	var s string = "Mus"
+	if ok := mus == s; !ok {
+		t.Fatalf("mus != %s", s)
 	}
 }
 

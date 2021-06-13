@@ -137,10 +137,12 @@ const (
 	hominidae       string = "Hominidae"
 	laridae         string = "Laridae"
 	macropodidae    string = "Macropodidae"
+	muridae         string = "Muridae"
 	otariidae       string = "Otariidae"
 	phascolarctidae string = "Phascolarctidae"
 	phasianidae     string = "Phasianidae"
 	suidae          string = "Suidae"
+	talpidae        string = "Talpidae"
 	ursidae         string = "Ursidae"
 )
 
@@ -161,6 +163,7 @@ const (
 	gorilla        string = "Gorilla"
 	hippopotamus   string = "Hippopotamus"
 	macropus       string = "Macropus"
+	mus            string = "Mus"
 	panthera       string = "Panthera"
 	phascolarctos  string = "Phascolarctos"
 	raphus         string = "Raphus"
