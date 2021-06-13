@@ -101,6 +101,7 @@ const (
 	endangered           string = "Endangered"
 	extinct              string = "Extinct"
 	leastConcern         string = "Least Concern"
+	unknown              string = "Unknown"
 	vulnerable           string = "Vulnerable"
 )
 
@@ -125,6 +126,7 @@ const (
 	columbidae     string = "Columbidae"
 	elephantidae   string = "Elephantidae"
 	felidae        string = "Felidae"
+	otariidae      string = "Otariidae"
 	phasianidae    string = "Phasianidae"
 	suidae         string = "Suidae"
 	ursidae        string = "Ursidae"

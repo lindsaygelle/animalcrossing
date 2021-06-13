@@ -181,6 +181,13 @@ func TestFamilyFelidae(t *testing.T) {
 	}
 }
 
+func TestFamilyOtariidae(t *testing.T) {
+	var s string = "Otariidae"
+	if ok := otariidae == s; !ok {
+		t.Fatalf("otariidae != %s", s)
+	}
+}
+
 func TestFamilyPhasianidae(t *testing.T) {
 	var s string = "Phasianidae"
 	if ok := phasianidae == s; !ok {
