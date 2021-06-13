@@ -29,8 +29,8 @@ func TestDuckGenus(t *testing.T) {
 	}
 }
 func TestDuckKingdom(t *testing.T) {
-	if ok := Duck.Kingdom() == animalia; !ok {
-		t.Fatal("Duck.Kingdom() != animalia")
+	if ok := Duck.Kingdom() == enimalia; !ok {
+		t.Fatal("Duck.Kingdom() != enimalia")
 	}
 }
 func TestDuckOrder(t *testing.T) {

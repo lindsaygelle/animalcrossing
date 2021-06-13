@@ -97,6 +97,7 @@ const (
 const (
 	criticallyEndangered string = "Critically Endangered"
 	domesticated         string = "Domesticated"
+	endangered           string = "Endangered"
 	extinct              string = "Extinct"
 	leastConcern         string = "Least Concern"
 	vulnerable           string = "Vulnerable"
@@ -109,6 +110,7 @@ const (
 
 // family
 const (
+	accipitridae   string = "Accipitridae"
 	alligatoridae  string = "Alligatoridae"
 	ambystomatidae string = "Ambystomatidae"
 	anatidae       string = "Anatidae"
@@ -119,6 +121,7 @@ const (
 	cervidae       string = "Cervidae"
 	chamaeleonidae string = "Chamaeleonidae"
 	columbidae     string = "Columbidae"
+	elephantidae   string = "Elephantidae"
 	felidae        string = "Felidae"
 	phasianidae    string = "Phasianidae"
 	suidae         string = "Suidae"
@@ -148,16 +151,18 @@ const (
 
 // order
 const (
-	anseriformes  string = "Anseriformes"
-	artiodactyla  string = "Artiodactyla"
-	carnivora     string = "Carnivora"
-	caudata       string = "Caudata"
-	columbiformes string = "Columbiformes"
-	crocodylia    string = "Crocodylia"
-	galliformes   string = "Galliformes"
-	pilosa        string = "Pilosa"
-	rodentia      string = "Rodentia"
-	squamata      string = "Squamata"
+	accipitriformes string = "Accipitriformes"
+	anseriformes    string = "Anseriformes"
+	artiodactyla    string = "Artiodactyla"
+	carnivora       string = "Carnivora"
+	caudata         string = "Caudata"
+	columbiformes   string = "Columbiformes"
+	crocodylia      string = "Crocodylia"
+	galliformes     string = "Galliformes"
+	pilosa          string = "Pilosa"
+	proboscidea     string = "Proboscidea"
+	rodentia        string = "Rodentia"
+	squamata        string = "Squamata"
 )
 
 // phylum

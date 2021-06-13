@@ -42,6 +42,13 @@ func TestConservationDomesticated(t *testing.T) {
 	}
 }
 
+func TestConservationEndangered(t *testing.T) {
+	var s string = "Endangered"
+	if ok := endangered == s; !ok {
+		t.Fatal("endangered != Endangered")
+	}
+}
+
 func TestConservationExtinct(t *testing.T) {
 	var s string = "Extinct"
 	if ok := extinct == s; !ok {
@@ -66,6 +73,13 @@ func TestDomainEukarya(t *testing.T) {
 	var s string = "Eukarya"
 	if ok := eukarya == s; !ok {
 		t.Fatal("eukarya != Eukarya")
+	}
+}
+
+func TestFamilyAccipitridae(t *testing.T) {
+	var s string = "Accipitridae"
+	if ok := accipitridae == s; !ok {
+		t.Fatal("accipitridae != Accipitridae")
 	}
 }
 
@@ -136,6 +150,13 @@ func TestFamilyColumbidae(t *testing.T) {
 	var s string = "Columbidae"
 	if ok := columbidae == s; !ok {
 		t.Fatal("columbidae != Columbidae")
+	}
+}
+
+func TestFamilyElephantidae(t *testing.T) {
+	var s string = "Elephantidae"
+	if ok := elephantidae == s; !ok {
+		t.Fatal("elephantidae != Elephantidae")
 	}
 }
 
@@ -258,6 +279,13 @@ func TestKingdomEnimalia(t *testing.T) {
 	}
 }
 
+func TestOrderAccipitriformes(t *testing.T) {
+	var s string = "Accipitriformes"
+	if ok := accipitriformes == s; !ok {
+		t.Fatal("accipitriformes != Accipitriformes")
+	}
+}
+
 func TestOrderAnseriformes(t *testing.T) {
 	var s string = "Anseriformes"
 	if ok := anseriformes == s; !ok {
@@ -311,6 +339,13 @@ func TestOrderPilosa(t *testing.T) {
 	var s string = "Pilosa"
 	if ok := pilosa == s; !ok {
 		t.Fatal("pilosa != Pilosa")
+	}
+}
+
+func TestOrderProboscidea(t *testing.T) {
+	var s string = "Proboscidea"
+	if ok := proboscidea == s; !ok {
+		t.Fatal("proboscidea != Proboscidea")
 	}
 }
 
