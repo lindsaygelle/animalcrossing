@@ -87,13 +87,14 @@ var (
 
 // class
 const (
-	aaves      string = "Aaves"
-	ammalia    string = "Ammalia"
-	amphibia   string = "Amphibia"
-	aves       string = "Aves"
-	mammalia   string = "Mammalia"
-	reptilia   string = "Reptilia"
-	sauropsida string = "Sauropsida"
+	aaves       string = "Aaves"
+	ammalia     string = "Ammalia"
+	amphibia    string = "Amphibia"
+	aves        string = "Aves"
+	cephalopoda string = "Cephalopoda"
+	mammalia    string = "Mammalia"
+	reptilia    string = "Reptilia"
+	sauropsida  string = "Sauropsida"
 )
 
 // conservation
@@ -104,6 +105,7 @@ const (
 	endangered           string = "Endangered"
 	extinct              string = "Extinct"
 	leastConcern         string = "Least Concern"
+	nearThreatened       string = "Near Threatened"
 	unknown              string = "Unknown"
 	vulnerable           string = "Vulnerable"
 )
@@ -138,9 +140,11 @@ const (
 	laridae         string = "Laridae"
 	macropodidae    string = "Macropodidae"
 	muridae         string = "Muridae"
+	mustelidae      string = "Mustelidae"
 	otariidae       string = "Otariidae"
 	phascolarctidae string = "Phascolarctidae"
 	phasianidae     string = "Phasianidae"
+	struthionidae   string = "Struthionidae"
 	suidae          string = "Suidae"
 	talpidae        string = "Talpidae"
 	ursidae         string = "Ursidae"
@@ -167,6 +171,7 @@ const (
 	panthera       string = "Panthera"
 	phascolarctos  string = "Phascolarctos"
 	raphus         string = "Raphus"
+	struthio       string = "Struthio"
 	sus            string = "Sus"
 	vicugna        string = "Vicugna"
 	vulpes         string = "Vulpes"
@@ -180,29 +185,33 @@ const (
 
 // order
 const (
-	accipitriformes string = "Accipitriformes"
-	anseriformes    string = "Anseriformes"
-	anura           string = "Anura"
-	artiodactyla    string = "Artiodactyla"
-	carnivora       string = "Carnivora"
-	caudata         string = "Caudata"
-	charadriiformes string = "Charadriiformes"
-	columbiformes   string = "Columbiformes"
-	crocodylia      string = "Crocodylia"
-	diprotodontia   string = "Diprotodontia"
-	eulipotyphla    string = "Eulipotyphla"
-	galliformes     string = "Galliformes"
-	perissodactyla  string = "Perissodactyla"
-	pilosa          string = "Pilosa"
-	primates        string = "Primates"
-	proboscidea     string = "Proboscidea"
-	rodentia        string = "Rodentia"
-	squamata        string = "Squamata"
+	accipitriformes  string = "Accipitriformes"
+	anseriformes     string = "Anseriformes"
+	anura            string = "Anura"
+	artiodactyla     string = "Artiodactyla"
+	carnivora        string = "Carnivora"
+	caudata          string = "Caudata"
+	charadriiformes  string = "Charadriiformes"
+	columbiformes    string = "Columbiformes"
+	crocodylia       string = "Crocodylia"
+	diprotodontia    string = "Diprotodontia"
+	eulipotyphla     string = "Eulipotyphla"
+	galliformes      string = "Galliformes"
+	octopoda         string = "Octopoda"
+	perissodactyla   string = "Perissodactyla"
+	pilosa           string = "Pilosa"
+	primates         string = "Primates"
+	proboscidea      string = "Proboscidea"
+	rodentia         string = "Rodentia"
+	squamata         string = "Squamata"
+	strigiformes     string = "Strigiformes"
+	struthioniformes string = "Struthioniformes"
 )
 
 // phylum
 const (
 	chordata string = "Chordata"
+	mollusca string = "Mollusca"
 )
 
 // species
@@ -218,6 +227,7 @@ const (
 	pCinereus            string = "P. cinereus"
 	pLeo                 string = "P. leo"
 	rCucullatus          string = "R. cucullatus"
+	sCamelus             string = "S. camelus"
 	sScrofa              string = "S. scrofa"
 	vVulpes              string = "V. vulpes"
 )

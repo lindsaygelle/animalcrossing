@@ -30,6 +30,13 @@ func TestClassAves(t *testing.T) {
 	}
 }
 
+func TestClassCephalopoda(t *testing.T) {
+	var s string = "Cephalopoda"
+	if ok := cephalopoda == s; !ok {
+		t.Fatalf("cephalopoda != %s", s)
+	}
+}
+
 func TestClassMammalia(t *testing.T) {
 	var s string = "Mammalia"
 	if ok := mammalia == s; !ok {
@@ -81,6 +88,13 @@ func TestConservationLeastConcern(t *testing.T) {
 	var s string = "Least Concern"
 	if ok := leastConcern == s; !ok {
 		t.Fatalf("leastConcern != %s", s)
+	}
+}
+
+func TestConservationNearThreatened(t *testing.T) {
+	var s string = "Near Threatened"
+	if ok := nearThreatened == s; !ok {
+		t.Fatalf("nearThreatened != %s", s)
 	}
 }
 
@@ -258,6 +272,13 @@ func TestFamilyMuridae(t *testing.T) {
 	}
 }
 
+func TestFamilyMustelidae(t *testing.T) {
+	var s string = "Mustelidae"
+	if ok := mustelidae == s; !ok {
+		t.Fatalf("mustelidae != %s", s)
+	}
+}
+
 func TestFamilyOtariidae(t *testing.T) {
 	var s string = "Otariidae"
 	if ok := otariidae == s; !ok {
@@ -276,6 +297,13 @@ func TestFamilyPhasianidae(t *testing.T) {
 	var s string = "Phasianidae"
 	if ok := phasianidae == s; !ok {
 		t.Fatalf("phasianidae != %s", s)
+	}
+}
+
+func TestFamilyStruthionidae(t *testing.T) {
+	var s string = "Struthionidae"
+	if ok := struthionidae == s; !ok {
+		t.Fatalf("struthionidae != %s", s)
 	}
 }
 
@@ -433,6 +461,13 @@ func TestGenusRaphus(t *testing.T) {
 	}
 }
 
+func TestGenusStruthio(t *testing.T) {
+	var s string = "Struthio"
+	if ok := struthio == s; !ok {
+		t.Fatalf("struthio != %s", s)
+	}
+}
+
 func TestGenusSus(t *testing.T) {
 	var s string = "Sus"
 	if ok := sus == s; !ok {
@@ -552,6 +587,13 @@ func TestOrderGalliformes(t *testing.T) {
 	}
 }
 
+func TestOrderOctopoda(t *testing.T) {
+	var s string = "Octopoda"
+	if ok := octopoda == s; !ok {
+		t.Fatalf("octopoda != %s", s)
+	}
+}
+
 func TestOrderPerissodactyla(t *testing.T) {
 	var s string = "Perissodactyla"
 	if ok := perissodactyla == s; !ok {
@@ -594,10 +636,31 @@ func TestOrderSquamata(t *testing.T) {
 	}
 }
 
+func TestOrderStrigiformes(t *testing.T) {
+	var s string = "Strigiformes"
+	if ok := strigiformes == s; !ok {
+		t.Fatalf("strigiformes != %s", s)
+	}
+}
+
+func TestOrderStruthioniformes(t *testing.T) {
+	var s string = "Struthioniformes"
+	if ok := struthioniformes == s; !ok {
+		t.Fatalf("struthioniformes != %s", s)
+	}
+}
+
 func TestPhylumChordata(t *testing.T) {
 	var s string = "Chordata"
 	if ok := chordata == s; !ok {
 		t.Fatalf("chordata != %s", s)
+	}
+}
+
+func TestPhylumMollusca(t *testing.T) {
+	var s string = "Mollusca"
+	if ok := mollusca == s; !ok {
+		t.Fatalf("mollusca != %s", s)
 	}
 }
 
@@ -675,6 +738,13 @@ func TestSpeciesRCucullatus(t *testing.T) {
 	var s string = "R. cucullatus"
 	if ok := rCucullatus == s; !ok {
 		t.Fatalf("rCucullatus != %s", s)
+	}
+}
+
+func TestSpeciesSCamelus(t *testing.T) {
+	var s string = "S. camelus"
+	if ok := sCamelus == s; !ok {
+		t.Fatalf("sCamelus != %s", s)
 	}
 }
 
