@@ -1,15 +1,18 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Gyroid is the species information of Gyroids.
 	Gyroid Species = species{
-		class:        "",
+		class:        na,
 		conservation: unknown,
 		domain:       eukarya,
-		family:       "",
-		genus:        "",
-		kingdom:      "",
-		order:        "",
-		phylum:       "",
-		species:      ""}
+		family:       na,
+		genus:        na,
+		kingdom:      na,
+		name:         animals.Gyroid.Name(),
+		order:        na,
+		phylum:       na,
+		species:      na}
 )

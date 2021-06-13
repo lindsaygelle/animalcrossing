@@ -14,6 +14,8 @@ type Species interface {
 	Family() string
 	// Kingdom is the kingdom of the species.
 	Kingdom() string
+	// Name is the name of the species.
+	Name() string
 	// Order is the kingdom of the species.
 	Order() string
 	// Phylum is the phylum of the species.
@@ -30,6 +32,7 @@ type species struct {
 	genus        string
 	family       string
 	kingdom      string
+	name         string
 	order        string
 	phylum       string
 	species      string
@@ -65,6 +68,11 @@ func (s species) Kingdom() string {
 	return s.kingdom
 }
 
+// Name returns the species name.
+func (s species) Name() string {
+	return s.name
+}
+
 // Order returns the species order.
 func (s species) Order() string {
 	return s.order
@@ -83,6 +91,10 @@ func (s species) Species() string {
 var (
 	// validate species implements Species.
 	_ Species = species{}
+)
+
+const (
+	na string = ""
 )
 
 // class

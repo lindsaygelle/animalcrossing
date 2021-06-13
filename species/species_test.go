@@ -43,6 +43,7 @@ func TestClassMammalia(t *testing.T) {
 		t.Fatalf("mammalia != %s", s)
 	}
 }
+
 func TestClassReptilia(t *testing.T) {
 	var s string = "Reptilia"
 	if ok := reptilia == s; !ok {
@@ -63,6 +64,7 @@ func TestConservationCriticallyEndangered(t *testing.T) {
 		t.Fatalf("criticallyEndangered != %s", s)
 	}
 }
+
 func TestConservationDomesticated(t *testing.T) {
 	var s string = "Domesticated"
 	if ok := domesticated == s; !ok {
@@ -104,6 +106,7 @@ func TestConservationVulnerable(t *testing.T) {
 		t.Fatalf("vulnerable != %s", s)
 	}
 }
+
 func TestDomainEukarya(t *testing.T) {
 	var s string = "Eukarya"
 	if ok := eukarya == s; !ok {

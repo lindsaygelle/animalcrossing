@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Dodo is the species information for Dodos.
 	Dodo Species = species{
@@ -9,6 +11,7 @@ var (
 		family:       columbidae,
 		genus:        raphus,
 		kingdom:      animalia,
+		name:         animals.Dodo.Name(),
 		order:        columbiformes,
 		phylum:       chordata,
 		species:      rCucullatus}

@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Hippo is the species information for Hippos.
 	Hippo Species = species{
@@ -9,7 +11,8 @@ var (
 		family:       hippopotamidea,
 		genus:        hippopotamus,
 		kingdom:      animalia,
+		name:         animals.Hippo.Name(),
 		order:        artiodactyla,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

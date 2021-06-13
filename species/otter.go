@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Otter is the species information for Otters.
 	Otter Species = species{
@@ -7,9 +9,10 @@ var (
 		conservation: nearThreatened,
 		domain:       eukarya,
 		family:       mustelidae,
-		genus:        "",
+		genus:        na,
 		kingdom:      animalia,
+		name:         animals.Otter.Name(),
 		order:        carnivora,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

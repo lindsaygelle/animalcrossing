@@ -3,16 +3,16 @@ package species
 import "github.com/lindsaygelle/animalcrossing/animals"
 
 var (
-	// Hamster is the species information for Hamster.
-	Hamster Species = species{
-		class:        mammalia,
+	// Chameleon is the species information for Chameleons.
+	Chameleon Species = species{
+		class:        reptilia,
 		conservation: leastConcern,
 		domain:       eukarya,
-		family:       cricetidae,
+		family:       chamaeleonidae,
 		genus:        na,
 		kingdom:      animalia,
-		name:         animals.Hamster.Name(),
-		order:        rodentia,
+		name:         animals.Chameleon.Name(),
+		order:        squamata,
 		phylum:       chordata,
 		species:      na}
 )

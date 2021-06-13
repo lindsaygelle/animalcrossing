@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Chicken is the species information for Chickens.
 	Chicken Species = species{
@@ -9,6 +11,7 @@ var (
 		family:       phasianidae,
 		genus:        gallus,
 		kingdom:      animalia,
+		name:         animals.Chicken.Name(),
 		order:        galliformes,
 		phylum:       chordata,
 		species:      gGallus}

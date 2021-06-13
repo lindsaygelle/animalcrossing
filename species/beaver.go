@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Beaver is the species information for Beavers.
 	Beaver Species = species{
@@ -9,7 +11,8 @@ var (
 		family:       castoridae,
 		genus:        castor,
 		kingdom:      animalia,
+		name:         animals.Beaver.Name(),
 		order:        rodentia,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

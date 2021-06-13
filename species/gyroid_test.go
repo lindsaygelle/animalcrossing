@@ -1,10 +1,13 @@
 package species
 
-import "testing"
+import (
+	"github.com/lindsaygelle/animalcrossing/animals"
+	"testing"
+)
 
 func TestGyroidClass(t *testing.T) {
-	if ok := Gyroid.Class() == ""; !ok {
-		t.Fatal("Gyroid.Class() != \"\"")
+	if ok := Gyroid.Class() == na; !ok {
+		t.Fatal("Gyroid.Class() != na")
 	}
 }
 
@@ -13,38 +16,51 @@ func TestGyroidConservation(t *testing.T) {
 		t.Fatal("Gyroid.Conservation() != unknown")
 	}
 }
+
 func TestGyroidDomain(t *testing.T) {
 	if ok := Gyroid.Domain() == eukarya; !ok {
 		t.Fatal("Gyroid.Domain() != eukarya")
 	}
 }
+
 func TestGyroidFamily(t *testing.T) {
-	if ok := Gyroid.Family() == ""; !ok {
-		t.Fatal("Gyroid.Family() != \"\"")
+	if ok := Gyroid.Family() == na; !ok {
+		t.Fatal("Gyroid.Family() != na")
 	}
 }
+
 func TestGyroidGenus(t *testing.T) {
-	if ok := Gyroid.Genus() == ""; !ok {
-		t.Fatal("Gyroid.Genus() != \"\"")
+	if ok := Gyroid.Genus() == na; !ok {
+		t.Fatal("Gyroid.Genus() != na")
 	}
 }
+
 func TestGyroidKingdom(t *testing.T) {
-	if ok := Gyroid.Kingdom() == ""; !ok {
-		t.Fatal("Gyroid.Kingdom() != \"\"")
+	if ok := Gyroid.Kingdom() == na; !ok {
+		t.Fatal("Gyroid.Kingdom() != na")
 	}
 }
+
+func TestGyroidName(t *testing.T) {
+	if ok := Gyroid.Name() != na; !ok {
+		t.Fatalf("Gyroid.Name != %s", animals.Gyroid.Name())
+	}
+}
+
 func TestGyroidOrder(t *testing.T) {
-	if ok := Gyroid.Order() == ""; !ok {
-		t.Fatal("Gyroid.Order() != \"\"")
+	if ok := Gyroid.Order() == na; !ok {
+		t.Fatal("Gyroid.Order() != na")
 	}
 }
+
 func TestGyroidPhylum(t *testing.T) {
-	if ok := Gyroid.Phylum() == ""; !ok {
-		t.Fatal("Gyroid.Phylum() != \"\"")
+	if ok := Gyroid.Phylum() == na; !ok {
+		t.Fatal("Gyroid.Phylum() != na")
 	}
 }
+
 func TestGyroidSpecies(t *testing.T) {
-	if ok := Gyroid.Species() == ""; !ok {
-		t.Fatal("Gyroid.Species() != \"\"")
+	if ok := Gyroid.Species() == na; !ok {
+		t.Fatal("Gyroid.Species() != na")
 	}
 }

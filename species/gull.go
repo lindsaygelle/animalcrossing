@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Gull is the species information of Gulls.
 	Gull Species = species{
@@ -7,9 +9,10 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       laridae,
-		genus:        "",
+		genus:        na,
 		kingdom:      animalia,
+		name:         animals.Gull.Name(),
 		order:        charadriiformes,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

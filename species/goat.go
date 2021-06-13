@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Goat is the species information for Goats.
 	Goat Species = species{
@@ -9,6 +11,7 @@ var (
 		family:       bovidae,
 		genus:        capra,
 		kingdom:      animalia,
+		name:         animals.Goat.Name(),
 		order:        artiodactyla,
 		phylum:       chordata,
 		species:      cAegagrus}

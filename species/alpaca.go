@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Alpaca is the species information for Alpacas.
 	Alpaca Species = species{
@@ -9,7 +11,8 @@ var (
 		family:       camelidae,
 		genus:        vicugna,
 		kingdom:      animalia,
+		name:         animals.Alpaca.Name(),
 		order:        artiodactyla,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

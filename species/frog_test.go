@@ -1,6 +1,9 @@
 package species
 
-import "testing"
+import (
+	"github.com/lindsaygelle/animalcrossing/animals"
+	"testing"
+)
 
 func TestFrogClass(t *testing.T) {
 	if ok := Frog.Class() == amphibia; !ok {
@@ -13,38 +16,51 @@ func TestFrogConservation(t *testing.T) {
 		t.Fatal("Frog.Conservation() != vulnerable")
 	}
 }
+
 func TestFrogDomain(t *testing.T) {
 	if ok := Frog.Domain() == eukarya; !ok {
 		t.Fatal("Frog.Domain() != eukarya")
 	}
 }
+
 func TestFrogFamily(t *testing.T) {
-	if ok := Frog.Family() == ""; !ok {
-		t.Fatal("Frog.Family() != \"\"")
+	if ok := Frog.Family() == na; !ok {
+		t.Fatal("Frog.Family() != na")
 	}
 }
+
 func TestFrogGenus(t *testing.T) {
-	if ok := Frog.Genus() == ""; !ok {
-		t.Fatal("Frog.Genus() != \"\"")
+	if ok := Frog.Genus() == na; !ok {
+		t.Fatal("Frog.Genus() != na")
 	}
 }
+
 func TestFrogKingdom(t *testing.T) {
 	if ok := Frog.Kingdom() == animalia; !ok {
 		t.Fatal("Frog.Kingdom() != animalia")
 	}
 }
+
+func TestFrogName(t *testing.T) {
+	if ok := Frog.Name() != na; !ok {
+		t.Fatalf("Frog.Name != %s", animals.Frog.Name())
+	}
+}
+
 func TestFrogOrder(t *testing.T) {
 	if ok := Frog.Order() == anura; !ok {
 		t.Fatal("Frog.Order() != anura")
 	}
 }
+
 func TestFrogPhylum(t *testing.T) {
 	if ok := Frog.Phylum() == chordata; !ok {
 		t.Fatal("Frog.Phylum() != chordata")
 	}
 }
+
 func TestFrogSpecies(t *testing.T) {
-	if ok := Frog.Species() == ""; !ok {
-		t.Fatal("Frog.Species() != \"\"")
+	if ok := Frog.Species() == na; !ok {
+		t.Fatal("Frog.Species() != na")
 	}
 }

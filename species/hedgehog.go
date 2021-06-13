@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Hedgehog is the species information for Hedgehogs.
 	Hedgehog Species = species{
@@ -7,9 +9,10 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       erinaceidae,
-		genus:        "",
+		genus:        na,
 		kingdom:      animalia,
+		name:         animals.Hedgehog.Name(),
 		order:        eulipotyphla,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

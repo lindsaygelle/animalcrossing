@@ -4,7 +4,7 @@ var (
 	C = [...]Species{
 		Camel,
 		Cat,
-		Chamelon,
+		Chameleon,
 		Chicken,
 		Cow}
 )

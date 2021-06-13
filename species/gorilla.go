@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Gorrilla is the species information for Gorillas.
 	Gorilla Species = species{
@@ -9,7 +11,8 @@ var (
 		family:       hominidae,
 		genus:        gorilla,
 		kingdom:      animalia,
+		name:         animals.Gorilla.Name(),
 		order:        primates,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

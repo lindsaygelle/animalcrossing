@@ -1,6 +1,10 @@
 package species
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
+)
 
 func TestBirdClass(t *testing.T) {
 	if ok := Bird.Class() == aves; !ok {
@@ -13,38 +17,51 @@ func TestBirdConservation(t *testing.T) {
 		t.Fatal("Bird.Conservation() != leastConcern")
 	}
 }
+
 func TestBirdDomain(t *testing.T) {
 	if ok := Bird.Domain() == eukarya; !ok {
 		t.Fatal("Bird.Domain() != eukarya")
 	}
 }
+
 func TestBirdFamily(t *testing.T) {
-	if ok := Bird.Family() == ""; !ok {
-		t.Fatal("Bird.Family() != \"\"")
+	if ok := Bird.Family() == na; !ok {
+		t.Fatal("Bird.Family() != na")
 	}
 }
+
 func TestBirdGenus(t *testing.T) {
-	if ok := Bird.Genus() == ""; !ok {
-		t.Fatal("Bird.Genus() != \"\"")
+	if ok := Bird.Genus() == na; !ok {
+		t.Fatal("Bird.Genus() != na")
 	}
 }
+
 func TestBirdKingdom(t *testing.T) {
 	if ok := Bird.Kingdom() == animalia; !ok {
 		t.Fatal("Bird.Kingdom() != animalia")
 	}
 }
-func TestBirdOrder(t *testing.T) {
-	if ok := Bird.Order() == ""; !ok {
-		t.Fatal("Bird.Order() != \"\"")
+
+func TestBirdName(t *testing.T) {
+	if ok := Bird.Name() != na; !ok {
+		t.Fatalf("Bird.Name != %s", animals.Bird.Name())
 	}
 }
+
+func TestBirdOrder(t *testing.T) {
+	if ok := Bird.Order() == na; !ok {
+		t.Fatal("Bird.Order() != na")
+	}
+}
+
 func TestBirdPhylum(t *testing.T) {
 	if ok := Bird.Phylum() == chordata; !ok {
 		t.Fatal("Bird.Phylum() != chordata")
 	}
 }
+
 func TestBirdSpecies(t *testing.T) {
-	if ok := Bird.Species() == ""; !ok {
-		t.Fatal("Bird.Species() != \"\"")
+	if ok := Bird.Species() == na; !ok {
+		t.Fatal("Bird.Species() != na")
 	}
 }

@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Elephant is the species information for Elephants.
 	Elephant Species = species{
@@ -7,9 +9,10 @@ var (
 		conservation: endangered,
 		domain:       eukarya,
 		family:       elephantidae,
-		genus:        "",
+		genus:        na,
 		kingdom:      animalia,
+		name:         animals.Elephant.Name(),
 		order:        proboscidea,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

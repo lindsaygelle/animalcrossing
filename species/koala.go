@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Koala is the species information for Koalas.
 	Koala Species = species{
@@ -9,6 +11,7 @@ var (
 		family:       phascolarctidae,
 		genus:        phascolarctos,
 		kingdom:      animalia,
+		name:         animals.Koala.Name(),
 		order:        diprotodontia,
 		phylum:       chordata,
 		species:      pCinereus}

@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Horse is the species information for Horses.
 	Horse Species = species{
@@ -9,7 +11,8 @@ var (
 		family:       equidae,
 		genus:        equus,
 		kingdom:      animalia,
+		name:         animals.Horse.Name(),
 		order:        perissodactyla,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

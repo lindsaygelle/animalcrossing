@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Alligator is the species information for Alligators.
 	Alligator Species = species{
@@ -9,7 +11,8 @@ var (
 		family:       alligatoridae,
 		genus:        alligator,
 		kingdom:      animalia,
+		name:         animals.Alligator.Name(),
 		order:        crocodylia,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

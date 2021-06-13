@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Deer is the species information for Deers.
 	Deer Species = species{
@@ -7,9 +9,10 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       cervidae,
-		genus:        "",
+		genus:        na,
 		kingdom:      animalia,
+		name:         animals.Deer.Name(),
 		order:        artiodactyla,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

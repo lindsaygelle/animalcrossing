@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Camel is the species information for Camels.
 	Camel Species = species{
@@ -9,7 +11,8 @@ var (
 		family:       camelidae,
 		genus:        camelus,
 		kingdom:      animalia,
+		name:         animals.Camel.Name(),
 		order:        artiodactyla,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )

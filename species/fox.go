@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Fox is the species information for Foxes.
 	Fox Species = species{
@@ -9,6 +11,7 @@ var (
 		family:       canidae,
 		genus:        vulpes,
 		kingdom:      animalia,
+		name:         animals.Fox.Name(),
 		order:        carnivora,
 		phylum:       chordata,
 		species:      vVulpes}

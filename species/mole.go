@@ -1,5 +1,7 @@
 package species
 
+import "github.com/lindsaygelle/animalcrossing/animals"
+
 var (
 	// Mole is the species information for Moles.
 	Mole Species = species{
@@ -7,9 +9,10 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       talpidae,
-		genus:        "",
+		genus:        na,
 		kingdom:      animalia,
+		name:         animals.Mole.Name(),
 		order:        eulipotyphla,
 		phylum:       chordata,
-		species:      ""}
+		species:      na}
 )
