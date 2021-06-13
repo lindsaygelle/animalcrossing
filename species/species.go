@@ -97,6 +97,7 @@ const (
 const (
 	criticallyEndangered string = "Critically Endangered"
 	domesticated         string = "Domesticated"
+	extinct              string = "Extinct"
 	leastConcern         string = "Least Concern"
 	vulnerable           string = "Vulnerable"
 )
@@ -110,10 +111,14 @@ const (
 const (
 	alligatoridae  string = "Alligatoridae"
 	ambystomatidae string = "Ambystomatidae"
+	anatidae       string = "Anatidae"
 	bovidae        string = "Bovidae"
 	camelidae      string = "Camelidae"
+	canidae        string = "Canidae"
 	castoridae     string = "Castoridae"
+	cervidae       string = "Cervidae"
 	chamaeleonidae string = "Chamaeleonidae"
+	columbidae     string = "Columbidae"
 	felidae        string = "Felidae"
 	phasianidae    string = "Phasianidae"
 	suidae         string = "Suidae"
@@ -126,9 +131,11 @@ const (
 	ambystoma string = "Ambystoma"
 	bos       string = "Bos"
 	camelus   string = "Camelus"
+	canis     string = "Canis"
 	castor    string = "Castor"
 	felis     string = "Felis"
 	gallus    string = "Gallus"
+	raphus    string = "Raphus"
 	sus       string = "Sus"
 	vicugna   string = "Vicugna"
 )
@@ -136,18 +143,21 @@ const (
 // kindgom
 const (
 	animalia string = "Animalia"
+	enimalia string = "Enimalia"
 )
 
 // order
 const (
-	artiodactyla string = "Artiodactyla"
-	carnivora    string = "Carnivora"
-	caudata      string = "Caudata"
-	crocodylia   string = "Crocodylia"
-	galliformes  string = "Galliformes"
-	pilosa       string = "Pilosa"
-	rodentia     string = "Rodentia"
-	squamata     string = "Squamata"
+	anseriformes  string = "Anseriformes"
+	artiodactyla  string = "Artiodactyla"
+	carnivora     string = "Carnivora"
+	caudata       string = "Caudata"
+	columbiformes string = "Columbiformes"
+	crocodylia    string = "Crocodylia"
+	galliformes   string = "Galliformes"
+	pilosa        string = "Pilosa"
+	rodentia      string = "Rodentia"
+	squamata      string = "Squamata"
 )
 
 // phylum
@@ -157,9 +167,11 @@ const (
 
 // species
 const (
-	aMexicanum string = "A. mexicanum"
-	bTaurus    string = "B. taurus"
-	fCatus     string = "F. catus"
-	gGallus    string = "G. gallus"
-	sScrofa    string = "S. scrofa"
+	aMexicanum           string = "A. mexicanum"
+	bTaurus              string = "B. taurus"
+	canisLupusFamiliaris string = "Canis lupus familiaris"
+	fCatus               string = "F. catus"
+	gGallus              string = "G. gallus"
+	rCucullatus          string = "R. cucullatus"
+	sScrofa              string = "S. scrofa"
 )
