@@ -88,6 +88,7 @@ var (
 // class
 const (
 	aaves      string = "Aaves"
+	ammalia    string = "Ammalia"
 	amphibia   string = "Amphibia"
 	aves       string = "Aves"
 	mammalia   string = "Mammalia"
@@ -160,6 +161,7 @@ const (
 	gorilla        string = "Gorilla"
 	hippopotamus   string = "Hippopotamus"
 	macropus       string = "Macropus"
+	panthera       string = "Panthera"
 	phascolarctos  string = "Phascolarctos"
 	raphus         string = "Raphus"
 	sus            string = "Sus"
@@ -211,6 +213,7 @@ const (
 	gCamelopardalis      string = "G. camelopardalis"
 	gGallus              string = "G. gallus"
 	pCinereus            string = "P. cinereus"
+	pLeo                 string = "P. leo"
 	rCucullatus          string = "R. cucullatus"
 	sScrofa              string = "S. scrofa"
 	vVulpes              string = "V. vulpes"

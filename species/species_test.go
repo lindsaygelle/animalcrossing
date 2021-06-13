@@ -9,6 +9,13 @@ func TestClassAaves(t *testing.T) {
 	}
 }
 
+func TestClassAmmalia(t *testing.T) {
+	var s string = "Ammalia"
+	if ok := ammalia == s; !ok {
+		t.Fatalf("ammalia != %s", s)
+	}
+}
+
 func TestClassAmphibia(t *testing.T) {
 	var s string = "Amphibia"
 	if ok := amphibia == s; !ok {
@@ -384,6 +391,13 @@ func TestGenusMacropus(t *testing.T) {
 	}
 }
 
+func TestGenusPanthera(t *testing.T) {
+	var s string = "Panthera"
+	if ok := panthera == s; !ok {
+		t.Fatalf("panthera != %s", s)
+	}
+}
+
 func TestGenusPhascolarctos(t *testing.T) {
 	var s string = "Phascolarctos"
 	if ok := phascolarctos == s; !ok {
@@ -626,6 +640,13 @@ func TestSpeciesPCinereus(t *testing.T) {
 	var s string = "P. cinereus"
 	if ok := pCinereus == s; !ok {
 		t.Fatalf("pCinereus != %s", s)
+	}
+}
+
+func TestSpeciesPLeo(t *testing.T) {
+	var s string = "P. leo"
+	if ok := pLeo == s; !ok {
+		t.Fatalf("pLeo != %s", s)
 	}
 }
 
