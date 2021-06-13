@@ -88,6 +88,7 @@ var (
 // class
 const (
 	amphibia string = "Amphibia"
+	aves     string = "Aves"
 	mammalia string = "Mammalia"
 	reptilia string = "Reptilia"
 )
@@ -109,7 +110,10 @@ const (
 const (
 	alligatoridae  string = "Alligatoridae"
 	ambystomatidae string = "Ambystomatidae"
+	bovidae        string = "Bovidae"
 	camelidae      string = "Camelidae"
+	castoridae     string = "Castoridae"
+	suidae         string = "Suidae"
 	ursidae        string = "Ursidae"
 )
 
@@ -117,6 +121,9 @@ const (
 const (
 	alligator string = "Alligator"
 	ambystoma string = "Ambystoma"
+	bos       string = "Bos"
+	castor    string = "Castor"
+	sus       string = "Sus"
 	vicugna   string = "Vicugna"
 )
 
@@ -132,6 +139,7 @@ const (
 	caudata      string = "Caudata"
 	crocodylia   string = "Crocodylia"
 	pilosa       string = "Pilosa"
+	rodentia     string = "Rodentia"
 )
 
 // phylum
@@ -142,4 +150,6 @@ const (
 // species
 const (
 	aMexicanum string = "A. mexicanum"
+	bTaurus    string = "B. taurus"
+	sScrofa    string = "S. scrofa"
 )

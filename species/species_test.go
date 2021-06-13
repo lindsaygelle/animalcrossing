@@ -8,6 +8,14 @@ func TestClassAmphibia(t *testing.T) {
 		t.Fatal("amphibia != Amphibia")
 	}
 }
+
+func TestClassAves(t *testing.T) {
+	var s string = "Aves"
+	if ok := aves == s; !ok {
+		t.Fatal("aves != Aves")
+	}
+}
+
 func TestClassMammalia(t *testing.T) {
 	var s string = "Mammalia"
 	if ok := mammalia == s; !ok {
@@ -68,6 +76,27 @@ func TestFamilyAmbystomatidae(t *testing.T) {
 	}
 }
 
+func TestFamilyBovidae(t *testing.T) {
+	var s string = "Bovidae"
+	if ok := bovidae == s; !ok {
+		t.Fatal("bovidae != Bovidae")
+	}
+}
+
+func TestFamilyCastoridae(t *testing.T) {
+	var s string = "Castoridae"
+	if ok := castoridae == s; !ok {
+		t.Fatal("castoridae != Castoridae")
+	}
+}
+
+func TestFamilySuidae(t *testing.T) {
+	var s string = "Suidae"
+	if ok := suidae == s; !ok {
+		t.Fatal("suidae != Suidae")
+	}
+}
+
 func TestFamilyUrsidae(t *testing.T) {
 	var s string = "Ursidae"
 	if ok := ursidae == s; !ok {
@@ -84,8 +113,15 @@ func TestGenusAlligator(t *testing.T) {
 
 func TestGenusAmbystoma(t *testing.T) {
 	var s string = "Ambystoma"
-	if ok := alligator == s; !ok {
+	if ok := ambystoma == s; !ok {
 		t.Fatal("ambystoma != Ambystoma")
+	}
+}
+
+func TestGenusBos(t *testing.T) {
+	var s string = "Bos"
+	if ok := bos == s; !ok {
+		t.Fatal("bos != Bos")
 	}
 }
 
@@ -93,6 +129,27 @@ func TestGenusCamelidae(t *testing.T) {
 	var s string = "Camelidae"
 	if ok := camelidae == s; !ok {
 		t.Fatal("camelidae != Camelidae")
+	}
+}
+
+func TestGenusCastor(t *testing.T) {
+	var s string = "Castor"
+	if ok := castor == s; !ok {
+		t.Fatal("castor != Castor")
+	}
+}
+
+func TestGenusSus(t *testing.T) {
+	var s string = "Sus"
+	if ok := sus == s; !ok {
+		t.Fatal("sus != Sus")
+	}
+}
+
+func TestGenusVicugna(t *testing.T) {
+	var s string = "Vicugna"
+	if ok := vicugna == s; !ok {
+		t.Fatal("vicugna != Vicugna")
 	}
 }
 
@@ -119,8 +176,15 @@ func TestOrderCarnivora(t *testing.T) {
 
 func TestOrderCaudata(t *testing.T) {
 	var s string = "Caudata"
-	if ok := artiodactyla == s; !ok {
+	if ok := caudata == s; !ok {
 		t.Fatal("caudata != Caudata")
+	}
+}
+
+func TestOrderCrocodylia(t *testing.T) {
+	var s string = "Crocodylia"
+	if ok := crocodylia == s; !ok {
+		t.Fatal("crocodylia != Crocodylia")
 	}
 }
 
@@ -131,10 +195,10 @@ func TestOrderPilosa(t *testing.T) {
 	}
 }
 
-func TestOrderCrocodylia(t *testing.T) {
-	var s string = "Crocodylia"
-	if ok := crocodylia == s; !ok {
-		t.Fatal("crocodylia != Crocodylia")
+func TestOrderRodentia(t *testing.T) {
+	var s string = "Rodentia"
+	if ok := rodentia == s; !ok {
+		t.Fatal("rodentia != Rodentia")
 	}
 }
 
@@ -149,5 +213,19 @@ func TestSpeciesAMexicanum(t *testing.T) {
 	var s string = "A. mexicanum"
 	if ok := aMexicanum == s; !ok {
 		t.Fatal("aMexicanum != A. mexicanum")
+	}
+}
+
+func TestSpeciesBTaurus(t *testing.T) {
+	var s string = "B. taurus"
+	if ok := bTaurus == s; !ok {
+		t.Fatal("bTaurus != B. taurus")
+	}
+}
+
+func TestSpeicesSScrofa(t *testing.T) {
+	var s string = "S. scrofa"
+	if ok := sScrofa == s; !ok {
+		t.Fatal("sScrofa != S. scrofa")
 	}
 }
