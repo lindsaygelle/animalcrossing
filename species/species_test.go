@@ -2,6 +2,13 @@ package species
 
 import "testing"
 
+func TestClassAaves(t *testing.T) {
+	var s string = "Aaves"
+	if ok := aaves == s; !ok {
+		t.Fatalf("aaves != %s", s)
+	}
+}
+
 func TestClassAmphibia(t *testing.T) {
 	var s string = "Amphibia"
 	if ok := amphibia == s; !ok {
@@ -181,6 +188,27 @@ func TestFamilyFelidae(t *testing.T) {
 	}
 }
 
+func TestFamilyGiraffidae(t *testing.T) {
+	var s string = "Giraffidae"
+	if ok := giraffidae == s; !ok {
+		t.Fatalf("giraffidae != %s", s)
+	}
+}
+
+func TestFamilyHominidae(t *testing.T) {
+	var s string = "Hominidae"
+	if ok := hominidae == s; !ok {
+		t.Fatalf("hominidae != %s", s)
+	}
+}
+
+func TestFamilyLaridae(t *testing.T) {
+	var s string = "Laridae"
+	if ok := laridae == s; !ok {
+		t.Fatalf("laridae != %s", s)
+	}
+}
+
 func TestFamilyOtariidae(t *testing.T) {
 	var s string = "Otariidae"
 	if ok := otariidae == s; !ok {
@@ -244,6 +272,13 @@ func TestGenusCanis(t *testing.T) {
 	}
 }
 
+func TestGenusCapra(t *testing.T) {
+	var s string = "Capra"
+	if ok := capra == s; !ok {
+		t.Fatalf("capra != %s", s)
+	}
+}
+
 func TestGenusCastor(t *testing.T) {
 	var s string = "Castor"
 	if ok := castor == s; !ok {
@@ -269,6 +304,20 @@ func TestGenusGallus(t *testing.T) {
 	var s string = "Gallus"
 	if ok := gallus == s; !ok {
 		t.Fatalf("gallus != %s", s)
+	}
+}
+
+func TestGenusGiraffa(t *testing.T) {
+	var s string = "Giraffa"
+	if ok := giraffa == s; !ok {
+		t.Fatalf("giraffa != %s", s)
+	}
+}
+
+func TestGenusGorilla(t *testing.T) {
+	var s string = "Gorilla"
+	if ok := gorilla == s; !ok {
+		t.Fatalf("gorilla != %s", s)
 	}
 }
 
@@ -356,6 +405,13 @@ func TestOrderCaudata(t *testing.T) {
 	}
 }
 
+func TestOrderCharadriiformes(t *testing.T) {
+	var s string = "Charadriiformes"
+	if ok := charadriiformes == s; !ok {
+		t.Fatalf("charadriiformes != %s", s)
+	}
+}
+
 func TestOrderColumbiformes(t *testing.T) {
 	var s string = "Columbiformes"
 	if ok := columbiformes == s; !ok {
@@ -381,6 +437,13 @@ func TestOrderPilosa(t *testing.T) {
 	var s string = "Pilosa"
 	if ok := pilosa == s; !ok {
 		t.Fatalf("pilosa != %s", s)
+	}
+}
+
+func TestOrderPrimates(t *testing.T) {
+	var s string = "Primates"
+	if ok := primates == s; !ok {
+		t.Fatalf("primates != %s", s)
 	}
 }
 
@@ -426,6 +489,13 @@ func TestSpeciesBTaurus(t *testing.T) {
 	}
 }
 
+func TestSpeciesCAegagrus(t *testing.T) {
+	var s string = "C. aegagrus"
+	if ok := cAegagrus == s; !ok {
+		t.Fatalf("cAegagrus != %s", s)
+	}
+}
+
 func TestSpeciesCanisLupusFamiliaris(t *testing.T) {
 	var s string = "Canis lupus familiaris"
 	if ok := canisLupusFamiliaris == s; !ok {
@@ -444,6 +514,13 @@ func TestSpeciesFCatus(t *testing.T) {
 	var s string = "F. catus"
 	if ok := fCatus == s; !ok {
 		t.Fatalf("fCatus != %s", s)
+	}
+}
+
+func TestSpeciesGCamelopardalis(t *testing.T) {
+	var s string = "G. camelopardalis"
+	if ok := gCamelopardalis == s; !ok {
+		t.Fatalf("gCamelopardalis != %s", s)
 	}
 }
 
