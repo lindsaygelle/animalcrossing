@@ -1,6 +1,7 @@
 package species
 
 var (
+	// Axolotl is the species information for Axolotls.
 	Axolotl Species = species{
 		class:        amphibia,
 		conservation: criticallyEndangered,
@@ -10,5 +11,5 @@ var (
 		kingdom:      animalia,
 		order:        caudata,
 		phylum:       chordata,
-		species:      A.mexicanum}
+		species:      aMexicanum}
 )

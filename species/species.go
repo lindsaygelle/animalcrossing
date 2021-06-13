@@ -96,6 +96,7 @@ const (
 const (
 	criticallyEndangered string = "Critically Endangered"
 	domesticated         string = "Domesticated"
+	leastConcern         string = "Least Concern"
 	vulnerable           string = "Vulnerable"
 )
 
@@ -109,6 +110,7 @@ const (
 	alligatoridae  string = "Alligatoridae"
 	ambystomatidae string = "Ambystomatidae"
 	camelidae      string = "Camelidae"
+	ursidae        string = "Ursidae"
 )
 
 // genus
@@ -126,6 +128,7 @@ const (
 // order
 const (
 	artiodactyla string = "Artiodactyla"
+	carnivora    string = "Carnivora"
 	caudata      string = "Caudata"
 	crocodylia   string = "Crocodylia"
 	pilosa       string = "Pilosa"

@@ -34,6 +34,13 @@ func TestConservationDomesticated(t *testing.T) {
 	}
 }
 
+func TestConservationLeastConcern(t *testing.T) {
+	var s string = "Least Concern"
+	if ok := leastConcern == s; !ok {
+		t.Fatal("leastConcern != Least Concern")
+	}
+}
+
 func TestConservationVulnerable(t *testing.T) {
 	var s string = "Vulnerable"
 	if ok := vulnerable == s; !ok {
@@ -58,6 +65,13 @@ func TestFamilyAmbystomatidae(t *testing.T) {
 	var s string = "Ambystomatidae"
 	if ok := ambystomatidae == s; !ok {
 		t.Fatal("ambystomatidae != Ambystomatidae")
+	}
+}
+
+func TestFamilyUrsidae(t *testing.T) {
+	var s string = "Ursidae"
+	if ok := ursidae == s; !ok {
+		t.Fatal("ursidae != Ursidae")
 	}
 }
 
@@ -93,6 +107,13 @@ func TestOrderArtiodactyla(t *testing.T) {
 	var s string = "Artiodactyla"
 	if ok := artiodactyla == s; !ok {
 		t.Fatal("artiodactyla != Artiodactyla")
+	}
+}
+
+func TestOrderCarnivora(t *testing.T) {
+	var s string = "Carnivora"
+	if ok := carnivora == s; !ok {
+		t.Fatal("carnivora != Carnivora")
 	}
 }
 
