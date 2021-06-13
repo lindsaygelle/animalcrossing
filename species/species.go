@@ -113,6 +113,9 @@ const (
 	bovidae        string = "Bovidae"
 	camelidae      string = "Camelidae"
 	castoridae     string = "Castoridae"
+	chamaeleonidae string = "Chamaeleonidae"
+	felidae        string = "Felidae"
+	phasianidae    string = "Phasianidae"
 	suidae         string = "Suidae"
 	ursidae        string = "Ursidae"
 )
@@ -122,7 +125,10 @@ const (
 	alligator string = "Alligator"
 	ambystoma string = "Ambystoma"
 	bos       string = "Bos"
+	camelus   string = "Camelus"
 	castor    string = "Castor"
+	felis     string = "Felis"
+	gallus    string = "Gallus"
 	sus       string = "Sus"
 	vicugna   string = "Vicugna"
 )
@@ -138,8 +144,10 @@ const (
 	carnivora    string = "Carnivora"
 	caudata      string = "Caudata"
 	crocodylia   string = "Crocodylia"
+	galliformes  string = "Galliformes"
 	pilosa       string = "Pilosa"
 	rodentia     string = "Rodentia"
+	squamata     string = "Squamata"
 )
 
 // phylum
@@ -151,5 +159,7 @@ const (
 const (
 	aMexicanum string = "A. mexicanum"
 	bTaurus    string = "B. taurus"
+	fCatus     string = "F. catus"
+	gGallus    string = "G. gallus"
 	sScrofa    string = "S. scrofa"
 )
