@@ -44,7 +44,7 @@ func TestElephantPhylum(t *testing.T) {
 	}
 }
 func TestElephantSpecies(t *testing.T) {
-	if ok := Elephant.Species() == bTaurus; !ok {
+	if ok := Elephant.Species() == ""; !ok {
 		t.Fatal("Elephant.Species() != \"\"")
 	}
 }

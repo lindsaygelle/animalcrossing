@@ -87,10 +87,11 @@ var (
 
 // class
 const (
-	amphibia string = "Amphibia"
-	aves     string = "Aves"
-	mammalia string = "Mammalia"
-	reptilia string = "Reptilia"
+	amphibia   string = "Amphibia"
+	aves       string = "Aves"
+	mammalia   string = "Mammalia"
+	reptilia   string = "Reptilia"
+	sauropsida string = "Sauropsida"
 )
 
 // conservation
@@ -111,6 +112,7 @@ const (
 // family
 const (
 	accipitridae   string = "Accipitridae"
+	agamidae       string = "Agamidae"
 	alligatoridae  string = "Alligatoridae"
 	ambystomatidae string = "Ambystomatidae"
 	anatidae       string = "Anatidae"
@@ -130,17 +132,19 @@ const (
 
 // genus
 const (
-	alligator string = "Alligator"
-	ambystoma string = "Ambystoma"
-	bos       string = "Bos"
-	camelus   string = "Camelus"
-	canis     string = "Canis"
-	castor    string = "Castor"
-	felis     string = "Felis"
-	gallus    string = "Gallus"
-	raphus    string = "Raphus"
-	sus       string = "Sus"
-	vicugna   string = "Vicugna"
+	alligator      string = "Alligator"
+	ambystoma      string = "Ambystoma"
+	bos            string = "Bos"
+	camelus        string = "Camelus"
+	canis          string = "Canis"
+	castor         string = "Castor"
+	chlamydosaurus string = "Chlamydosaurus"
+	felis          string = "Felis"
+	gallus         string = "Gallus"
+	raphus         string = "Raphus"
+	sus            string = "Sus"
+	vicugna        string = "Vicugna"
+	vulpes         string = "Vulpes"
 )
 
 // kindgom
@@ -153,6 +157,7 @@ const (
 const (
 	accipitriformes string = "Accipitriformes"
 	anseriformes    string = "Anseriformes"
+	anura           string = "Anura"
 	artiodactyla    string = "Artiodactyla"
 	carnivora       string = "Carnivora"
 	caudata         string = "Caudata"
@@ -175,8 +180,10 @@ const (
 	aMexicanum           string = "A. mexicanum"
 	bTaurus              string = "B. taurus"
 	canisLupusFamiliaris string = "Canis lupus familiaris"
+	cKingii              string = "C. kingii"
 	fCatus               string = "F. catus"
 	gGallus              string = "G. gallus"
 	rCucullatus          string = "R. cucullatus"
 	sScrofa              string = "S. scrofa"
+	vVulpes              string = "V. vulpes"
 )
