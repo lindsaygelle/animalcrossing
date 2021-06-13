@@ -174,10 +174,31 @@ func TestFamilyColumbidae(t *testing.T) {
 	}
 }
 
+func TestFamilyCricetidae(t *testing.T) {
+	var s string = "Cricetidae"
+	if ok := cricetidae == s; !ok {
+		t.Fatalf("cricetidae != %s", s)
+	}
+}
+
 func TestFamilyElephantidae(t *testing.T) {
 	var s string = "Elephantidae"
 	if ok := elephantidae == s; !ok {
 		t.Fatalf("elephantidae != %s", s)
+	}
+}
+
+func TestFamilyEquidae(t *testing.T) {
+	var s string = "Equidae"
+	if ok := equidae == s; !ok {
+		t.Fatalf("equidae != %s", s)
+	}
+}
+
+func TestFamilyErinaceidae(t *testing.T) {
+	var s string = "Erinaceidae"
+	if ok := erinaceidae == s; !ok {
+		t.Fatalf("erinaceidae != %s", s)
 	}
 }
 
@@ -192,6 +213,13 @@ func TestFamilyGiraffidae(t *testing.T) {
 	var s string = "Giraffidae"
 	if ok := giraffidae == s; !ok {
 		t.Fatalf("giraffidae != %s", s)
+	}
+}
+
+func TestFamilyHippopotamidea(t *testing.T) {
+	var s string = "Hippopotamidea"
+	if ok := hippopotamidea == s; !ok {
+		t.Fatalf("hippopotamidea != %s", s)
 	}
 }
 
@@ -293,10 +321,24 @@ func TestGenusChlamydosaurus(t *testing.T) {
 	}
 }
 
+func TestGenusEquus(t *testing.T) {
+	var s string = "Equus"
+	if ok := equus == s; !ok {
+		t.Fatalf("equus != %s", s)
+	}
+}
+
 func TestGenusFelis(t *testing.T) {
 	var s string = "Felis"
 	if ok := felis == s; !ok {
 		t.Fatalf("felis != %s", s)
+	}
+}
+
+func TestGenusHippopotamus(t *testing.T) {
+	var s string = "Hippopotamus"
+	if ok := hippopotamus == s; !ok {
+		t.Fatalf("hippopotamus != %s", s)
 	}
 }
 
@@ -426,10 +468,24 @@ func TestOrderCrocodylia(t *testing.T) {
 	}
 }
 
+func TestOrderEulipotyphla(t *testing.T) {
+	var s string = "Eulipotyphla"
+	if ok := eulipotyphla == s; !ok {
+		t.Fatalf("eulipotyphla != %s", eulipotyphla)
+	}
+}
+
 func TestOrderGalliformes(t *testing.T) {
 	var s string = "Galliformes"
 	if ok := galliformes == s; !ok {
 		t.Fatalf("galliformes != %s", s)
+	}
+}
+
+func TestOrderPerissodactyla(t *testing.T) {
+	var s string = "Perissodactyla"
+	if ok := perissodactyla == s; !ok {
+		t.Fatalf("perissodactyla != %s", s)
 	}
 }
 
