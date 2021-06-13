@@ -237,10 +237,24 @@ func TestFamilyLaridae(t *testing.T) {
 	}
 }
 
+func TestFamilyMacropodidae(t *testing.T) {
+	var s string = "Macropodidae"
+	if ok := macropodidae == s; !ok {
+		t.Fatalf("macropodidae != %s", s)
+	}
+}
+
 func TestFamilyOtariidae(t *testing.T) {
 	var s string = "Otariidae"
 	if ok := otariidae == s; !ok {
 		t.Fatalf("otariidae != %s", s)
+	}
+}
+
+func TestFamilyPhascolarctidae(t *testing.T) {
+	var s string = "Phascolarctidae"
+	if ok := phascolarctidae == s; !ok {
+		t.Fatalf("phascolarctidae != %s", s)
 	}
 }
 
@@ -363,6 +377,20 @@ func TestGenusGorilla(t *testing.T) {
 	}
 }
 
+func TestGenusMacropus(t *testing.T) {
+	var s string = "Macropus"
+	if ok := macropus == s; !ok {
+		t.Fatalf("macropus != %s", s)
+	}
+}
+
+func TestGenusPhascolarctos(t *testing.T) {
+	var s string = "Phascolarctos"
+	if ok := phascolarctos == s; !ok {
+		t.Fatalf("phascolarctos != %s", s)
+	}
+}
+
 func TestGenusRaphus(t *testing.T) {
 	var s string = "Raphus"
 	if ok := raphus == s; !ok {
@@ -465,6 +493,13 @@ func TestOrderCrocodylia(t *testing.T) {
 	var s string = "Crocodylia"
 	if ok := crocodylia == s; !ok {
 		t.Fatalf("crocodylia != %s", s)
+	}
+}
+
+func TestOrderDiprotodontia(t *testing.T) {
+	var s string = "Diprotodontia"
+	if ok := diprotodontia == s; !ok {
+		t.Fatalf("diprotodontia != %s", s)
 	}
 }
 
@@ -584,6 +619,13 @@ func TestSpeciesGGallus(t *testing.T) {
 	var s string = "G. gallus"
 	if ok := gGallus == s; !ok {
 		t.Fatalf("gGallus != %s", s)
+	}
+}
+
+func TestSpeciesPCinereus(t *testing.T) {
+	var s string = "P. cinereus"
+	if ok := pCinereus == s; !ok {
+		t.Fatalf("pCinereus != %s", s)
 	}
 }
 
