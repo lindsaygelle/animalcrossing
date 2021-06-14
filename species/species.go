@@ -165,6 +165,8 @@ const (
 	struthionidae   string = "Struthionidae"
 	suidae          string = "Suidae"
 	talpidae        string = "Talpidae"
+	tapiridae       string = "Tapiridae"
+	testudinidae    string = "Testudinidae"
 	ursidae         string = "Ursidae"
 )
 
@@ -185,6 +187,7 @@ const (
 	gorilla        string = "Gorilla"
 	hippopotamus   string = "Hippopotamus"
 	macropus       string = "Macropus"
+	meleagris      string = "Meleagris"
 	mus            string = "Mus"
 	nyctereutes    string = "Nyctereutes"
 	ovis           string = "Ovis"
@@ -196,6 +199,7 @@ const (
 	rangifer       string = "Rangifer"
 	struthio       string = "Struthio"
 	sus            string = "Sus"
+	tapirus        string = "Tapirus"
 	vicugna        string = "Vicugna"
 	vulpes         string = "Vulpes"
 )
@@ -233,6 +237,7 @@ const (
 	squamata         string = "Squamata"
 	strigiformes     string = "Strigiformes"
 	struthioniformes string = "Struthioniformes"
+	testudines       string = "Testudines"
 )
 
 // phylum
@@ -259,5 +264,6 @@ const (
 	rTarandus            string = "R. tarandus"
 	sCamelus             string = "S. camelus"
 	sScrofa              string = "S. scrofa"
+	pTigris              string = "P. tigris"
 	vVulpes              string = "V. vulpes"
 )

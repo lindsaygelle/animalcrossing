@@ -275,6 +275,13 @@ func TestFamilyMacropodidae(t *testing.T) {
 	}
 }
 
+func TestFamilyMeleagris(t *testing.T) {
+	var s string = "Meleagris"
+	if ok := meleagris == s; !ok {
+		t.Fatalf("meleagris != %s", s)
+	}
+}
+
 func TestFamilyMephitidae(t *testing.T) {
 	var s string = "Mephitidae"
 	if ok := mephitidae == s; !ok {
@@ -363,6 +370,20 @@ func TestFamilyTalpidae(t *testing.T) {
 	var s string = "Talpidae"
 	if ok := talpidae == s; !ok {
 		t.Fatalf("talpidae != %s", talpidae)
+	}
+}
+
+func TestFamilyTapiridae(t *testing.T) {
+	var s string = "Tapiridae"
+	if ok := tapiridae == s; !ok {
+		t.Fatalf("tapiridae != %s", s)
+	}
+}
+
+func TestFamilyTestudinidae(t *testing.T) {
+	var s string = "Testudinidae"
+	if ok := testudinidae == s; !ok {
+		t.Fatalf("testudinidae != %s", s)
 	}
 }
 
@@ -552,6 +573,13 @@ func TestGenusSus(t *testing.T) {
 	var s string = "Sus"
 	if ok := sus == s; !ok {
 		t.Fatalf("sus != %s", s)
+	}
+}
+
+func TestGenusTapirus(t *testing.T) {
+	var s string = "Tapirus"
+	if ok := tapirus == s; !ok {
+		t.Fatalf("tapirus != %s", s)
 	}
 }
 
@@ -758,6 +786,13 @@ func TestOrderStruthioniformes(t *testing.T) {
 	}
 }
 
+func TestOrderTestudines(t *testing.T) {
+	var s string = "Testudines"
+	if ok := testudines == s; !ok {
+		t.Fatalf("testudines != %s", s)
+	}
+}
+
 func TestPhylumChordata(t *testing.T) {
 	var s string = "Chordata"
 	if ok := chordata == s; !ok {
@@ -874,6 +909,13 @@ func TestSpeciesSScrofa(t *testing.T) {
 	var s string = "S. scrofa"
 	if ok := sScrofa == s; !ok {
 		t.Fatalf("sScrofa != %s", s)
+	}
+}
+
+func TestSpeciesPTigris(t *testing.T) {
+	var s string = "P. tigris"
+	if ok := pTigris == s; !ok {
+		t.Fatalf("pTigris != %s", s)
 	}
 }
 
