@@ -261,6 +261,13 @@ func TestFamilyLaridae(t *testing.T) {
 	}
 }
 
+func TestFamilyLeporidae(t *testing.T) {
+	var s string = "Leporidae"
+	if ok := leporidae == s; !ok {
+		t.Fatalf("leporidae != %s", s)
+	}
+}
+
 func TestFamilyMacropodidae(t *testing.T) {
 	var s string = "Macropodidae"
 	if ok := macropodidae == s; !ok {
@@ -307,6 +314,13 @@ func TestFamilyPhasianidae(t *testing.T) {
 	var s string = "Phasianidae"
 	if ok := phasianidae == s; !ok {
 		t.Fatalf("phasianidae != %s", s)
+	}
+}
+
+func TestFamilyRhinocerotidae(t *testing.T) {
+	var s string = "Rhinocerotidae"
+	if ok := rhinocerotidae == s; !ok {
+		t.Fatalf("rhinocerotidae != %s", s)
 	}
 }
 
@@ -457,6 +471,13 @@ func TestGenusMus(t *testing.T) {
 	}
 }
 
+func TestGenusNyctereutes(t *testing.T) {
+	var s string = "Nyctereutes"
+	if ok := nyctereutes == s; !ok {
+		t.Fatalf("nyctereutes != %s", s)
+	}
+}
+
 func TestGenusPanthera(t *testing.T) {
 	var s string = "Panthera"
 	if ok := panthera == s; !ok {
@@ -489,6 +510,13 @@ func TestGenusRaphus(t *testing.T) {
 	var s string = "Raphus"
 	if ok := raphus == s; !ok {
 		t.Fatalf("raphus != %s", s)
+	}
+}
+
+func TestGenusRangifer(t *testing.T) {
+	var s string = "Rangifer"
+	if ok := rangifer == s; !ok {
+		t.Fatalf("rangifer != %s", s)
 	}
 }
 
@@ -622,6 +650,13 @@ func TestOrderGalliformes(t *testing.T) {
 	var s string = "Galliformes"
 	if ok := galliformes == s; !ok {
 		t.Fatalf("galliformes != %s", s)
+	}
+}
+
+func TestOrderLagomorpha(t *testing.T) {
+	var s string = "Lagomorpha"
+	if ok := lagomorpha == s; !ok {
+		t.Fatalf("lagomorpha != %s", s)
 	}
 }
 
@@ -772,6 +807,13 @@ func TestSpeciesGGallus(t *testing.T) {
 	}
 }
 
+func TestSpeciesNProcyonoides(t *testing.T) {
+	var s string = "N. procyonoides"
+	if ok := nProcyonoides == s; !ok {
+		t.Fatalf("nProcyonoides != %s", s)
+	}
+}
+
 func TestSpeciesPCinereus(t *testing.T) {
 	var s string = "P. cinereus"
 	if ok := pCinereus == s; !ok {
@@ -790,6 +832,13 @@ func TestSpeciesRCucullatus(t *testing.T) {
 	var s string = "R. cucullatus"
 	if ok := rCucullatus == s; !ok {
 		t.Fatalf("rCucullatus != %s", s)
+	}
+}
+
+func TestSpeciesRTarandus(t *testing.T) {
+	var s string = "R. tarandus"
+	if ok := rTarandus == s; !ok {
+		t.Fatalf("rTarandus != %s", s)
 	}
 }
 
