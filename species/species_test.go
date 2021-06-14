@@ -275,6 +275,13 @@ func TestFamilyMacropodidae(t *testing.T) {
 	}
 }
 
+func TestFamilyMephitidae(t *testing.T) {
+	var s string = "Mephitidae"
+	if ok := mephitidae == s; !ok {
+		t.Fatalf("mephitidae != %s", s)
+	}
+}
+
 func TestFamilyMuridae(t *testing.T) {
 	var s string = "Muridae"
 	if ok := muridae == s; !ok {
@@ -321,6 +328,13 @@ func TestFamilyRhinocerotidae(t *testing.T) {
 	var s string = "Rhinocerotidae"
 	if ok := rhinocerotidae == s; !ok {
 		t.Fatalf("rhinocerotidae != %s", s)
+	}
+}
+
+func TestFamilySciuridae(t *testing.T) {
+	var s string = "Sciuridae"
+	if ok := sciuridae == s; !ok {
+		t.Fatalf("sciuridae != %s", s)
 	}
 }
 
@@ -475,6 +489,13 @@ func TestGenusNyctereutes(t *testing.T) {
 	var s string = "Nyctereutes"
 	if ok := nyctereutes == s; !ok {
 		t.Fatalf("nyctereutes != %s", s)
+	}
+}
+
+func TestGenusOvis(t *testing.T) {
+	var s string = "Ovis"
+	if ok := ovis == s; !ok {
+		t.Fatalf("ovis != %s", s)
 	}
 }
 
