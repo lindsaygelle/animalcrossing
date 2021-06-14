@@ -289,6 +289,13 @@ func TestFamilyOtariidae(t *testing.T) {
 	}
 }
 
+func TestFamilyPelecanidae(t *testing.T) {
+	var s string = "Pelecanidae"
+	if ok := pelecanidae == s; !ok {
+		t.Fatalf("pelecanidae != %s", s)
+	}
+}
+
 func TestFamilyPhascolarctidae(t *testing.T) {
 	var s string = "Phascolarctidae"
 	if ok := phascolarctidae == s; !ok {
@@ -300,6 +307,13 @@ func TestFamilyPhasianidae(t *testing.T) {
 	var s string = "Phasianidae"
 	if ok := phasianidae == s; !ok {
 		t.Fatalf("phasianidae != %s", s)
+	}
+}
+
+func TestFamilySpheniscidae(t *testing.T) {
+	var s string = "Spheniscidae"
+	if ok := spheniscidae == s; !ok {
+		t.Fatalf("spheniscidae != %s", s)
 	}
 }
 
@@ -457,6 +471,20 @@ func TestGenusPhascolarctos(t *testing.T) {
 	}
 }
 
+func TestGenusPavo(t *testing.T) {
+	var s string = "Pavo"
+	if ok := pavo == s; !ok {
+		t.Fatalf("pavo != %s", s)
+	}
+}
+
+func TestGenusPelecanus(t *testing.T) {
+	var s string = "Pelecanus"
+	if ok := pelecanus == s; !ok {
+		t.Fatalf("pelecanus != %s", s)
+	}
+}
+
 func TestGenusRaphus(t *testing.T) {
 	var s string = "Raphus"
 	if ok := raphus == s; !ok {
@@ -534,6 +562,13 @@ func TestOrderArtiodactyla(t *testing.T) {
 	}
 }
 
+func TestOrderCalumbiformes(t *testing.T) {
+	var s string = "Calumbiformes"
+	if ok := calumbiformes == s; !ok {
+		t.Fatalf("calumbiformes != %s", s)
+	}
+}
+
 func TestOrderCarnivora(t *testing.T) {
 	var s string = "Carnivora"
 	if ok := carnivora == s; !ok {
@@ -597,6 +632,13 @@ func TestOrderOctopoda(t *testing.T) {
 	}
 }
 
+func TestOrderPelecaniformes(t *testing.T) {
+	var s string = "Pelecaniformes"
+	if ok := pelecaniformes == s; !ok {
+		t.Fatalf("pelecaniformes != %s", s)
+	}
+}
+
 func TestOrderPerissodactyla(t *testing.T) {
 	var s string = "Perissodactyla"
 	if ok := perissodactyla == s; !ok {
@@ -622,6 +664,13 @@ func TestOrderProboscidea(t *testing.T) {
 	var s string = "Proboscidea"
 	if ok := proboscidea == s; !ok {
 		t.Fatalf("proboscidea != %s", s)
+	}
+}
+
+func TestOrderSphenisciformes(t *testing.T) {
+	var s string = "Sphenisciformes"
+	if ok := sphenisciformes == s; !ok {
+		t.Fatalf("sphenisciformes != %s", s)
 	}
 }
 
