@@ -303,6 +303,13 @@ func TestFamilyMustelidae(t *testing.T) {
 	}
 }
 
+func TestFamilyOdobenidae(t *testing.T) {
+	var s string = "Odobenidae"
+	if ok := odobenidae == s; !ok {
+		t.Fatalf("odobenidae != %s", s)
+	}
+}
+
 func TestFamilyOtariidae(t *testing.T) {
 	var s string = "Otariidae"
 	if ok := otariidae == s; !ok {
@@ -510,6 +517,13 @@ func TestGenusNyctereutes(t *testing.T) {
 	var s string = "Nyctereutes"
 	if ok := nyctereutes == s; !ok {
 		t.Fatalf("nyctereutes != %s", s)
+	}
+}
+
+func TestGenusOdobenus(t *testing.T) {
+	var s string = "Odobenus"
+	if ok := odobenus == s; !ok {
+		t.Fatalf("odobenus != %s", s)
 	}
 }
 
@@ -860,6 +874,20 @@ func TestSpeciesGGallus(t *testing.T) {
 	var s string = "G. gallus"
 	if ok := gGallus == s; !ok {
 		t.Fatalf("gGallus != %s", s)
+	}
+}
+
+func TestSpeciesOAries(t *testing.T) {
+	var s string = "O. aries"
+	if ok := oAries == s; !ok {
+		t.Fatalf("oAries != %s", s)
+	}
+}
+
+func TestSpeciesORosmarus(t *testing.T) {
+	var s string = "O. rosmarus"
+	if ok := oRosmarus == s; !ok {
+		t.Fatalf("oRosmarus != %s", s)
 	}
 }
 
