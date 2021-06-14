@@ -9,6 +9,7 @@ var (
 		conservation: extinct,
 		domain:       eukarya,
 		family:       columbidae,
+		fictional:    (!fictional),
 		genus:        raphus,
 		kingdom:      animalia,
 		name:         animals.Dodo.Name(),

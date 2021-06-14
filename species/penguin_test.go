@@ -30,6 +30,12 @@ func TestPenguinFamily(t *testing.T) {
 	}
 }
 
+func TestPenguinFictional(t *testing.T) {
+	if ok := Penguin.Fictional() == (!fictional); !ok {
+		t.Fatal("Penguin.Fictional() != false")
+	}
+}
+
 func TestPenguinGenus(t *testing.T) {
 	if ok := Penguin.Genus() == na; !ok {
 		t.Fatal("Penguin.Genus() != na")

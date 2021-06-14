@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       phasianidae,
+		fictional:    (!fictional),
 		genus:        gallus,
 		kingdom:      animalia,
 		name:         animals.Chicken.Name(),

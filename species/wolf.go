@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       canidae,
+		fictional:    (!fictional),
 		genus:        canis,
 		kingdom:      animalia,
 		name:         animals.Wolf.Name(),

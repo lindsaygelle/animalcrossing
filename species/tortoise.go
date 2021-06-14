@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       testudinidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Tortoise.Name(),

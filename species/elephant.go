@@ -9,6 +9,7 @@ var (
 		conservation: endangered,
 		domain:       eukarya,
 		family:       elephantidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Elephant.Name(),

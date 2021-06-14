@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestHedgehogClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestHedgehogDomain(t *testing.T) {
 func TestHedgehogFamily(t *testing.T) {
 	if ok := Hedgehog.Family() == erinaceidae; !ok {
 		t.Fatal("Hedgehog.Family() != erinaceidae")
+	}
+}
+
+func TestHedgehogFictional(t *testing.T) {
+	if ok := Hedgehog.Fictional() == (!fictional); !ok {
+		t.Fatal("Hedgehog.Fictional() != false")
 	}
 }
 

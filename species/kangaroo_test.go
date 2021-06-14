@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestKangarooClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestKangarooDomain(t *testing.T) {
 func TestKangarooFamily(t *testing.T) {
 	if ok := Kangaroo.Family() == macropodidae; !ok {
 		t.Fatal("Kangaroo.Family() != macropodidae")
+	}
+}
+
+func TestKangarooFictional(t *testing.T) {
+	if ok := Kangaroo.Fictional() == (!fictional); !ok {
+		t.Fatal("Kangaroo.Fictional() != false")
 	}
 }
 

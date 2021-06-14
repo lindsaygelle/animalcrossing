@@ -30,6 +30,12 @@ func TestPigFamily(t *testing.T) {
 	}
 }
 
+func TestPigFictional(t *testing.T) {
+	if ok := Pig.Fictional() == (!fictional); !ok {
+		t.Fatal("Pig.Fictional() != false")
+	}
+}
+
 func TestPigGenus(t *testing.T) {
 	if ok := Pig.Genus() == sus; !ok {
 		t.Fatal("Pig.Genus() != sus")

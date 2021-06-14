@@ -30,6 +30,12 @@ func TestRhinocerosFamily(t *testing.T) {
 	}
 }
 
+func TestRhinocerosFictional(t *testing.T) {
+	if ok := Rhinoceros.Fictional() == (!fictional); !ok {
+		t.Fatal("Rhinoceros.Fictional() != false")
+	}
+}
+
 func TestRhinocerosGenus(t *testing.T) {
 	if ok := Rhinoceros.Genus() == na; !ok {
 		t.Fatal("Rhinoceros.Genus() != na")

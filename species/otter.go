@@ -9,6 +9,7 @@ var (
 		conservation: nearThreatened,
 		domain:       eukarya,
 		family:       mustelidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Otter.Name(),

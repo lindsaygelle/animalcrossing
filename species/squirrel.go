@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       sciuridae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Squirrel.Name(),

@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestDodoClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestDodoDomain(t *testing.T) {
 func TestDodoFamily(t *testing.T) {
 	if ok := Dodo.Family() == columbidae; !ok {
 		t.Fatal("Dodo.Family() != columbidae")
+	}
+}
+
+func TestDodoFictional(t *testing.T) {
+	if ok := Dodo.Fictional() == (!fictional); !ok {
+		t.Fatal("Dodo.Fictional() != false")
 	}
 }
 

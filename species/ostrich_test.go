@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestOstrichClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestOstrichDomain(t *testing.T) {
 func TestOstrichFamily(t *testing.T) {
 	if ok := Ostrich.Family() == struthionidae; !ok {
 		t.Fatal("Ostrich.Family() != struthionidae")
+	}
+}
+
+func TestOstrichFictional(t *testing.T) {
+	if ok := Ostrich.Fictional() == (!fictional); !ok {
+		t.Fatal("Ostrich.Fictional() != false")
 	}
 }
 

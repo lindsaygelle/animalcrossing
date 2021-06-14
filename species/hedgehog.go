@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       erinaceidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Hedgehog.Name(),

@@ -30,6 +30,11 @@ func TestWalrusFamily(t *testing.T) {
 	}
 }
 
+func TestWalrusFictional(t *testing.T) {
+	if ok := Walrus.Fictional() == (!fictional); !ok {
+		t.Fatal("Walrus.Fictional() != false")
+	}
+}
 func TestWalrusGenus(t *testing.T) {
 	if ok := Walrus.Genus() == odobenus; !ok {
 		t.Fatal("Walrus.Genus() != odobenus")

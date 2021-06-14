@@ -9,6 +9,7 @@ var (
 		conservation: vulnerable,
 		domain:       eukarya,
 		family:       rhinocerotidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Rhinoceros.Name(),

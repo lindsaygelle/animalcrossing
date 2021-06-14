@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       accipitridae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Eagle.Name(),

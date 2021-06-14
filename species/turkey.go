@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       phasianidae,
+		fictional:    (!fictional),
 		genus:        meleagris,
 		kingdom:      animalia,
 		name:         animals.Turkey.Name(),

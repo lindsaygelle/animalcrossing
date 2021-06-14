@@ -30,6 +30,12 @@ func TestPeacockFamily(t *testing.T) {
 	}
 }
 
+func TestPeacockFictional(t *testing.T) {
+	if ok := Peacock.Fictional() == (!fictional); !ok {
+		t.Fatal("Peacock.Fictional() != false")
+	}
+}
+
 func TestPeacockGenus(t *testing.T) {
 	if ok := Peacock.Genus() == pavo; !ok {
 		t.Fatal("Peacock.Genus() != pavo")

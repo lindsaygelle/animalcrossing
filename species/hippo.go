@@ -9,6 +9,7 @@ var (
 		conservation: vulnerable,
 		domain:       eukarya,
 		family:       hippopotamidea,
+		fictional:    (!fictional),
 		genus:        hippopotamus,
 		kingdom:      animalia,
 		name:         animals.Hippo.Name(),

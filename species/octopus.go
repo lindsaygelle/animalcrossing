@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       na,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Octopus.Name(),

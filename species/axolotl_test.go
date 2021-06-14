@@ -30,6 +30,12 @@ func TestAxolotlFamily(t *testing.T) {
 	}
 }
 
+func TestAxolotlFictional(t *testing.T) {
+	if ok := Axolotl.Fictional() == (!fictional); !ok {
+		t.Fatal("Axolotl.Fictional() != false")
+	}
+}
+
 func TestAxolotlGenus(t *testing.T) {
 	if ok := Axolotl.Genus() == ambystoma; !ok {
 		t.Fatal("Axolotl.Genus() != ambystoma")

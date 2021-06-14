@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestGiraffeClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestGiraffeDomain(t *testing.T) {
 func TestGiraffeFamily(t *testing.T) {
 	if ok := Giraffe.Family() == giraffidae; !ok {
 		t.Fatal("Giraffe.Family() != giraffidae")
+	}
+}
+
+func TestGiraffeFictional(t *testing.T) {
+	if ok := Giraffe.Fictional() == (!fictional); !ok {
+		t.Fatal("Giraffe.Fictional() != false")
 	}
 }
 

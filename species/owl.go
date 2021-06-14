@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       na,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Owl.Name(),

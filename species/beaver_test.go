@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestBeaverClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestBeaverDomain(t *testing.T) {
 func TestBeaverFamily(t *testing.T) {
 	if ok := Beaver.Family() == castoridae; !ok {
 		t.Fatal("Beaver.Family() != castoridae")
+	}
+}
+
+func TestBeaverFictional(t *testing.T) {
+	if ok := Beaver.Fictional() == (!fictional); !ok {
+		t.Fatal("Beaver.Fictional() != false")
 	}
 }
 

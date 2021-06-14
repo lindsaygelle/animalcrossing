@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       leporidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Rabbit.Name(),

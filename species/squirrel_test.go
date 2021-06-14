@@ -30,6 +30,12 @@ func TestSquirrelFamily(t *testing.T) {
 	}
 }
 
+func TestSquirrelFictional(t *testing.T) {
+	if ok := Squirrel.Fictional() == (!fictional); !ok {
+		t.Fatal("Squirrel.Fictional() != false")
+	}
+}
+
 func TestSquirrelGenus(t *testing.T) {
 	if ok := Squirrel.Genus() == na; !ok {
 		t.Fatal("Squirrel.Genus() != na")

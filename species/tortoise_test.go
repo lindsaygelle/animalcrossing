@@ -30,6 +30,12 @@ func TestTortoiseFamily(t *testing.T) {
 	}
 }
 
+func TestTortoiseFictional(t *testing.T) {
+	if ok := Tortoise.Fictional() == (!fictional); !ok {
+		t.Fatal("Tortoise.Fictional() != false")
+	}
+}
+
 func TestTortoiseGenus(t *testing.T) {
 	if ok := Tortoise.Genus() == na; !ok {
 		t.Fatal("Tortoise.Genus() != na")

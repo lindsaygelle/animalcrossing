@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestOctopusClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestOctopusDomain(t *testing.T) {
 func TestOctopusFamily(t *testing.T) {
 	if ok := Octopus.Family() == na; !ok {
 		t.Fatal("Octopus.Family() != na")
+	}
+}
+
+func TestOctopusFictional(t *testing.T) {
+	if ok := Octopus.Fictional() == (!fictional); !ok {
+		t.Fatal("Octopus.Fictional() != false")
 	}
 }
 

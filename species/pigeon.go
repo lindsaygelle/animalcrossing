@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       columbidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Pigeon.Name(),

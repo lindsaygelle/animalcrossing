@@ -9,6 +9,7 @@ var (
 		conservation: vulnerable,
 		domain:       eukarya,
 		family:       felidae,
+		fictional:    (!fictional),
 		genus:        panthera,
 		kingdom:      animalia,
 		name:         animals.Lion.Name(),

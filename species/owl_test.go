@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestOwlClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestOwlDomain(t *testing.T) {
 func TestOwlFamily(t *testing.T) {
 	if ok := Owl.Family() == na; !ok {
 		t.Fatal("Owl.Family() != na")
+	}
+}
+
+func TestOwlFictional(t *testing.T) {
+	if ok := Owl.Fictional() == (!fictional); !ok {
+		t.Fatal("Owl.Fictional() != false")
 	}
 }
 

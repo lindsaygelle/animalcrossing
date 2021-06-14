@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       equidae,
+		fictional:    (!fictional),
 		genus:        equus,
 		kingdom:      animalia,
 		name:         animals.Horse.Name(),

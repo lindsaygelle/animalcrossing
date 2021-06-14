@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       canidae,
+		fictional:    (!fictional),
 		genus:        vulpes,
 		kingdom:      animalia,
 		name:         animals.Fox.Name(),

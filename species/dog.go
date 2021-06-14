@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       canidae,
+		fictional:    (!fictional),
 		genus:        canis,
 		kingdom:      animalia,
 		name:         animals.Dog.Name(),

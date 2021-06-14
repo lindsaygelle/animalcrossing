@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       bovidae,
+		fictional:    (!fictional),
 		genus:        capra,
 		kingdom:      animalia,
 		name:         animals.Goat.Name(),

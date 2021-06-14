@@ -9,6 +9,7 @@ var (
 		conservation: endangered,
 		domain:       eukarya,
 		family:       na,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Monkey.Name(),

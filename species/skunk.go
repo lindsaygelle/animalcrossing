@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       mephitidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Skunk.Name(),

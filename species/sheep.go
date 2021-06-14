@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       bovidae,
+		fictional:    (!fictional),
 		genus:        ovis,
 		kingdom:      animalia,
 		name:         animals.Sheep.Name(),

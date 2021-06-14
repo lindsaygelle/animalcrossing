@@ -30,6 +30,12 @@ func TestRabbitFamily(t *testing.T) {
 	}
 }
 
+func TestRabbitFictional(t *testing.T) {
+	if ok := Rabbit.Fictional() == (!fictional); !ok {
+		t.Fatal("Rabbit.Fictional() != false")
+	}
+}
+
 func TestRabbitGenus(t *testing.T) {
 	if ok := Rabbit.Genus() == na; !ok {
 		t.Fatal("Rabbit.Genus() != na")

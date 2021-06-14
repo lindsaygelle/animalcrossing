@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       struthionidae,
+		fictional:    (!fictional),
 		genus:        struthio,
 		kingdom:      animalia,
 		name:         animals.Ostrich.Name(),

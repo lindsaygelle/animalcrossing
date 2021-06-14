@@ -30,6 +30,12 @@ func TestPigeonFamily(t *testing.T) {
 	}
 }
 
+func TestPigeonFictional(t *testing.T) {
+	if ok := Pigeon.Fictional() == (!fictional); !ok {
+		t.Fatal("Pigeon.Fictional() != false")
+	}
+}
+
 func TestPigeonGenus(t *testing.T) {
 	if ok := Pigeon.Genus() == na; !ok {
 		t.Fatal("Pigeon.Genus() != na")

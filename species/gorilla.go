@@ -9,6 +9,7 @@ var (
 		conservation: endangered,
 		domain:       eukarya,
 		family:       hominidae,
+		fictional:    (!fictional),
 		genus:        gorilla,
 		kingdom:      animalia,
 		name:         animals.Gorilla.Name(),

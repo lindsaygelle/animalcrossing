@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       phasianidae,
+		fictional:    (!fictional),
 		genus:        pavo,
 		kingdom:      animalia,
 		name:         animals.Peacock.Name(),

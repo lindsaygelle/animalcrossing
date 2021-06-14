@@ -9,6 +9,7 @@ var (
 		conservation: basedOnFolklore,
 		domain:       eukarya,
 		family:       na,
+		fictional:    fictional,
 		genus:        na,
 		kingdom:      na,
 		name:         animals.Kappa.Name(),

@@ -9,6 +9,7 @@ var (
 		conservation: endangered,
 		domain:       eukarya,
 		family:       spheniscidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      animalia,
 		name:         animals.Penguin.Name(),

@@ -9,6 +9,7 @@ var (
 		conservation: criticallyEndangered,
 		domain:       eukarya,
 		family:       ambystomatidae,
+		fictional:    (!fictional),
 		genus:        ambystoma,
 		kingdom:      animalia,
 		name:         animals.Axolotl.Name(),

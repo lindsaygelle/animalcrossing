@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestLionClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestLionDomain(t *testing.T) {
 func TestLionFamily(t *testing.T) {
 	if ok := Lion.Family() == felidae; !ok {
 		t.Fatal("Lion.Family() != felidae")
+	}
+}
+
+func TestLionFictional(t *testing.T) {
+	if ok := Lion.Fictional() == (!fictional); !ok {
+		t.Fatal("Lion.Fictional() != false")
 	}
 }
 

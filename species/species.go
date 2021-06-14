@@ -12,6 +12,8 @@ type Species interface {
 	Genus() string
 	// Family is the family of the species.
 	Family() string
+	// Fictional is whether the species is imaginary.
+	Fictional() bool
 	// Kingdom is the kingdom of the species.
 	Kingdom() string
 	// Name is the name of the species.
@@ -31,6 +33,7 @@ type species struct {
 	domain       string
 	genus        string
 	family       string
+	fictional    bool
 	kingdom      string
 	name         string
 	order        string
@@ -63,6 +66,11 @@ func (s species) Family() string {
 	return s.family
 }
 
+// Fictional returns the species fictional status.
+func (s species) Fictional() bool {
+	return s.fictional
+}
+
 // Kingdom returns the species kingdom.
 func (s species) Kingdom() string {
 	return s.kingdom
@@ -91,6 +99,10 @@ func (s species) Species() string {
 var (
 	// validate species implements Species.
 	_ Species = species{}
+)
+
+const (
+	fictional bool = true
 )
 
 const (

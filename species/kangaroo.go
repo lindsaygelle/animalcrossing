@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       macropodidae,
+		fictional:    (!fictional),
 		genus:        macropus,
 		kingdom:      animalia,
 		name:         animals.Kangaroo.Name(),

@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       suidae,
+		fictional:    (!fictional),
 		genus:        sus,
 		kingdom:      animalia,
 		name:         animals.Pig.Name(),

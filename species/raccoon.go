@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       canidae,
+		fictional:    (!fictional),
 		genus:        nyctereutes,
 		kingdom:      animalia,
 		name:         animals.Raccoon.Name(),

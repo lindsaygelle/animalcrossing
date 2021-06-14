@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestFrillNeckedLizardClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestFrillNeckedLizardDomain(t *testing.T) {
 func TestFrillNeckedLizardFamily(t *testing.T) {
 	if ok := FrillNeckedLizard.Family() == agamidae; !ok {
 		t.Fatal("FrillNeckedLizard.Family() != agamidae")
+	}
+}
+
+func TestFrillNeckedLizardFictional(t *testing.T) {
+	if ok := FrillNeckedLizard.Fictional() == (!fictional); !ok {
+		t.Fatal("FrillNeckedLizard.Fictional() != false")
 	}
 }
 

@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       bovidae,
+		fictional:    (!fictional),
 		genus:        bos,
 		kingdom:      animalia,
 		name:         animals.Bovine.Name(),

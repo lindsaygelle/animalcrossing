@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       agamidae,
+		fictional:    (!fictional),
 		genus:        chlamydosaurus,
 		kingdom:      animalia,
 		name:         animals.FrillNeckedLizard.Name(),

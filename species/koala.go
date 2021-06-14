@@ -9,6 +9,7 @@ var (
 		conservation: vulnerable,
 		domain:       eukarya,
 		family:       phascolarctidae,
+		fictional:    (!fictional),
 		genus:        phascolarctos,
 		kingdom:      animalia,
 		name:         animals.Koala.Name(),

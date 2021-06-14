@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       odobenidae,
+		fictional:    (!fictional),
 		genus:        odobenus,
 		kingdom:      animalia,
 		name:         animals.Walrus.Name(),

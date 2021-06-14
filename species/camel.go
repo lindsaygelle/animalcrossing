@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       camelidae,
+		fictional:    (!fictional),
 		genus:        camelus,
 		kingdom:      animalia,
 		name:         animals.Camel.Name(),

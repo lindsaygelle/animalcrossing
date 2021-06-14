@@ -8,6 +8,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       felidae,
+		fictional:    (!fictional),
 		genus:        felis,
 		kingdom:      animalia,
 		name:         animals.Cat.Name(),

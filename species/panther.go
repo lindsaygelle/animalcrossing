@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       felidae,
+		fictional:    (!fictional),
 		genus:        panthera,
 		kingdom:      animalia,
 		name:         animals.Panther.Name(),

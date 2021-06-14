@@ -30,6 +30,12 @@ func TestSlothFamily(t *testing.T) {
 	}
 }
 
+func TestSlothFictional(t *testing.T) {
+	if ok := Sloth.Fictional() == (!fictional); !ok {
+		t.Fatal("Sloth.Fictional() != false")
+	}
+}
+
 func TestSlothGenus(t *testing.T) {
 	if ok := Sloth.Genus() == na; !ok {
 		t.Fatal("Sloth.Genus() != na")

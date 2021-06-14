@@ -9,6 +9,7 @@ var (
 		conservation: vulnerable,
 		domain:       eukarya,
 		family:       cervidae,
+		fictional:    (!fictional),
 		genus:        rangifer,
 		kingdom:      animalia,
 		name:         animals.Reindeer.Name(),

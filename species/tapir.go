@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       tapiridae,
+		fictional:    (!fictional),
 		genus:        tapirus,
 		kingdom:      animalia,
 		name:         animals.Tapir.Name(),

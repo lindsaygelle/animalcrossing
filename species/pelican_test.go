@@ -30,6 +30,12 @@ func TestPelicanFamily(t *testing.T) {
 	}
 }
 
+func TestPelicanFictional(t *testing.T) {
+	if ok := Pelican.Fictional() == (!fictional); !ok {
+		t.Fatal("Pelican.Fictional() != false")
+	}
+}
+
 func TestPelicanGenus(t *testing.T) {
 	if ok := Pelican.Genus() == pelecanus; !ok {
 		t.Fatal("Pelican.Genus() != pelecanus")

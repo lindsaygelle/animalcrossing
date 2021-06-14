@@ -30,6 +30,12 @@ func TestAlligatorFamily(t *testing.T) {
 	}
 }
 
+func TestAlligatorFictional(t *testing.T) {
+	if ok := Alligator.Fictional() == (!fictional); !ok {
+		t.Fatal("Alligator.Fictional() != false")
+	}
+}
+
 func TestAlligatorGenus(t *testing.T) {
 	if ok := Alligator.Genus() == alligator; !ok {
 		t.Fatal("Alligator.Genus() != alligator")

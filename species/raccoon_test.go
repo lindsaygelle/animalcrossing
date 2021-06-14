@@ -30,6 +30,12 @@ func TestRaccoonFamily(t *testing.T) {
 	}
 }
 
+func TestRaccoonFictional(t *testing.T) {
+	if ok := Raccoon.Fictional() == (!fictional); !ok {
+		t.Fatal("Raccoon.Fictional() != false")
+	}
+}
+
 func TestRaccoonGenus(t *testing.T) {
 	if ok := Raccoon.Genus() == nyctereutes; !ok {
 		t.Fatal("Raccoon.Genus() != nyctereutes")

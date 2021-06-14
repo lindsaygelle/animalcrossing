@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestKappaClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestKappaDomain(t *testing.T) {
 func TestKappaFamily(t *testing.T) {
 	if ok := Kappa.Family() == na; !ok {
 		t.Fatal("Kappa.Family() != na")
+	}
+}
+
+func TestKappaFictional(t *testing.T) {
+	if ok := Kappa.Fictional() == fictional; !ok {
+		t.Fatal("Kappa.Fictional() != true")
 	}
 }
 

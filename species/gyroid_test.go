@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestGyroidClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestGyroidDomain(t *testing.T) {
 func TestGyroidFamily(t *testing.T) {
 	if ok := Gyroid.Family() == na; !ok {
 		t.Fatal("Gyroid.Family() != na")
+	}
+}
+
+func TestGyroidFictional(t *testing.T) {
+	if ok := Gyroid.Fictional() == fictional; !ok {
+		t.Fatal("Gyroid.Fictional() != true")
 	}
 }
 

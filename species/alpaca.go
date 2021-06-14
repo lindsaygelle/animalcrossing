@@ -9,6 +9,7 @@ var (
 		conservation: domesticated,
 		domain:       eukarya,
 		family:       camelidae,
+		fictional:    (!fictional),
 		genus:        vicugna,
 		kingdom:      animalia,
 		name:         animals.Alpaca.Name(),

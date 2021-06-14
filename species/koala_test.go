@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestKoalaClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestKoalaDomain(t *testing.T) {
 func TestKoalaFamily(t *testing.T) {
 	if ok := Koala.Family() == phascolarctidae; !ok {
 		t.Fatal("Koala.Family() != phascolarctidae")
+	}
+}
+
+func TestKoalaFictional(t *testing.T) {
+	if ok := Koala.Fictional() == (!fictional); !ok {
+		t.Fatal("Koala.Fictional() != false")
 	}
 }
 

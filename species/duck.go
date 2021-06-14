@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       anatidae,
+		fictional:    (!fictional),
 		genus:        na,
 		kingdom:      enimalia,
 		name:         animals.Duck.Name(),

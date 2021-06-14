@@ -30,6 +30,12 @@ func TestAnteaterFamily(t *testing.T) {
 	}
 }
 
+func TestAnteaterFictional(t *testing.T) {
+	if ok := Anteater.Fictional() == (!fictional); !ok {
+		t.Fatal("Anteater.Fictional() != false")
+	}
+}
+
 func TestAnteaterGenus(t *testing.T) {
 	if ok := Anteater.Genus() == na; !ok {
 		t.Fatal("Anteater.Genus() != na")

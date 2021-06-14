@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestOtterClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestOtterDomain(t *testing.T) {
 func TestOtterFamily(t *testing.T) {
 	if ok := Otter.Family() == mustelidae; !ok {
 		t.Fatal("Otter.Family() != mustelidae")
+	}
+}
+
+func TestOtterFictional(t *testing.T) {
+	if ok := Otter.Fictional() == (!fictional); !ok {
+		t.Fatal("Otter.Fictional() != false")
 	}
 }
 

@@ -9,6 +9,7 @@ var (
 		conservation: vulnerable,
 		domain:       eukarya,
 		family:       giraffidae,
+		fictional:    (!fictional),
 		genus:        giraffa,
 		kingdom:      animalia,
 		name:         animals.Giraffe.Name(),

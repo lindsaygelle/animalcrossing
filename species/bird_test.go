@@ -30,6 +30,12 @@ func TestBirdFamily(t *testing.T) {
 	}
 }
 
+func TestBirdFictional(t *testing.T) {
+	if ok := Bird.Fictional() == (!fictional); !ok {
+		t.Fatal("Bird.Fictional() != false")
+	}
+}
+
 func TestBirdGenus(t *testing.T) {
 	if ok := Bird.Genus() == na; !ok {
 		t.Fatal("Bird.Genus() != na")

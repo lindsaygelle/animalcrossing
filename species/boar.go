@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       suidae,
+		fictional:    (!fictional),
 		genus:        sus,
 		kingdom:      animalia,
 		name:         animals.Boar.Name(),

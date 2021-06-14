@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestCamelClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestCamelDomain(t *testing.T) {
 func TestCamelFamily(t *testing.T) {
 	if ok := Camel.Family() == camelidae; !ok {
 		t.Fatal("Camel.Family() != camelidae")
+	}
+}
+
+func TestCamelFictional(t *testing.T) {
+	if ok := Camel.Fictional() == (!fictional); !ok {
+		t.Fatal("Camel.Fictional() != false")
 	}
 }
 

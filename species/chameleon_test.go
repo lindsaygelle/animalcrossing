@@ -30,6 +30,12 @@ func TestChameleonFamily(t *testing.T) {
 	}
 }
 
+func TestChameleonFictional(t *testing.T) {
+	if ok := Chameleon.Fictional() == (!fictional); !ok {
+		t.Fatal("Chameleon.Fictional() != false")
+	}
+}
+
 func TestChameleonGenus(t *testing.T) {
 	if ok := Chameleon.Genus() == na; !ok {
 		t.Fatal("Chameleon.Genus() != na")

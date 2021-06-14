@@ -30,6 +30,12 @@ func TestWolfFamily(t *testing.T) {
 	}
 }
 
+func TestWolfFictional(t *testing.T) {
+	if ok := Wolf.Fictional() == (!fictional); !ok {
+		t.Fatal("Wolf.Fictional() != false")
+	}
+}
+
 func TestWolfGenus(t *testing.T) {
 	if ok := Wolf.Genus() == canis; !ok {
 		t.Fatal("Wolf.Genus() != canis")

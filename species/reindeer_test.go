@@ -30,6 +30,12 @@ func TestReindeerFamily(t *testing.T) {
 	}
 }
 
+func TestReindeerFictional(t *testing.T) {
+	if ok := Reindeer.Fictional() == (!fictional); !ok {
+		t.Fatal("Reindeer.Fictional() != false")
+	}
+}
+
 func TestReindeerGenus(t *testing.T) {
 	if ok := Reindeer.Genus() == rangifer; !ok {
 		t.Fatal("Reindeer.Genus() != rangifer")

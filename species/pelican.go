@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       pelecanidae,
+		fictional:    (!fictional),
 		genus:        pelecanus,
 		kingdom:      animalia,
 		name:         animals.Pelican.Name(),

@@ -30,6 +30,12 @@ func TestAlpacaFamily(t *testing.T) {
 	}
 }
 
+func TestAlpacaFictional(t *testing.T) {
+	if ok := Alpaca.Fictional() == (!fictional); !ok {
+		t.Fatal("Alpaca.Fictional() != false")
+	}
+}
+
 func TestAlpacaGenus(t *testing.T) {
 	if ok := Alpaca.Genus() == vicugna; !ok {
 		t.Fatal("Alpaca.Genus() != vicugna")

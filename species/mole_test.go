@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestMoleClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestMoleDomain(t *testing.T) {
 func TestMoleFamily(t *testing.T) {
 	if ok := Mole.Family() == talpidae; !ok {
 		t.Fatal("Mole.Family() != talpidae")
+	}
+}
+
+func TestMoleFictional(t *testing.T) {
+	if ok := Mole.Fictional() == (!fictional); !ok {
+		t.Fatal("Mole.Fictional() != false")
 	}
 }
 

@@ -30,6 +30,12 @@ func TestTapirFamily(t *testing.T) {
 	}
 }
 
+func TestTapirFictional(t *testing.T) {
+	if ok := Tapir.Fictional() == (!fictional); !ok {
+		t.Fatal("Tapir.Fictional() != false")
+	}
+}
+
 func TestTapirGenus(t *testing.T) {
 	if ok := Tapir.Genus() == tapirus; !ok {
 		t.Fatal("Tapir.Genus() != tapirus")

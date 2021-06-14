@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       castoridae,
+		fictional:    (!fictional),
 		genus:        castor,
 		kingdom:      animalia,
 		name:         animals.Beaver.Name(),

@@ -30,6 +30,12 @@ func TestTurkeyFamily(t *testing.T) {
 	}
 }
 
+func TestTurkeyFictional(t *testing.T) {
+	if ok := Turkey.Fictional() == (!fictional); !ok {
+		t.Fatal("Turkey.Fictional() != false")
+	}
+}
+
 func TestTurkeyGenus(t *testing.T) {
 	if ok := Turkey.Genus() == meleagris; !ok {
 		t.Fatal("Turkey.Genus() != meleagris")

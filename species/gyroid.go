@@ -9,6 +9,7 @@ var (
 		conservation: unknown,
 		domain:       eukarya,
 		family:       na,
+		fictional:    fictional,
 		genus:        na,
 		kingdom:      na,
 		name:         animals.Gyroid.Name(),

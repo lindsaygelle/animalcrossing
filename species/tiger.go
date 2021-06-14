@@ -9,6 +9,7 @@ var (
 		conservation: endangered,
 		domain:       eukarya,
 		family:       felidae,
+		fictional:    (!fictional),
 		genus:        panthera,
 		kingdom:      animalia,
 		name:         animals.Tiger.Name(),

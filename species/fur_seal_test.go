@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestFurSealClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestFurSealDomain(t *testing.T) {
 func TestFurSealFamily(t *testing.T) {
 	if ok := FurSeal.Family() == otariidae; !ok {
 		t.Fatal("FurSeal.Family() != otariidae")
+	}
+}
+
+func TestFurSealFictional(t *testing.T) {
+	if ok := FurSeal.Fictional() == (!fictional); !ok {
+		t.Fatal("FurSeal.Fictional() != false")
 	}
 }
 

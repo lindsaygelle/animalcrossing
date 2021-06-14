@@ -9,6 +9,7 @@ var (
 		conservation: vulnerable,
 		domain:       eukarya,
 		family:       alligatoridae,
+		fictional:    (!fictional),
 		genus:        alligator,
 		kingdom:      animalia,
 		name:         animals.Alligator.Name(),

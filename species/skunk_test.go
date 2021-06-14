@@ -30,6 +30,12 @@ func TestSkunkFamily(t *testing.T) {
 	}
 }
 
+func TestSkunkFictional(t *testing.T) {
+	if ok := Skunk.Fictional() == (!fictional); !ok {
+		t.Fatal("Skunk.Fictional() != false")
+	}
+}
+
 func TestSkunkGenus(t *testing.T) {
 	if ok := Skunk.Genus() == na; !ok {
 		t.Fatal("Skunk.Genus() != na")

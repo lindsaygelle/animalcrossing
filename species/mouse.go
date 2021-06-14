@@ -9,6 +9,7 @@ var (
 		conservation: leastConcern,
 		domain:       eukarya,
 		family:       muridae,
+		fictional:    (!fictional),
 		genus:        mus,
 		kingdom:      animalia,
 		name:         animals.Mouse.Name(),

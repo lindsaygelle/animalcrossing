@@ -1,8 +1,9 @@
 package species
 
 import (
-	"github.com/lindsaygelle/animalcrossing/animals"
 	"testing"
+
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestHippoClass(t *testing.T) {
@@ -26,6 +27,12 @@ func TestHippoDomain(t *testing.T) {
 func TestHippoFamily(t *testing.T) {
 	if ok := Hippo.Family() == hippopotamidea; !ok {
 		t.Fatal("Hippo.Family() != hippopotamidea")
+	}
+}
+
+func TestHippoFictional(t *testing.T) {
+	if ok := Hippo.Fictional() == (!fictional); !ok {
+		t.Fatal("Hippo.Fictional() != false")
 	}
 }
 

@@ -26,6 +26,12 @@ func TestBullFamily(t *testing.T) {
 	}
 }
 
+func TestBullFictional(t *testing.T) {
+	if ok := Bull.Fictional() == (!fictional); !ok {
+		t.Fatal("Bull.Fictional() != false")
+	}
+}
+
 func TestBullGenus(t *testing.T) {
 	if ok := Bull.Genus() == bos; !ok {
 		t.Fatal("Bull.Genus() != bos")
