@@ -6,10 +6,8 @@ import (
 )
 
 func TestConservationAll(t *testing.T) {
-
 	var (
 		c = [...]string{
-			basedOnFolklore,
 			criticallyEndangered,
 			domesticated,
 			endangered,

@@ -13,8 +13,8 @@ func TestGyroidClass(t *testing.T) {
 }
 
 func TestGyroidConservation(t *testing.T) {
-	if ok := Gyroid.Conservation() == unknown; !ok {
-		t.Fatal("Gyroid.Conservation() != unknown")
+	if ok := Gyroid.Conservation() == na; !ok {
+		t.Fatal("Gyroid.Conservation() != na")
 	}
 }
 

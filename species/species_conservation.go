@@ -2,7 +2,6 @@ package species
 
 // conservation
 const (
-	basedOnFolklore      string = "Based On Folklore"
 	criticallyEndangered string = "Critically Endangered"
 	domesticated         string = "Domesticated"
 	endangered           string = "Endangered"

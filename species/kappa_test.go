@@ -13,8 +13,8 @@ func TestKappaClass(t *testing.T) {
 }
 
 func TestKappaConservation(t *testing.T) {
-	if ok := Kappa.Conservation() == basedOnFolklore; !ok {
-		t.Fatal("Kappa.Conservation() != basedOnFolklore")
+	if ok := Kappa.Conservation() == na; !ok {
+		t.Fatal("Kappa.Conservation() != na")
 	}
 }
 

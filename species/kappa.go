@@ -6,7 +6,7 @@ var (
 	// Kappa is the species information of Kappa.
 	Kappa Species = species{
 		class:        na,
-		conservation: basedOnFolklore,
+		conservation: na,
 		domain:       eukarya,
 		family:       na,
 		fictional:    fictional,

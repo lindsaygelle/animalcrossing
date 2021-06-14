@@ -6,7 +6,7 @@ var (
 	// Gyroid is the species information of Gyroids.
 	Gyroid Species = species{
 		class:        na,
-		conservation: unknown,
+		conservation: na,
 		domain:       eukarya,
 		family:       na,
 		fictional:    fictional,
