@@ -6,15 +6,15 @@ import (
 	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
-func TestCyranoName(t *testing.T) {
-	if ok := Cyrano.Name() == cyrano; !ok {
-		t.Fatalf("%s != %s", Cyrano.Name(), cyrano)
-	}
-}
-
-func TestCyranoSpecies(t *testing.T) {
+func TestCyranoAnimal(t *testing.T) {
 	var s string = animals.Anteater.Name()
 	if ok := Cyrano.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Cyrano.Animal(), s)
+	}
+}
+
+func TestCyranoName(t *testing.T) {
+	if ok := Cyrano.Name() == cyrano; !ok {
+		t.Fatalf("%s != %s", Cyrano.Name(), cyrano)
 	}
 }

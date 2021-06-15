@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(villagers.Alligators)
 	fmt.Println(villagers.Axolotls)
 	fmt.Println(villagers.Bears)
+	fmt.Println(villagers.Birds)
 }
