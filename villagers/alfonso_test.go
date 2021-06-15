@@ -13,7 +13,8 @@ func TestAlfonsoName(t *testing.T) {
 }
 
 func TestAlfonsoSpecies(t *testing.T) {
-	if ok := Alfonso.Animal() == species.Alligator.Name(); !ok {
-		t.Fatalf("%s != %s", Alfonso.Animal(), species.Alligator.Name())
+	var s string = species.Alligator.Name()
+	if ok := Alfonso.Animal() == s; !ok {
+		t.Fatalf("%s != %s", Alfonso.Animal(), s)
 	}
 }

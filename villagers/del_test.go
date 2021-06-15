@@ -13,7 +13,8 @@ func TestDelName(t *testing.T) {
 }
 
 func TestDelSpecies(t *testing.T) {
-	if ok := Del.Animal() == species.Alligator.Name(); !ok {
-		t.Fatalf("%s != %s", Del.Animal(), species.Alligator.Name())
+	var s string = species.Alligator.Name()
+	if ok := Del.Animal() == s; !ok {
+		t.Fatalf("%s != %s", Del.Animal(), s)
 	}
 }

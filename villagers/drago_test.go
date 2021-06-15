@@ -13,7 +13,8 @@ func TestDragoName(t *testing.T) {
 }
 
 func TestDragoSpecies(t *testing.T) {
-	if ok := Drago.Animal() == species.Alligator.Name(); !ok {
-		t.Fatalf("%s != %s", Drago.Animal(), species.Alligator.Name())
+	var s string = species.Alligator.Name()
+	if ok := Drago.Animal() == s; !ok {
+		t.Fatalf("%s != %s", Drago.Animal(), s)
 	}
 }

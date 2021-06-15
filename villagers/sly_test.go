@@ -13,7 +13,8 @@ func TestSlyName(t *testing.T) {
 }
 
 func TestSlySpecies(t *testing.T) {
-	if ok := Sly.Animal() == species.Alligator.Name(); !ok {
-		t.Fatalf("%s != %s", Sly.Animal(), species.Alligator.Name())
+	var s string = species.Alligator.Name()
+	if ok := Sly.Animal() == s; !ok {
+		t.Fatalf("%s != %s", Sly.Animal(), s)
 	}
 }

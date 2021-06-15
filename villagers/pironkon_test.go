@@ -13,7 +13,8 @@ func TestPironkonName(t *testing.T) {
 }
 
 func TestPironkonSpecies(t *testing.T) {
-	if ok := Pironkon.Animal() == species.Alligator.Name(); !ok {
-		t.Fatalf("%s != %s", Pironkon.Animal(), species.Alligator.Name())
+	var s string = species.Alligator.Name()
+	if ok := Pironkon.Animal() == s; !ok {
+		t.Fatalf("%s != %s", Pironkon.Animal(), s)
 	}
 }

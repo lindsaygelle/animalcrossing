@@ -13,7 +13,8 @@ func TestAlliName(t *testing.T) {
 }
 
 func TestAlliSpecies(t *testing.T) {
-	if ok := Alli.Animal() == species.Alligator.Name(); !ok {
-		t.Fatalf("%s != %s", Alli.Animal(), species.Alligator.Name())
+	var s string = species.Alligator.Name()
+	if ok := Alli.Animal() == s; !ok {
+		t.Fatalf("%s != %s", Alli.Animal(), s)
 	}
 }
