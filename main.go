@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/lindsaygelle/animalcrossing/animals"
-	"github.com/lindsaygelle/animalcrossing/species"
+	"github.com/lindsaygelle/animalcrossing/villagers"
 )
 
 func main() {
-	fmt.Println(animals.Alligator)
-	fmt.Println(species.Alligator)
+	fmt.Println(villagers.Alligators)
+	fmt.Println(villagers.Axolotls)
+	fmt.Println(villagers.Bears)
 }

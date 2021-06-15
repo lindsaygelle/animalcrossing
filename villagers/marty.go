@@ -3,7 +3,7 @@ package villagers
 import "github.com/lindsaygelle/animalcrossing/animals"
 
 const (
-	marty string = "marty"
+	marty string = "Marty"
 )
 
 var (
