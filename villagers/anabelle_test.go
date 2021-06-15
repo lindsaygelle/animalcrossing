@@ -3,7 +3,7 @@ package villagers
 import (
 	"testing"
 
-	"github.com/lindsaygelle/animalcrossing/species"
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestAnabelleName(t *testing.T) {
@@ -13,7 +13,7 @@ func TestAnabelleName(t *testing.T) {
 }
 
 func TestAnabelleSpecies(t *testing.T) {
-	var s string = species.Anteater.Name()
+	var s string = animals.Anteater.Name()
 	if ok := Anabelle.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Anabelle.Animal(), s)
 	}

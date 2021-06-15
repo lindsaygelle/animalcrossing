@@ -3,7 +3,7 @@ package villagers
 import (
 	"testing"
 
-	"github.com/lindsaygelle/animalcrossing/species"
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestChipName(t *testing.T) {
@@ -13,7 +13,7 @@ func TestChipName(t *testing.T) {
 }
 
 func TestChipSpecies(t *testing.T) {
-	var s string = species.Beaver.Name()
+	var s string = animals.Beaver.Name()
 	if ok := Chip.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Chip.Animal(), s)
 	}

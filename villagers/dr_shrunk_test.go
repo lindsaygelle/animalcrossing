@@ -3,7 +3,7 @@ package villagers
 import (
 	"testing"
 
-	"github.com/lindsaygelle/animalcrossing/species"
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestDrShrunkName(t *testing.T) {
@@ -13,7 +13,7 @@ func TestDrShrunkName(t *testing.T) {
 }
 
 func TestDrShrunkSpecies(t *testing.T) {
-	var s string = species.Axolotl.Name()
+	var s string = animals.Axolotl.Name()
 	if ok := DrShrunk.Animal() == s; !ok {
 		t.Fatalf("%s != %s", DrShrunk.Animal(), s)
 	}

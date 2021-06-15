@@ -3,7 +3,7 @@ package villagers
 import (
 	"testing"
 
-	"github.com/lindsaygelle/animalcrossing/species"
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestMurphyName(t *testing.T) {
@@ -13,7 +13,7 @@ func TestMurphyName(t *testing.T) {
 }
 
 func TestMurphySpecies(t *testing.T) {
-	var s string = species.Bear.Name()
+	var s string = animals.Bear.Name()
 	if ok := Murphy.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Murphy.Animal(), s)
 	}

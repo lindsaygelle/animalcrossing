@@ -3,7 +3,7 @@ package villagers
 import (
 	"testing"
 
-	"github.com/lindsaygelle/animalcrossing/species"
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestOliveName(t *testing.T) {
@@ -13,7 +13,7 @@ func TestOliveName(t *testing.T) {
 }
 
 func TestOliveSpecies(t *testing.T) {
-	var s string = species.Bear.Name()
+	var s string = animals.Bear.Name()
 	if ok := Olive.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Olive.Animal(), s)
 	}

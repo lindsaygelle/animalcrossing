@@ -3,7 +3,7 @@ package villagers
 import (
 	"testing"
 
-	"github.com/lindsaygelle/animalcrossing/species"
+	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
 func TestCyranoName(t *testing.T) {
@@ -13,7 +13,7 @@ func TestCyranoName(t *testing.T) {
 }
 
 func TestCyranoSpecies(t *testing.T) {
-	var s string = species.Anteater.Name()
+	var s string = animals.Anteater.Name()
 	if ok := Cyrano.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Cyrano.Animal(), s)
 	}
