@@ -3,8 +3,7 @@ package genders
 import "testing"
 
 func TestMaleName(t *testing.T) {
-	var s string = "Male"
-	if ok := Male.Name() == s; !ok {
-		t.Fatalf("%s != %s", Male.Name(), s)
+	if ok := Male.Name() == male; !ok {
+		t.Fatalf("%s != %s", Male.Name(), male)
 	}
 }
