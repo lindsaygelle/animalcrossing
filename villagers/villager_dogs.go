@@ -1,0 +1,32 @@
+package villagers
+
+var (
+	Dogs = [...]string{Bea.Name(),
+		Benjamin.Name(),
+		Biskit.Name(),
+		Bones.Name(),
+		Booker.Name(),
+		Bow.Name(),
+		Butch.Name(),
+		Champagne.Name(),
+		Cherry.Name(),
+		Cookie.Name(),
+		Copper.Name(),
+		Daisy.Name(),
+		Digby.Name(),
+		Goldie.Name(),
+		Harriet.Name(),
+		Harvey.Name(),
+		Isabelle.Name(),
+		KKSlider.Name(),
+		Lucky.Name(),
+		Mac.Name(),
+		Maddie.Name(),
+		Marcel.Name(),
+		Masa.Name(),
+		Megumi.Name(),
+		Portia.Name(),
+		Serena.Name(),
+		Shep.Name(),
+		Walker.Name()}
+)
