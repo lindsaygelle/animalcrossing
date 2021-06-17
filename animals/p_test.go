@@ -11,5 +11,8 @@ func TestP(t *testing.T) {
 		if ok := P[i] == s; !ok {
 			t.Fatalf("%s != %s; i=%d", P[i], s, i)
 		}
+		if ok := s[0] == 'P'; !ok {
+			t.Fatalf("%s != %s; i=%d", string(s[0]), "P", i)
+		}
 	}
 }

@@ -11,5 +11,8 @@ func TestR(t *testing.T) {
 		if ok := R[i] == s; !ok {
 			t.Fatalf("%s != %s; i=%d", R[i], s, i)
 		}
+		if ok := s[0] == 'R'; !ok {
+			t.Fatalf("%s != %s; i=%d", string(s[0]), "R", i)
+		}
 	}
 }

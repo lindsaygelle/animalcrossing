@@ -11,5 +11,8 @@ func TestH(t *testing.T) {
 		if ok := H[i] == s; !ok {
 			t.Fatalf("%s != %s; i=%d", H[i], s, i)
 		}
+		if ok := s[0] == 'H'; !ok {
+			t.Fatalf("%s != %s; i=%d", string(s[0]), "H", i)
+		}
 	}
 }

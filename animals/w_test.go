@@ -11,5 +11,8 @@ func TestW(t *testing.T) {
 		if ok := W[i] == s; !ok {
 			t.Fatalf("%s != %s; i=%d", W[i], s, i)
 		}
+		if ok := s[0] == 'W'; !ok {
+			t.Fatalf("%s != %s; i=%d", string(s[0]), "W", i)
+		}
 	}
 }

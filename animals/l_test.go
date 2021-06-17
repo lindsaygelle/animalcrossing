@@ -11,5 +11,8 @@ func TestL(t *testing.T) {
 		if ok := L[i] == s; !ok {
 			t.Fatalf("%s != %s; i=%d", L[i], s, i)
 		}
+		if ok := s[0] == 'L'; !ok {
+			t.Fatalf("%s != %s; i=%d", string(s[0]), "L", i)
+		}
 	}
 }
