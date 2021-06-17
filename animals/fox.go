@@ -1,7 +1,7 @@
 package animals
 
 const (
-	fox string = "fox"
+	fox string = "Fox"
 )
 
 var (

@@ -1,7 +1,7 @@
 package animals
 
 const (
-	frillNeckedLizard string = "Frill-necked Lizard"
+	frillNeckedLizard string = "Frill-Necked Lizard"
 )
 
 var (
