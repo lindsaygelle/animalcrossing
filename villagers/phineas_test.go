@@ -7,7 +7,7 @@ import (
 )
 
 func TestPhineasAnimal(t *testing.T) {
-	var s string = animals.Eagle.Name()
+	var s string = animals.FurSeal.Name()
 	if ok := Phineas.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Phineas.Animal(), s)
 	}
