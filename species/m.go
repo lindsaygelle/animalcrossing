@@ -1,8 +1,8 @@
 package species
 
 var (
-	M = [...]Species{
-		Mole,
-		Monkey,
-		Mouse}
+	M = [...]string{
+		Mole.Name(),
+		Monkey.Name(),
+		Mouse.Name()}
 )

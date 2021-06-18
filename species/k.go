@@ -1,8 +1,8 @@
 package species
 
 var (
-	K = [...]Species{
-		Kangaroo,
-		Kappa,
-		Koala}
+	K = [...]string{
+		Kangaroo.Name(),
+		Kappa.Name(),
+		Koala.Name()}
 )

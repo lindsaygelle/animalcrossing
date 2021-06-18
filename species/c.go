@@ -1,10 +1,10 @@
 package species
 
 var (
-	C = [...]Species{
-		Camel,
-		Cat,
-		Chameleon,
-		Chicken,
-		Cow}
+	C = [...]string{
+		Camel.Name(),
+		Cat.Name(),
+		Chameleon.Name(),
+		Chicken.Name(),
+		Cow.Name()}
 )

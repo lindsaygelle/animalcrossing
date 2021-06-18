@@ -1,9 +1,9 @@
 package species
 
 var (
-	H = [...]Species{
-		Hamster,
-		Hedgehog,
-		Hippo,
-		Horse}
+	H = [...]string{
+		Hamster.Name(),
+		Hedgehog.Name(),
+		Hippo.Name(),
+		Horse.Name()}
 )

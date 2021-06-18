@@ -1,10 +1,10 @@
 package species
 
 var (
-	G = [...]Species{
-		Giraffe,
-		Goat,
-		Gorilla,
-		Gull,
-		Gyroid}
+	G = [...]string{
+		Giraffe.Name(),
+		Goat.Name(),
+		Gorilla.Name(),
+		Gull.Name(),
+		Gyroid.Name()}
 )

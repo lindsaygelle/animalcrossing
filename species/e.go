@@ -1,7 +1,7 @@
 package species
 
 var (
-	E = [...]Species{
-		Eagle,
-		Elephant}
-) 
+	E = [...]string{
+		Eagle.Name(),
+		Elephant.Name()}
+)

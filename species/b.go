@@ -1,11 +1,11 @@
 package species
 
 var (
-	B = [...]Species{
-		Bear,
-		Beaver,
-		Bird,
-		Boar,
-		Bovine,
-		Bull}
+	B = [...]string{
+		Bear.Name(),
+		Beaver.Name(),
+		Bird.Name(),
+		Boar.Name(),
+		Bovine.Name(),
+		Bull.Name()}
 )

@@ -1,6 +1,6 @@
 package species
 
 var (
-	L = [...]Species{
-		Lion}
+	L = [...]string{
+		Lion.Name()}
 )
