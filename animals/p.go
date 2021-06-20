@@ -7,5 +7,6 @@ var (
 		Pelican.Name(),
 		Penguin.Name(),
 		Pig.Name(),
-		Pigeon.Name()}
+		Pigeon.Name(),
+		Pumpkin.Name()}
 )
