@@ -49,7 +49,7 @@ func TestSnowpersonKingdom(t *testing.T) {
 }
 
 func TestSnowpersonName(t *testing.T) {
-	if ok := Snowperson.Name() != na; !ok {
+	if ok := Snowperson.Name() == animals.Snowperson.Name(); !ok {
 		t.Fatalf("Snowperson.Name != %s", animals.Snowperson.Name())
 	}
 }

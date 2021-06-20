@@ -48,5 +48,6 @@ func main() {
 	fmt.Println(villagers.Peacocks)
 	fmt.Println(villagers.Pelicans)
 	fmt.Println(villagers.Penguins)
+	fmt.Println(villagers.Pigeons)
 	fmt.Println(species.Cow)
 }
