@@ -1,8 +1,9 @@
 package animals
 
 var (
-    G = [...]string{
-        Giraffe.Name(),
+	G = [...]string{
+		Ghost.Name(),
+		Giraffe.Name(),
 		Goat.Name(),
 		Gorilla.Name(),
 		Gull.Name(),
