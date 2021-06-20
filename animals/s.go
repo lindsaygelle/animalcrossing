@@ -5,6 +5,6 @@ var (
 		Sheep.Name(),
 		Skunk.Name(),
 		Sloth.Name(),
+		Snowperson.Name(),
 		Squirrel.Name()}
 )
-		
