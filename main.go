@@ -38,5 +38,6 @@ func main() {
 	fmt.Println(villagers.Koalas)
 	fmt.Println(villagers.Lions)
 	fmt.Println(villagers.Mice)
+	fmt.Println(villagers.Moles)
 	fmt.Println(species.Cow)
 }
