@@ -7,7 +7,7 @@ import (
 )
 
 func TestBrewsterAnimal(t *testing.T) {
-	var s string = animals.Mouse.Name()
+	var s string = animals.Pigeon.Name()
 	if ok := Brewster.Animal() == s; !ok {
 		t.Fatalf("%s != %s", Brewster.Animal(), s)
 	}
