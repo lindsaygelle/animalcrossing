@@ -5,7 +5,7 @@ const (
 )
 
 var (
-	// Other an Animal Crossing villager gender.
+	// Other is an Animal Crossing villager gender.
 	Other Gender = gender{
 		name: other}
 )
