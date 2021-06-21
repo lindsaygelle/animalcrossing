@@ -49,7 +49,7 @@ func TestSheepKingdom(t *testing.T) {
 }
 
 func TestSheepName(t *testing.T) {
-	if ok := Sheep.Name() != na; !ok {
+	if ok := Sheep.Name() == animals.Sheep.Name(); !ok {
 		t.Fatalf("Sheep.Name != %s", animals.Sheep.Name())
 	}
 }
