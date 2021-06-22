@@ -7,6 +7,9 @@ const (
 )
 
 var (
+	// Kicks is an Animal Crossing villager.
+	//
+	// Kicks is a Skunk.
 	Kicks Villager = villager{
 		animal: animals.Skunk.Name(),
 		name:   kicks}
