@@ -61,5 +61,6 @@ func main() {
 	fmt.Println(villagers.Sloths)
 	fmt.Println(villagers.Squirrels)
 	fmt.Println(villagers.Tapirs)
+	fmt.Println(villagers.Tigers)
 	fmt.Println(species.Cow)
 }
