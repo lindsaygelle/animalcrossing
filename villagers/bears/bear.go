@@ -20,3 +20,7 @@ func (b bear) Animal() string {
 func (b bear) Name() string {
 	return b.name
 }
+
+var (
+	_ villagers.Villager = bear{}
+)
