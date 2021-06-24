@@ -1,0 +1,35 @@
+package cats
+
+var (
+	All = [...]Cat{
+		Ankha,
+		Blanca,
+		Bob,
+		Felicity,
+		Felyne,
+		Kabuki,
+		Kaitlin,
+		Katie,
+		Katt,
+		KidCat,
+		Kiki,
+		Kitty,
+		Lolly,
+		Meow,
+		Merry,
+		Mitzi,
+		Moe,
+		Monique,
+		Olivia,
+		Pierre,
+		Punchy,
+		Purrl,
+		Raymond,
+		Rosie,
+		Rover,
+		Rudy,
+		Stinky,
+		Tabby,
+		Tangy,
+		Tom}
+)
