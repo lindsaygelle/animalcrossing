@@ -1,7 +1,7 @@
 package alpacas
 
 var (
-	All = [...]string{
-		Cyrus.Name(),
-		Reese.Name()}
+	All = [...]Alpaca{
+		Cyrus,
+		Reese}
 )
