@@ -1,10 +1,10 @@
 package animals
 
 var (
-	S = [...]string{
-		Sheep.Name(),
-		Skunk.Name(),
-		Sloth.Name(),
-		Snowperson.Name(),
-		Squirrel.Name()}
+	S = []Animal{
+		Sheep,
+		Skunk,
+		Sloth,
+		Snowperson,
+		Squirrel}
 )

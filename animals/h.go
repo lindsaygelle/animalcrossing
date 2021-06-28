@@ -1,8 +1,8 @@
 package animals
 
 var (
-	H = [...]string{
-		Hamster.Name(),
-		Hedgehog.Name(),
-		Hippopotamus.Name()}
+	H = []Animal{
+		Hamster,
+		Hedgehog,
+		Hippopotamus}
 )

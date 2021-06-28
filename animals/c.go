@@ -1,10 +1,10 @@
-package animals 
+package animals
 
 var (
-	C = [...]string{
-		Camel.Name(),
-		Cat.Name(),
-		Chameleon.Name(),
-		Chicken.Name(),
-		Cow.Name()}
+	C = []Animal{
+		Camel,
+		Cat,
+		Chameleon,
+		Chicken,
+		Cow}
 )

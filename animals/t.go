@@ -1,9 +1,9 @@
 package animals
 
 var (
-    T = [...]string{
-        Tapir.Name(),
-		Tiger.Name(),
-		Tortoise.Name(),
-		Turkey.Name()}
+	T = []Animal{
+		Tapir,
+		Tiger,
+		Tortoise,
+		Turkey}
 )

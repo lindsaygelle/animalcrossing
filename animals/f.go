@@ -1,8 +1,8 @@
 package animals
 
 var (
-	F = []string{
-		FrillNeckedLizard.Name(),
-		Fox.Name(),
-		FurSeal.Name()}
+	F = []Animal{
+		FrillNeckedLizard,
+		Fox,
+		FurSeal}
 )

@@ -1,8 +1,8 @@
-package animals 
+package animals
 
 var (
-	M = [...]string{
-		Mole.Name(),
-		Monkey.Name(),
-		Mouse.Name()}
+	M = []Animal{
+		Mole,
+		Monkey,
+		Mouse}
 )
