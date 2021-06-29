@@ -3,8 +3,8 @@ package species
 import "github.com/lindsaygelle/animalcrossing/animals"
 
 var (
-	// Hippo is the species information for Hippos.
-	Hippo Species = species{
+	// Hippopotamus is the species information for Hippos.
+	Hippopotamus Species = species{
 		class:        mammalia,
 		conservation: vulnerable,
 		domain:       eukarya,
