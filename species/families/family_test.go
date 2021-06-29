@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestFamilyAll(t *testing.T) {
+func TestAll(t *testing.T) {
 	var (
 		c = [...]string{
 			accipitridae,

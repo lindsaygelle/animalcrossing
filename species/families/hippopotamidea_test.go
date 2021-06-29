@@ -2,7 +2,7 @@ package families
 
 import "testing"
 
-func TestFamilyHippopotamidea(t *testing.T) {
+func TestHippopotamidea(t *testing.T) {
 	var s string = "Hippopotamidea"
 	if ok := hippopotamidea == s; !ok {
 		t.Fatalf("hippopotamidea != %s", s)
