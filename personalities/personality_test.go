@@ -11,6 +11,6 @@ func TestPersonalityName(t *testing.T) {
 	var personality Personality = personality{
 		name: personalityName}
 	if ok := personality.Name() == personalityName; !ok {
-		t.Fatalf("Personality.Name() != %s", personalityName)
+		t.Fatalf("%s != %s", personality.Name(), personalityName)
 	}
 }

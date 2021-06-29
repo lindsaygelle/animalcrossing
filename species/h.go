@@ -4,6 +4,6 @@ var (
 	H = [...]string{
 		Hamster.Name(),
 		Hedgehog.Name(),
-		Hippo.Name(),
+		Hippopotamus.Name(),
 		Horse.Name()}
 )

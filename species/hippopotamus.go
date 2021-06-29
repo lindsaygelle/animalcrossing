@@ -12,7 +12,7 @@ var (
 		fictional:    (!fictional),
 		genus:        hippopotamus,
 		kingdom:      animalia,
-		name:         animals.Hippo.Name(),
+		name:         animals.Hippopotamus.Name(),
 		order:        artiodactyla,
 		phylum:       chordata,
 		species:      na}

@@ -11,6 +11,6 @@ func TestAnimalName(t *testing.T) {
 	var animal Animal = animal{
 		name: animalName}
 	if ok := animal.Name() == animalName; !ok {
-		t.Fatalf("Animal.Name() != %s", animalName)
+		t.Fatalf("%s != %s", animal.Name(), animalName)
 	}
 }

@@ -6,68 +6,68 @@ import (
 	"github.com/lindsaygelle/animalcrossing/animals"
 )
 
-func TestHippoClass(t *testing.T) {
-	if ok := Hippo.Class() == mammalia; !ok {
-		t.Fatal("Hippo.Class() != mammalia")
+func TestHippopotamusClass(t *testing.T) {
+	if ok := Hippopotamus.Class() == mammalia; !ok {
+		t.Fatal("Hippopotamus.Class() != mammalia")
 	}
 }
 
-func TestHippoConservation(t *testing.T) {
-	if ok := Hippo.Conservation() == vulnerable; !ok {
-		t.Fatal("Hippo.Conservation() != vulnerable")
+func TestHippopotamusConservation(t *testing.T) {
+	if ok := Hippopotamus.Conservation() == vulnerable; !ok {
+		t.Fatal("Hippopotamus.Conservation() != vulnerable")
 	}
 }
 
-func TestHippoDomain(t *testing.T) {
-	if ok := Hippo.Domain() == eukarya; !ok {
-		t.Fatal("Hippo.Domain() != eukarya")
+func TestHippopotamusDomain(t *testing.T) {
+	if ok := Hippopotamus.Domain() == eukarya; !ok {
+		t.Fatal("Hippopotamus.Domain() != eukarya")
 	}
 }
 
-func TestHippoFamily(t *testing.T) {
-	if ok := Hippo.Family() == hippopotamidea; !ok {
-		t.Fatal("Hippo.Family() != hippopotamidea")
+func TestHippopotamusFamily(t *testing.T) {
+	if ok := Hippopotamus.Family() == hippopotamidea; !ok {
+		t.Fatal("Hippopotamus.Family() != hippopotamidea")
 	}
 }
 
-func TestHippoFictional(t *testing.T) {
-	if ok := Hippo.Fictional() == (!fictional); !ok {
-		t.Fatal("Hippo.Fictional() != false")
+func TestHippopotamusFictional(t *testing.T) {
+	if ok := Hippopotamus.Fictional() == (!fictional); !ok {
+		t.Fatal("Hippopotamus.Fictional() != false")
 	}
 }
 
-func TestHippoGenus(t *testing.T) {
-	if ok := Hippo.Genus() == hippopotamus; !ok {
-		t.Fatal("Hippo.Genus() != hippopotamus")
+func TestHippopotamusGenus(t *testing.T) {
+	if ok := Hippopotamus.Genus() == hippopotamus; !ok {
+		t.Fatal("Hippopotamus.Genus() != hippopotamus")
 	}
 }
 
-func TestHippoKingdom(t *testing.T) {
-	if ok := Hippo.Kingdom() == animalia; !ok {
-		t.Fatal("Hippo.Kingdom() != animalia")
+func TestHippopotamusKingdom(t *testing.T) {
+	if ok := Hippopotamus.Kingdom() == animalia; !ok {
+		t.Fatal("Hippopotamus.Kingdom() != animalia")
 	}
 }
 
-func TestHippoName(t *testing.T) {
-	if ok := Hippo.Name() != na; !ok {
-		t.Fatalf("Hippo.Name != %s", animals.Hippo.Name())
+func TestHippopotamusName(t *testing.T) {
+	if ok := Hippopotamus.Name() != na; !ok {
+		t.Fatalf("Hippopotamus.Name != %s", animals.Hippopotamus.Name())
 	}
 }
 
-func TestHippoOrder(t *testing.T) {
-	if ok := Hippo.Order() == artiodactyla; !ok {
-		t.Fatal("Hippo.Order() != artiodactyla")
+func TestHippopotamusOrder(t *testing.T) {
+	if ok := Hippopotamus.Order() == artiodactyla; !ok {
+		t.Fatal("Hippopotamus.Order() != artiodactyla")
 	}
 }
 
-func TestHippoPhylum(t *testing.T) {
-	if ok := Hippo.Phylum() == chordata; !ok {
-		t.Fatal("Hippo.Phylum() != chordata")
+func TestHippopotamusPhylum(t *testing.T) {
+	if ok := Hippopotamus.Phylum() == chordata; !ok {
+		t.Fatal("Hippopotamus.Phylum() != chordata")
 	}
 }
 
-func TestHippoSpecies(t *testing.T) {
-	if ok := Hippo.Species() == na; !ok {
-		t.Fatal("Hippo.Species() != na")
+func TestHippopotamusSpecies(t *testing.T) {
+	if ok := Hippopotamus.Species() == na; !ok {
+		t.Fatal("Hippopotamus.Species() != na")
 	}
 }
