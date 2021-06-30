@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestGenusAll(t *testing.T) {
+func TestAll(t *testing.T) {
 	var (
 		c = [...]string{
 			alligator,

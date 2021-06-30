@@ -2,7 +2,7 @@ package genuses
 
 import "testing"
 
-func TestGenusOdobenus(t *testing.T) {
+func TestOdobenus(t *testing.T) {
 	var s string = "Odobenus"
 	if ok := odobenus == s; !ok {
 		t.Fatalf("odobenus != %s", s)
