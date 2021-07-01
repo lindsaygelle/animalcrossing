@@ -25,6 +25,7 @@ func TestAll(t *testing.T) {
 			macropus,
 			meleagris,
 			mus,
+			myrmecophaga,
 			nyctereutes,
 			odobenus,
 			ovis,

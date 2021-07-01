@@ -34,6 +34,7 @@ func TestAll(t *testing.T) {
 			mephitidae,
 			muridae,
 			mustelidae,
+			myrmecophagidae,
 			odobenidae,
 			otariidae,
 			pelecanidae,
