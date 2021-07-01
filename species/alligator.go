@@ -27,5 +27,5 @@ func (a alligator) Phylum() string       { return phylums.Chordata.Name() }
 func (a alligator) Species() string      { return "" }
 
 var (
-	Alligator Species = alligator{}
+	Alligator Alligatorer = alligator{}
 )

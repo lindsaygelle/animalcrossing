@@ -28,5 +28,5 @@ func (a axolotl) Phylum() string       { return phylums.Chordata.Name() }
 func (a axolotl) Species() string      { return species.AMexicanum.Name() }
 
 var (
-	Axolotl Species = axolotl{}
+	Axolotl Axolotler = axolotl{}
 )

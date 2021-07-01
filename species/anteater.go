@@ -27,5 +27,5 @@ func (a anteater) Phylum() string       { return phylums.Chordata.Name() }
 func (a anteater) Species() string      { return "" }
 
 var (
-	Anteater Species = anteater{}
+	Anteater Anteaterer = anteater{}
 )
