@@ -6,6 +6,7 @@ import (
 	"github.com/lindsaygelle/animalcrossing/species/conservations"
 	"github.com/lindsaygelle/animalcrossing/species/domains"
 	"github.com/lindsaygelle/animalcrossing/species/families"
+	"github.com/lindsaygelle/animalcrossing/species/genuses"
 	"github.com/lindsaygelle/animalcrossing/species/kingdoms"
 	"github.com/lindsaygelle/animalcrossing/species/orders"
 	"github.com/lindsaygelle/animalcrossing/species/phylums"
@@ -13,7 +14,7 @@ import (
 
 type bear struct{}
 
-func (b bear) Animal() string       { return animals.Alligator.Name() }
+func (b bear) Animal() string       { return animals.Bear.Name() }
 func (b bear) Class() string        { return classes.Mammalia.Name() }
 func (b bear) Conservation() string { return conservations.LeastConcern.Name() }
 func (b bear) Domain() string       { return domains.Eukarya.Name() }
