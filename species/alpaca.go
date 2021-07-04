@@ -12,10 +12,6 @@ import (
 	"github.com/lindsaygelle/animalcrossing/species/phylums"
 )
 
-type Alpacarer interface {
-	Species
-}
-
 type alpaca struct{}
 
 func (a alpaca) Animal() string       { return animals.Alpaca.Name() }
