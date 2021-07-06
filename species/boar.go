@@ -28,5 +28,5 @@ func (b boar) Phylum() string       { return phylums.Chordata.Name() }
 func (b boar) Species() string      { return species.SScrofa.Name() }
 
 var (
-	Boar Boarer = boar{}
+	Boar Species = boar{}
 )

@@ -27,5 +27,5 @@ func (b beaver) Phylum() string       { return phylums.Chordata.Name() }
 func (b beaver) Species() string      { return "" }
 
 var (
-	Beaver Beaverer = beaver{}
+	Beaver Species = beaver{}
 )

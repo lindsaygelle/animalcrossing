@@ -27,5 +27,5 @@ func (a alpaca) Phylum() string       { return phylums.Chordata.Name() }
 func (a alpaca) Species() string      { return "" }
 
 var (
-	Alpaca Alpacarer = alpaca{}
+	Alpaca Species = alpaca{}
 )
