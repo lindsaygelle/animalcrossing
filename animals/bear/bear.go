@@ -11,14 +11,14 @@ var (
 
 type bear struct{}
 
-func (a bear) Name() string {
+func (b bear) Name() string {
 	return "Bear"
 }
 
-func (a bear) Special() bool {
+func (b bear) Special() bool {
 	return false
 }
 
-func (a bear) Translation() translations.Translation {
+func (b bear) Translation() translations.Translation {
 	return translation{}
 }
