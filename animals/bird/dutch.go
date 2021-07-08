@@ -1,4 +1,4 @@
-package bear_cub
+package bird
 
 import "github.com/lindsaygelle/animalcrossing/translations"
 
