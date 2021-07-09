@@ -11,14 +11,14 @@ var (
 
 type cat struct{}
 
-func (b cat) Name() string {
+func (c cat) Name() string {
 	return "Cat"
 }
 
-func (b cat) Special() bool {
+func (c cat) Special() bool {
 	return false
 }
 
-func (b cat) Translation() translations.Translation {
+func (c cat) Translation() translations.Translation {
 	return translation{}
 }
