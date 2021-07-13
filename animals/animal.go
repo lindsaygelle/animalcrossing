@@ -1,5 +1,5 @@
 package animals
 
 type Animal interface {
-	Special()
+	Special() bool
 }
