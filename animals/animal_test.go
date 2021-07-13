@@ -115,7 +115,7 @@ func TestSpecialFalse(t *testing.T) {
 	for i := 0; i < len(collection); i++ {
 		var v animals.Animal = collection[i]
 		if ok := v.Special() == false; !ok {
-			t.Fatalf("Animal.Special() bool != %t", false)
+			t.Fatalf("%s.Special() bool != %t", v.Id(), false)
 		}
 	}
 }
@@ -159,7 +159,7 @@ func TestSpecialTrue(t *testing.T) {
 	for i := 0; i < len(collection); i++ {
 		var v animals.Animal = collection[i]
 		if ok := v.Special() == true; !ok {
-			t.Fatalf("Animal.Special() bool != %t", true)
+			t.Fatalf("%s.Special() bool != %t", v.Id(), true)
 		}
 	}
 }
