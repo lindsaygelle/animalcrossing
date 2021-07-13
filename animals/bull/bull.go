@@ -1,24 +1,5 @@
 package bull
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals"
-	"github.com/lindsaygelle/animalcrossing/translations"
-)
+type Bull struct{}
 
-var (
-	Bull animals.Animal = bull{}
-)
-
-type bull struct{}
-
-func (b bull) Name() string {
-	return "Bull"
-}
-
-func (b bull) Special() bool {
-	return false
-}
-
-func (b bull) Translation() translations.Translation {
-	return translation{}
-}
+func (b Bull) Special() bool { return false }

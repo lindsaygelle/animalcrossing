@@ -1,24 +1,5 @@
 package deer
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals"
-	"github.com/lindsaygelle/animalcrossing/translations"
-)
+type Deer struct{}
 
-var (
-	D animals.Animal = cow{}
-)
-
-type cow struct{}
-
-func (c cow) Name() string {
-	return "Cow"
-}
-
-func (c cow) Special() bool {
-	return false
-}
-
-func (c cow) Translation() translations.Translation {
-	return translation{}
-}
+func (d Deer) Special() bool { return false }
