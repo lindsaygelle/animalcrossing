@@ -7,5 +7,5 @@ type En struct {
 }
 
 func (e En) Value() string {
-	return "Alligator"
+	return "Anteater"
 }
