@@ -1,9 +1,13 @@
 package translations
 
-import e "github.com/lindsaygelle/animalcrossing/languages/en"
+import (
+	"github.com/lindsaygelle/animalcrossing/genders"
+	"github.com/lindsaygelle/animalcrossing/languages/en"
+)
 
 type En struct {
-	e.En
+	en.En
+	genders.None
 }
 
 func (e En) Value() string {
