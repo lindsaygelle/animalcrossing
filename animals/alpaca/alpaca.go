@@ -1,6 +1,9 @@
 package alpaca
 
-import "github.com/lindsaygelle/animalcrossing/languages"
+import (
+	"github.com/lindsaygelle/animalcrossing/animals/alpaca/translations"
+	"github.com/lindsaygelle/animalcrossing/languages"
+)
 
 type Alpaca struct{}
 
@@ -13,5 +16,6 @@ func (a Alpaca) Special() bool {
 }
 
 func (a Alpaca) Translations() []languages.Translation {
-	return []languages.Translation{}
+	return []languages.Translation{
+		translations.En{}}
 }
