@@ -1,6 +1,9 @@
 package axolotl
 
-import "github.com/lindsaygelle/animalcrossing/languages"
+import (
+	"github.com/lindsaygelle/animalcrossing/animals/axolotl/translations"
+	"github.com/lindsaygelle/animalcrossing/languages"
+)
 
 type Axolotl struct{}
 
@@ -13,5 +16,6 @@ func (a Axolotl) Special() bool {
 }
 
 func (a Axolotl) Translations() []languages.Translation {
-	return []languages.Translation{}
+	return []languages.Translation{
+		translations.En{}}
 }
