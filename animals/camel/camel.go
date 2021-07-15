@@ -1,6 +1,9 @@
 package camel
 
-import "github.com/lindsaygelle/animalcrossing/languages"
+import (
+	"github.com/lindsaygelle/animalcrossing/animals/camel/translations"
+	"github.com/lindsaygelle/animalcrossing/languages"
+)
 
 type Camel struct{}
 
@@ -13,5 +16,6 @@ func (c Camel) Special() bool {
 }
 
 func (c Camel) Translations() []languages.Translation {
-	return []languages.Translation{}
+	return []languages.Translation{
+		translations.En{}}
 }
