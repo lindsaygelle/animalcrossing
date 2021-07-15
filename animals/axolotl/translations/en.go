@@ -7,7 +7,7 @@ import (
 
 type En struct {
 	en.En
-	genders.Male
+	genders.None
 }
 
 func (e En) Value() string {
