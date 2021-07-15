@@ -1,6 +1,9 @@
 package boar
 
-import "github.com/lindsaygelle/animalcrossing/languages"
+import (
+	"github.com/lindsaygelle/animalcrossing/animals/boar/translations"
+	"github.com/lindsaygelle/animalcrossing/languages"
+)
 
 type Boar struct{}
 
@@ -13,5 +16,6 @@ func (b Boar) Special() bool {
 }
 
 func (b Boar) Translations() []languages.Translation {
-	return []languages.Translation{}
+	return []languages.Translation{
+		translations.En{}}
 }
