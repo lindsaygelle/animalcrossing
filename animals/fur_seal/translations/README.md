@@ -1,0 +1,1 @@
+# Fur Seal translations
