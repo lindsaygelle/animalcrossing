@@ -1,6 +1,9 @@
 package chameleon
 
-import "github.com/lindsaygelle/animalcrossing/languages"
+import (
+	"github.com/lindsaygelle/animalcrossing/animals/chameleon/translations"
+	"github.com/lindsaygelle/animalcrossing/languages"
+)
 
 type Chameleon struct{}
 
@@ -13,5 +16,6 @@ func (c Chameleon) Special() bool {
 }
 
 func (c Chameleon) Translations() []languages.Translation {
-	return []languages.Translation{}
+	return []languages.Translation{
+		translations.En{}}
 }
