@@ -7,7 +7,7 @@ import (
 
 type DeNeutral struct {
 	de.De
-	genders.None
+	genders.Neutral
 }
 
 func (d DeNeutral) Value() string {
