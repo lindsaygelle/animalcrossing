@@ -11,5 +11,5 @@ type En struct {
 }
 
 func (e En) Value() string {
-	return "Koala"
+	return "Lion"
 }
