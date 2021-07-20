@@ -7,7 +7,6 @@ import (
 
 type Monkey struct{}
 
-<<<<<<< HEAD
 func (m Monkey) Id() string {
 	return "monkey"
 }
@@ -16,10 +15,6 @@ func (m Monkey) Special() bool {
 	return false
 }
 
-=======
-func (m Monkey) Id() string    { return "monkey" }
-func (m Monkey) Special() bool { return false }
->>>>>>> 27f353edaecf25fa7f87a238c128539f92f5550c
 func (m Monkey) Translations() []languages.Translation {
 	return []languages.Translation{
 		translations.De{},
