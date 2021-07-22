@@ -9,5 +9,5 @@ type Ko struct {
 }
 
 func (k Ko) Value() string {
-	return "독수리"
+	return "문어"
 }
