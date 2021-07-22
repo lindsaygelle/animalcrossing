@@ -6,7 +6,7 @@ import (
 )
 
 type DeNeutral struct {
-	de.De
+	de.Masculine
 	genders.Neutral
 }
 

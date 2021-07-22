@@ -1,7 +1,15 @@
 package it
 
-type It struct{}
+type it struct{}
 
-func (i It) Code() string  { return "it" }
-func (i It) Local() string { return "Italiano" }
-func (i It) Name() string  { return "Italian" }
+func (i it) Code() string {
+	return "it"
+}
+
+func (i it) Local() string {
+	return "Italiano"
+}
+
+func (i it) Name() string {
+	return "Italian"
+}

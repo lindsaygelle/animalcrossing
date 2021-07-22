@@ -1,15 +1,15 @@
 package ru
 
-type Ru struct{}
+type ru struct{}
 
-func (r Ru) Code() string {
+func (r ru) Code() string {
 	return "ru"
 }
 
-func (r Ru) Local() string {
+func (r ru) Local() string {
 	return "русский"
 }
 
-func (r Ru) Name() string {
+func (r ru) Name() string {
 	return "Russian"
 }

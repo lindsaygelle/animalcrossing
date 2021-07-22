@@ -1,13 +1,11 @@
 package translations
 
 import (
-	"github.com/lindsaygelle/animalcrossing/genders"
 	"github.com/lindsaygelle/animalcrossing/languages/fr"
 )
 
 type FrFemine struct {
-	fr.Fr
-	genders.Female
+	fr.Femine
 }
 
 func (f FrFemine) Value() string {

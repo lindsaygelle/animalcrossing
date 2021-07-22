@@ -3,6 +3,6 @@ package ru
 import "github.com/lindsaygelle/animalcrossing/genders"
 
 type Neuter struct {
-	Ru
+	ru
 	genders.Neutral
 }

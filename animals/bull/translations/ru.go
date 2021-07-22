@@ -3,7 +3,7 @@ package translations
 import "github.com/lindsaygelle/animalcrossing/languages/ru"
 
 type Ru struct {
-	ru.Ru
+	ru.Masculine
 }
 
 func (r Ru) Value() string {

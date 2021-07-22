@@ -1,15 +1,15 @@
 package fr
 
-type Fr struct{}
+type fr struct{}
 
-func (f Fr) Code() string {
+func (f fr) Code() string {
 	return "fr"
 }
 
-func (f Fr) Local() string {
+func (f fr) Local() string {
 	return "Français"
 }
 
-func (f Fr) Name() string {
+func (f fr) Name() string {
 	return "French"
 }

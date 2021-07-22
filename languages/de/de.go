@@ -1,15 +1,15 @@
 package de
 
-type De struct{}
+type de struct{}
 
-func (d De) Code() string {
+func (d de) Code() string {
 	return "de"
 }
 
-func (d De) Local() string {
+func (d de) Local() string {
 	return "Deutsch"
 }
 
-func (d De) Name() string {
+func (d de) Name() string {
 	return "German"
 }
