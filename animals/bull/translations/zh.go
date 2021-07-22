@@ -6,6 +6,10 @@ type Zh struct {
 	zh.Zh
 }
 
+func (z Zh) Id() string {
+	return "none"
+}
+
 func (z Zh) Value() string {
 	return "公牛"
 }

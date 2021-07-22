@@ -8,6 +8,10 @@ type RuFemine struct {
 	ru.Femine
 }
 
+func (r RuFemine) Id() string {
+	return "femine"
+}
+
 func (r RuFemine) Value() string {
 	return "Собака"
 }

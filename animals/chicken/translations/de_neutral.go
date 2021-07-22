@@ -1,13 +1,15 @@
 package translations
 
 import (
-	"github.com/lindsaygelle/animalcrossing/genders"
 	"github.com/lindsaygelle/animalcrossing/languages/de"
 )
 
 type DeNeutral struct {
-	de.Masculine
-	genders.Neutral
+	de.Neuter
+}
+
+func (d DeNeutral) Id() string {
+	return "neuter"
 }
 
 func (d DeNeutral) Value() string {

@@ -6,6 +6,10 @@ type It struct {
 	it.Masculine
 }
 
+func (i It) Id() string {
+	return "masculine"
+}
+
 func (i It) Value() string {
 	return "Toro"
 }

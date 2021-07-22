@@ -6,6 +6,10 @@ type Jp struct {
 	jp.Jp
 }
 
+func (j Jp) Id() string {
+	return "none"
+}
+
 func (j Jp) Value() string {
 	return "おすうし"
 }

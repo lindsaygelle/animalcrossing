@@ -8,6 +8,10 @@ type FrFemine struct {
 	fr.Femine
 }
 
+func (f FrFemine) Id() string {
+	return "femine"
+}
+
 func (f FrFemine) Value() string {
 	return "Poule"
 }
