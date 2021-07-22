@@ -1,6 +1,10 @@
 package en
 
-type En struct{}
+import "github.com/lindsaygelle/animalcrossing/genders"
+
+type En struct {
+	genders.None
+}
 
 func (e En) Code() string {
 	return "en"

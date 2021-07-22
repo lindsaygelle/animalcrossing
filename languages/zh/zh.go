@@ -1,6 +1,10 @@
 package zh
 
-type Zh struct{}
+import "github.com/lindsaygelle/animalcrossing/genders"
+
+type Zh struct {
+	genders.None
+}
 
 func (z Zh) Code() string {
 	return "zh"

@@ -1,6 +1,10 @@
 package nl
 
-type Nl struct{}
+import "github.com/lindsaygelle/animalcrossing/genders"
+
+type Nl struct {
+	genders.None
+}
 
 func (n Nl) Code() string {
 	return "nl"

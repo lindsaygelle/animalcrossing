@@ -1,6 +1,10 @@
 package ko
 
-type Ko struct{}
+import "github.com/lindsaygelle/animalcrossing/genders"
+
+type Ko struct {
+	genders.None
+}
 
 func (k Ko) Code() string {
 	return "ko"
