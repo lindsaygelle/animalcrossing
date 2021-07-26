@@ -26,7 +26,7 @@ func (v Gyroid) Family() {
 }
 
 func (v Gyroid) Fictional() bool {
-	return false
+	return true
 }
 
 func (v Gyroid) Genus() {
@@ -52,3 +52,4 @@ func (v Gyroid) Phylum() {
 func (v Gyroid) Species() {
 	// TBC
 }
+

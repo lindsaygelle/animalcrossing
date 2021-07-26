@@ -26,7 +26,7 @@ func (v Snow) Family() {
 }
 
 func (v Snow) Fictional() bool {
-	return false
+	return true
 }
 
 func (v Snow) Genus() {
@@ -52,3 +52,4 @@ func (v Snow) Phylum() {
 func (v Snow) Species() {
 	// TBC
 }
+
