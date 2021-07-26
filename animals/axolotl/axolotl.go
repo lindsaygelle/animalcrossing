@@ -28,5 +28,6 @@ func (v Axolotl) Relatives() {
 }
 
 func (v Axolotl) Special() bool {
-	return false
+	return true
 }
+

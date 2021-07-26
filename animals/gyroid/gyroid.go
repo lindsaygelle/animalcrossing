@@ -28,5 +28,6 @@ func (v Gyroid) Relatives() {
 }
 
 func (v Gyroid) Special() bool {
-	return false
+	return true
 }
+

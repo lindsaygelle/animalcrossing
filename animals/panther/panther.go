@@ -28,5 +28,6 @@ func (v Panther) Relatives() {
 }
 
 func (v Panther) Special() bool {
-	return false
+	return true
 }
+

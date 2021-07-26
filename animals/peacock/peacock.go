@@ -28,5 +28,6 @@ func (v Peacock) Relatives() {
 }
 
 func (v Peacock) Special() bool {
-	return false
+	return true
 }
+

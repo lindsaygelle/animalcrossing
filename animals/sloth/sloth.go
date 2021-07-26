@@ -28,5 +28,6 @@ func (v Sloth) Relatives() {
 }
 
 func (v Sloth) Special() bool {
-	return false
+	return true
 }
+

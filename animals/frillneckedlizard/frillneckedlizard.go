@@ -28,5 +28,6 @@ func (v Frillneckedlizard) Relatives() {
 }
 
 func (v Frillneckedlizard) Special() bool {
-	return false
+	return true
 }
+

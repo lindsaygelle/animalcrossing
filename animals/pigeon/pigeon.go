@@ -28,5 +28,6 @@ func (v Pigeon) Relatives() {
 }
 
 func (v Pigeon) Special() bool {
-	return false
+	return true
 }
+

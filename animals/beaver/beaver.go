@@ -28,5 +28,6 @@ func (v Beaver) Relatives() {
 }
 
 func (v Beaver) Special() bool {
-	return false
+	return true
 }
+

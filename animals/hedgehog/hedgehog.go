@@ -28,5 +28,6 @@ func (v Hedgehog) Relatives() {
 }
 
 func (v Hedgehog) Special() bool {
-	return false
+	return true
 }
+

@@ -28,5 +28,6 @@ func (v Pelican) Relatives() {
 }
 
 func (v Pelican) Special() bool {
-	return false
+	return true
 }
+

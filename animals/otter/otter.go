@@ -28,5 +28,6 @@ func (v Otter) Relatives() {
 }
 
 func (v Otter) Special() bool {
-	return false
+	return true
 }
+

@@ -28,5 +28,6 @@ func (v Tortoise) Relatives() {
 }
 
 func (v Tortoise) Special() bool {
-	return false
+	return true
 }
+

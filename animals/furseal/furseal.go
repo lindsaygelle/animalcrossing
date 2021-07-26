@@ -28,5 +28,6 @@ func (v Furseal) Relatives() {
 }
 
 func (v Furseal) Special() bool {
-	return false
+	return true
 }
+

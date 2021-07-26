@@ -28,5 +28,6 @@ func (v Seagull) Relatives() {
 }
 
 func (v Seagull) Special() bool {
-	return false
+	return true
 }
+

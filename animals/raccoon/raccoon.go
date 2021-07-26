@@ -28,5 +28,6 @@ func (v Raccoon) Relatives() {
 }
 
 func (v Raccoon) Special() bool {
-	return false
+	return true
 }
+

@@ -28,5 +28,6 @@ func (v Human) Relatives() {
 }
 
 func (v Human) Special() bool {
-	return false
+	return true
 }
+

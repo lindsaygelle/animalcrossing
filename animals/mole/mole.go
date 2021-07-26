@@ -28,5 +28,6 @@ func (v Mole) Relatives() {
 }
 
 func (v Mole) Special() bool {
-	return false
+	return true
 }
+

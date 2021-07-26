@@ -28,5 +28,6 @@ func (v Camel) Relatives() {
 }
 
 func (v Camel) Special() bool {
-	return false
+	return true
 }
+

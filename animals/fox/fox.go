@@ -28,5 +28,6 @@ func (v Fox) Relatives() {
 }
 
 func (v Fox) Special() bool {
-	return false
+	return true
 }
+

@@ -28,5 +28,6 @@ func (v Skunk) Relatives() {
 }
 
 func (v Skunk) Special() bool {
-	return false
+	return true
 }
+

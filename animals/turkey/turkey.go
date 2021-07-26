@@ -28,5 +28,6 @@ func (v Turkey) Relatives() {
 }
 
 func (v Turkey) Special() bool {
-	return false
+	return true
 }
+

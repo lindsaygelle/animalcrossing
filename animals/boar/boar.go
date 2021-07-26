@@ -28,5 +28,6 @@ func (v Boar) Relatives() {
 }
 
 func (v Boar) Special() bool {
-	return false
+	return true
 }
+

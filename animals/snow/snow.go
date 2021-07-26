@@ -28,5 +28,6 @@ func (v Snow) Relatives() {
 }
 
 func (v Snow) Special() bool {
-	return false
+	return true
 }
+

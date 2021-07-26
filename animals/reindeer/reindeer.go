@@ -28,5 +28,6 @@ func (v Reindeer) Relatives() {
 }
 
 func (v Reindeer) Special() bool {
-	return false
+	return true
 }
+

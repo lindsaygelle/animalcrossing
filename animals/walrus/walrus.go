@@ -28,5 +28,6 @@ func (v Walrus) Relatives() {
 }
 
 func (v Walrus) Special() bool {
-	return false
+	return true
 }
+

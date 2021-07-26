@@ -28,5 +28,6 @@ func (v Owl) Relatives() {
 }
 
 func (v Owl) Special() bool {
-	return false
+	return true
 }
+

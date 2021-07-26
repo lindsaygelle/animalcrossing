@@ -28,5 +28,6 @@ func (v Turtle) Relatives() {
 }
 
 func (v Turtle) Special() bool {
-	return false
+	return true
 }
+

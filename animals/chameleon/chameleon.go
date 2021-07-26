@@ -28,5 +28,6 @@ func (v Chameleon) Relatives() {
 }
 
 func (v Chameleon) Special() bool {
-	return false
+	return true
 }
+

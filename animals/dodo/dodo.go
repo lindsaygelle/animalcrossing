@@ -28,5 +28,6 @@ func (v Dodo) Relatives() {
 }
 
 func (v Dodo) Special() bool {
-	return false
+	return true
 }
+

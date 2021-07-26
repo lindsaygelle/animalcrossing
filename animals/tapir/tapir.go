@@ -28,5 +28,6 @@ func (v Tapir) Relatives() {
 }
 
 func (v Tapir) Special() bool {
-	return false
+	return true
 }
+

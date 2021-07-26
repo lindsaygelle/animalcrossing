@@ -28,5 +28,6 @@ func (v Alpaca) Relatives() {
 }
 
 func (v Alpaca) Special() bool {
-	return false
+	return true
 }
+

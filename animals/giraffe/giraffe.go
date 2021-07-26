@@ -28,5 +28,6 @@ func (v Giraffe) Relatives() {
 }
 
 func (v Giraffe) Special() bool {
-	return false
+	return true
 }
+
