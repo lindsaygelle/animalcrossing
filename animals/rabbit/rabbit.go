@@ -1,5 +1,9 @@
 package rabbit
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Rabbit is an Animal Crossing animal type.
 type Rabbit struct{}
 
@@ -30,3 +34,7 @@ func (v Rabbit) Relatives() {
 func (v Rabbit) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Rabbit{})
+)

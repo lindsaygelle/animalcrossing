@@ -1,5 +1,9 @@
 package reindeer
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Reindeer is an Animal Crossing animal type.
 type Reindeer struct{}
 
@@ -30,4 +34,8 @@ func (v Reindeer) Relatives() {
 func (v Reindeer) Special() bool {
 	return true
 }
+
+var (
+	_ a.Animal = (Reindeer{})
+)
 

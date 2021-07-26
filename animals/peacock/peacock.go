@@ -1,5 +1,9 @@
 package peacock
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Peacock is an Animal Crossing animal type.
 type Peacock struct{}
 
@@ -31,3 +35,6 @@ func (v Peacock) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Peacock{})
+)

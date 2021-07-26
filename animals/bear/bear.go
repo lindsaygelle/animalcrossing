@@ -1,5 +1,9 @@
 package bear
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Bear is an Animal Crossing animal type.
 type Bear struct{}
 
@@ -30,3 +34,7 @@ func (v Bear) Relatives() {
 func (v Bear) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Bear{})
+)

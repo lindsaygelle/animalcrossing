@@ -1,5 +1,9 @@
 package alpaca
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Alpaca is an Animal Crossing animal type.
 type Alpaca struct{}
 
@@ -31,3 +35,6 @@ func (v Alpaca) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Alpaca{})
+)

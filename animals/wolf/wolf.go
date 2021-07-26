@@ -1,5 +1,9 @@
 package wolf
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Wolf is an Animal Crossing animal type.
 type Wolf struct{}
 
@@ -30,3 +34,7 @@ func (v Wolf) Relatives() {
 func (v Wolf) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Wolf{})
+)

@@ -1,5 +1,9 @@
 package beaver
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Beaver is an Animal Crossing animal type.
 type Beaver struct{}
 
@@ -31,3 +35,6 @@ func (v Beaver) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Beaver{})
+)

@@ -1,5 +1,9 @@
 package mole
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Mole is an Animal Crossing animal type.
 type Mole struct{}
 
@@ -31,3 +35,6 @@ func (v Mole) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Mole{})
+)

@@ -1,5 +1,9 @@
 package deer
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Deer is an Animal Crossing animal type.
 type Deer struct{}
 
@@ -30,3 +34,7 @@ func (v Deer) Relatives() {
 func (v Deer) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Deer{})
+)

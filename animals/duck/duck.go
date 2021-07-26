@@ -1,5 +1,9 @@
 package duck
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Duck is an Animal Crossing animal type.
 type Duck struct{}
 
@@ -30,3 +34,7 @@ func (v Duck) Relatives() {
 func (v Duck) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Duck{})
+)

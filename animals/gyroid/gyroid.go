@@ -1,5 +1,9 @@
 package gyroid
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Gyroid is an Animal Crossing animal type.
 type Gyroid struct{}
 
@@ -31,4 +35,6 @@ func (v Gyroid) Special() bool {
 	return true
 }
 
-
+var (
+	_ a.Animal = (Gyroid{})
+)

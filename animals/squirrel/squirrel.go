@@ -1,5 +1,9 @@
 package squirrel
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Squirrel is an Animal Crossing animal type.
 type Squirrel struct{}
 
@@ -30,3 +34,7 @@ func (v Squirrel) Relatives() {
 func (v Squirrel) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Squirrel{})
+)

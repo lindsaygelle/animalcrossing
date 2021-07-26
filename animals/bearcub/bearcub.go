@@ -1,5 +1,9 @@
 package bearcub
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Bearcub is an Animal Crossing animal type.
 type Bearcub struct{}
 
@@ -30,3 +34,7 @@ func (v Bearcub) Relatives() {
 func (v Bearcub) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Bearcub{})
+)

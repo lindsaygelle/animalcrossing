@@ -1,5 +1,9 @@
 package octopus
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Octopus is an Animal Crossing animal type.
 type Octopus struct{}
 
@@ -30,3 +34,7 @@ func (v Octopus) Relatives() {
 func (v Octopus) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Octopus{})
+)

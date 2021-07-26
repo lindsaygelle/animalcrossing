@@ -1,5 +1,9 @@
 package koala
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Koala is an Animal Crossing animal type.
 type Koala struct{}
 
@@ -30,3 +34,7 @@ func (v Koala) Relatives() {
 func (v Koala) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Koala{})
+)

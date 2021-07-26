@@ -1,5 +1,9 @@
 package fox
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Fox is an Animal Crossing animal type.
 type Fox struct{}
 
@@ -31,3 +35,6 @@ func (v Fox) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Fox{})
+)

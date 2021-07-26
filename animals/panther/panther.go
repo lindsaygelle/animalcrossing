@@ -1,5 +1,9 @@
 package panther
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Panther is an Animal Crossing animal type.
 type Panther struct{}
 
@@ -31,3 +35,6 @@ func (v Panther) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Panther{})
+)

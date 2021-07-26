@@ -1,5 +1,9 @@
 package pigeon
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Pigeon is an Animal Crossing animal type.
 type Pigeon struct{}
 
@@ -31,3 +35,6 @@ func (v Pigeon) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Pigeon{})
+)

@@ -1,5 +1,9 @@
 package tortoise
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Tortoise is an Animal Crossing animal type.
 type Tortoise struct{}
 
@@ -31,3 +35,6 @@ func (v Tortoise) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Tortoise{})
+)

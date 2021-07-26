@@ -1,5 +1,9 @@
 package ostrich
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Ostrich is an Animal Crossing animal type.
 type Ostrich struct{}
 
@@ -30,3 +34,7 @@ func (v Ostrich) Relatives() {
 func (v Ostrich) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Ostrich{})
+)

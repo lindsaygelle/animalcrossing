@@ -1,5 +1,9 @@
 package penguin
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Penguin is an Animal Crossing animal type.
 type Penguin struct{}
 
@@ -30,3 +34,7 @@ func (v Penguin) Relatives() {
 func (v Penguin) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Penguin{})
+)

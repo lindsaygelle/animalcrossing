@@ -1,5 +1,9 @@
 package chicken
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Chicken is an Animal Crossing animal type.
 type Chicken struct{}
 
@@ -30,3 +34,7 @@ func (v Chicken) Relatives() {
 func (v Chicken) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Chicken{})
+)

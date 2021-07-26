@@ -1,5 +1,9 @@
 package skunk
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Skunk is an Animal Crossing animal type.
 type Skunk struct{}
 
@@ -31,3 +35,6 @@ func (v Skunk) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Skunk{})
+)

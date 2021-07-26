@@ -1,5 +1,9 @@
 package tiger
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Tiger is an Animal Crossing animal type.
 type Tiger struct{}
 
@@ -30,3 +34,7 @@ func (v Tiger) Relatives() {
 func (v Tiger) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Tiger{})
+)

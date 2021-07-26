@@ -1,5 +1,9 @@
 package mouse
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Mouse is an Animal Crossing animal type.
 type Mouse struct{}
 
@@ -30,3 +34,7 @@ func (v Mouse) Relatives() {
 func (v Mouse) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Mouse{})
+)

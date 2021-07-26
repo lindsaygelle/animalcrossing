@@ -1,5 +1,9 @@
 package sheep
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Sheep is an Animal Crossing animal type.
 type Sheep struct{}
 
@@ -30,3 +34,7 @@ func (v Sheep) Relatives() {
 func (v Sheep) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Sheep{})
+)

@@ -1,5 +1,9 @@
 package raccoon
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Raccoon is an Animal Crossing animal type.
 type Raccoon struct{}
 
@@ -31,3 +35,6 @@ func (v Raccoon) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Raccoon{})
+)

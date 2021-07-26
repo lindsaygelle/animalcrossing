@@ -1,5 +1,9 @@
 package bird
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Bird is an Animal Crossing animal type.
 type Bird struct{}
 
@@ -30,3 +34,7 @@ func (v Bird) Relatives() {
 func (v Bird) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Bird{})
+)

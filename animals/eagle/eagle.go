@@ -1,5 +1,9 @@
 package eagle
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Eagle is an Animal Crossing animal type.
 type Eagle struct{}
 
@@ -30,3 +34,7 @@ func (v Eagle) Relatives() {
 func (v Eagle) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Eagle{})
+)

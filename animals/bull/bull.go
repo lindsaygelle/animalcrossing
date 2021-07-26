@@ -1,5 +1,9 @@
 package bull
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Bull is an Animal Crossing animal type.
 type Bull struct{}
 
@@ -30,3 +34,7 @@ func (v Bull) Relatives() {
 func (v Bull) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Bull{})
+)

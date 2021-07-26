@@ -1,5 +1,9 @@
 package horse
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Horse is an Animal Crossing animal type.
 type Horse struct{}
 
@@ -30,3 +34,7 @@ func (v Horse) Relatives() {
 func (v Horse) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Horse{})
+)

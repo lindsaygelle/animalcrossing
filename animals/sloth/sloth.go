@@ -1,5 +1,9 @@
 package sloth
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Sloth is an Animal Crossing animal type.
 type Sloth struct{}
 
@@ -31,3 +35,6 @@ func (v Sloth) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Sloth{})
+)

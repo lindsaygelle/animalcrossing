@@ -1,5 +1,9 @@
 package giraffe
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Giraffe is an Animal Crossing animal type.
 type Giraffe struct{}
 
@@ -31,3 +35,6 @@ func (v Giraffe) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Giraffe{})
+)

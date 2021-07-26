@@ -1,5 +1,9 @@
 package lion
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Lion is an Animal Crossing animal type.
 type Lion struct{}
 
@@ -30,3 +34,7 @@ func (v Lion) Relatives() {
 func (v Lion) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Lion{})
+)

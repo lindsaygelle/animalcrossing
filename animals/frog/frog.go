@@ -1,5 +1,9 @@
 package frog
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Frog is an Animal Crossing animal type.
 type Frog struct{}
 
@@ -30,3 +34,7 @@ func (v Frog) Relatives() {
 func (v Frog) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Frog{})
+)

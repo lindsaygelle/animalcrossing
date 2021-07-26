@@ -1,5 +1,9 @@
 package gorilla
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Gorilla is an Animal Crossing animal type.
 type Gorilla struct{}
 
@@ -30,3 +34,7 @@ func (v Gorilla) Relatives() {
 func (v Gorilla) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Gorilla{})
+)

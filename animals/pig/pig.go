@@ -1,5 +1,9 @@
 package pig
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Pig is an Animal Crossing animal type.
 type Pig struct{}
 
@@ -30,3 +34,7 @@ func (v Pig) Relatives() {
 func (v Pig) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Pig{})
+)

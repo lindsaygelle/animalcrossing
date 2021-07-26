@@ -1,5 +1,9 @@
 package walrus
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Walrus is an Animal Crossing animal type.
 type Walrus struct{}
 
@@ -31,3 +35,6 @@ func (v Walrus) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Walrus{})
+)

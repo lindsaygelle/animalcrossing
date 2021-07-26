@@ -1,5 +1,9 @@
 package hippopotamus
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Hippopotamus is an Animal Crossing animal type.
 type Hippopotamus struct{}
 
@@ -30,3 +34,7 @@ func (v Hippopotamus) Relatives() {
 func (v Hippopotamus) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Hippopotamus{})
+)

@@ -1,5 +1,9 @@
 package owl
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Owl is an Animal Crossing animal type.
 type Owl struct{}
 
@@ -31,3 +35,6 @@ func (v Owl) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Owl{})
+)

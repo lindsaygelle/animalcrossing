@@ -1,5 +1,9 @@
 package dodo
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Dodo is an Animal Crossing animal type.
 type Dodo struct{}
 
@@ -31,3 +35,6 @@ func (v Dodo) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Dodo{})
+)

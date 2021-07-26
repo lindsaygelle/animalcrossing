@@ -1,5 +1,9 @@
 package pelican
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Pelican is an Animal Crossing animal type.
 type Pelican struct{}
 
@@ -31,3 +35,6 @@ func (v Pelican) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Pelican{})
+)

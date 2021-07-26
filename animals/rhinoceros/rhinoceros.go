@@ -1,5 +1,9 @@
 package rhinoceros
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Rhinoceros is an Animal Crossing animal type.
 type Rhinoceros struct{}
 
@@ -30,3 +34,7 @@ func (v Rhinoceros) Relatives() {
 func (v Rhinoceros) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Rhinoceros{})
+)

@@ -1,5 +1,9 @@
 package turtle
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Turtle is an Animal Crossing animal type.
 type Turtle struct{}
 
@@ -31,3 +35,6 @@ func (v Turtle) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Turtle{})
+)

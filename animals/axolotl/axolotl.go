@@ -1,5 +1,9 @@
 package axolotl
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Axolotl is an Animal Crossing animal type.
 type Axolotl struct{}
 
@@ -31,3 +35,6 @@ func (v Axolotl) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Axolotl{})
+)

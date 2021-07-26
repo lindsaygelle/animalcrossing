@@ -1,5 +1,9 @@
 package kangaroo
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Kangaroo is an Animal Crossing animal type.
 type Kangaroo struct{}
 
@@ -30,3 +34,7 @@ func (v Kangaroo) Relatives() {
 func (v Kangaroo) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Kangaroo{})
+)

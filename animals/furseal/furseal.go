@@ -1,5 +1,9 @@
 package furseal
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Furseal is an Animal Crossing animal type.
 type Furseal struct{}
 
@@ -31,3 +35,6 @@ func (v Furseal) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Furseal{})
+)

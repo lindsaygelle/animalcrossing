@@ -1,5 +1,9 @@
 package hedgehog
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Hedgehog is an Animal Crossing animal type.
 type Hedgehog struct{}
 
@@ -31,3 +35,6 @@ func (v Hedgehog) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Hedgehog{})
+)

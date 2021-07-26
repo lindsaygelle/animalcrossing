@@ -1,5 +1,9 @@
 package pumpkin
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Pumpkin is an Animal Crossing animal type.
 type Pumpkin struct{}
 
@@ -31,3 +35,6 @@ func (v Pumpkin) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Pumpkin{})
+)

@@ -1,5 +1,9 @@
 package seagull
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Seagull is an Animal Crossing animal type.
 type Seagull struct{}
 
@@ -31,3 +35,6 @@ func (v Seagull) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Seagull{})
+)

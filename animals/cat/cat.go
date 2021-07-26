@@ -1,5 +1,9 @@
 package cat
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Cat is an Animal Crossing animal type.
 type Cat struct{}
 
@@ -30,3 +34,7 @@ func (v Cat) Relatives() {
 func (v Cat) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Cat{})
+)

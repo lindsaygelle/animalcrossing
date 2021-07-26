@@ -1,5 +1,9 @@
 package camel
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Camel is an Animal Crossing animal type.
 type Camel struct{}
 
@@ -31,3 +35,6 @@ func (v Camel) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Camel{})
+)

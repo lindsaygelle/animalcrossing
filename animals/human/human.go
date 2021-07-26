@@ -1,5 +1,9 @@
 package human
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Human is an Animal Crossing animal type.
 type Human struct{}
 
@@ -31,3 +35,6 @@ func (v Human) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Human{})
+)

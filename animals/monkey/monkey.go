@@ -1,5 +1,9 @@
 package monkey
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Monkey is an Animal Crossing animal type.
 type Monkey struct{}
 
@@ -30,3 +34,7 @@ func (v Monkey) Relatives() {
 func (v Monkey) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Monkey{})
+)

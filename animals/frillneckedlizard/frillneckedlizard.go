@@ -1,5 +1,9 @@
 package frillneckedlizard
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Frillneckedlizard is an Animal Crossing animal type.
 type Frillneckedlizard struct{}
 
@@ -31,3 +35,6 @@ func (v Frillneckedlizard) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Frillneckedlizard{})
+)

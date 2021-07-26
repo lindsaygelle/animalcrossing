@@ -1,5 +1,9 @@
 package cow
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Cow is an Animal Crossing animal type.
 type Cow struct{}
 
@@ -30,3 +34,7 @@ func (v Cow) Relatives() {
 func (v Cow) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Cow{})
+)

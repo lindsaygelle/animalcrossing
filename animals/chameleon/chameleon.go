@@ -1,5 +1,9 @@
 package chameleon
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Chameleon is an Animal Crossing animal type.
 type Chameleon struct{}
 
@@ -31,3 +35,6 @@ func (v Chameleon) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Chameleon{})
+)

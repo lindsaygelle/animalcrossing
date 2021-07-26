@@ -1,5 +1,9 @@
 package elephant
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Elephant is an Animal Crossing animal type.
 type Elephant struct{}
 
@@ -30,3 +34,7 @@ func (v Elephant) Relatives() {
 func (v Elephant) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Elephant{})
+)

@@ -1,5 +1,9 @@
 package turkey
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Turkey is an Animal Crossing animal type.
 type Turkey struct{}
 
@@ -31,3 +35,6 @@ func (v Turkey) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Turkey{})
+)

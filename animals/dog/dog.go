@@ -1,5 +1,9 @@
 package dog
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Dog is an Animal Crossing animal type.
 type Dog struct{}
 
@@ -30,3 +34,7 @@ func (v Dog) Relatives() {
 func (v Dog) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Dog{})
+)

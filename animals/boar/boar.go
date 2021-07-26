@@ -1,5 +1,9 @@
 package boar
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Boar is an Animal Crossing animal type.
 type Boar struct{}
 
@@ -31,3 +35,6 @@ func (v Boar) Special() bool {
 	return true
 }
 
+var (
+	_ a.Animal = (Boar{})
+)

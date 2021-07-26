@@ -1,5 +1,9 @@
 package snow
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Snow is an Animal Crossing animal type.
 type Snow struct{}
 
@@ -31,4 +35,6 @@ func (v Snow) Special() bool {
 	return true
 }
 
-
+var (
+	_ a.Animal = (Snow{})
+)

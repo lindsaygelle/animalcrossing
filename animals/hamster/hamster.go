@@ -1,5 +1,9 @@
 package hamster
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Hamster is an Animal Crossing animal type.
 type Hamster struct{}
 
@@ -30,3 +34,7 @@ func (v Hamster) Relatives() {
 func (v Hamster) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Hamster{})
+)

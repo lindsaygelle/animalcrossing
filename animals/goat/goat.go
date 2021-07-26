@@ -1,5 +1,9 @@
 package goat
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Goat is an Animal Crossing animal type.
 type Goat struct{}
 
@@ -30,3 +34,7 @@ func (v Goat) Relatives() {
 func (v Goat) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Goat{})
+)

@@ -1,5 +1,9 @@
 package alligator
 
+import (
+	a "github.com/lindsaygelle/animalcrossing/animals"
+)
+
 // Alligator is an Animal Crossing animal type.
 type Alligator struct{}
 
@@ -30,3 +34,7 @@ func (v Alligator) Relatives() {
 func (v Alligator) Special() bool {
 	return false
 }
+
+var (
+	_ a.Animal = (Alligator{})
+)
