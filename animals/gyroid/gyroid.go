@@ -16,7 +16,7 @@ func (v Gyroid) Id() string {
 }
 
 func (v Gyroid) Fictional() bool {
-	return false
+	return true
 }
 
 func (v Gyroid) Languages() {
@@ -30,4 +30,5 @@ func (v Gyroid) Relatives() {
 func (v Gyroid) Special() bool {
 	return true
 }
+
 

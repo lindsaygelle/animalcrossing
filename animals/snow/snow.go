@@ -16,7 +16,7 @@ func (v Snow) Id() string {
 }
 
 func (v Snow) Fictional() bool {
-	return false
+	return true
 }
 
 func (v Snow) Languages() {
@@ -30,4 +30,5 @@ func (v Snow) Relatives() {
 func (v Snow) Special() bool {
 	return true
 }
+
 
