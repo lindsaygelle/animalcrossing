@@ -1,21 +1,32 @@
 package giraffe
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/giraffe/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Giraffe is an Animal Crossing animal type.
 type Giraffe struct{}
 
-func (g Giraffe) Id() string {
+func (v Giraffe) Alternate() {
+	// TBC
+}
+
+func (v Giraffe) Icon() {
+	// TBC
+}
+
+func (v Giraffe) Id() string {
 	return "giraffe"
 }
 
-func (g Giraffe) Special() bool {
-	return true
+func (v Giraffe) Fictional() bool {
+	return false
 }
 
-func (g Giraffe) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Giraffe) Languages() {
+	// TBC
+}
+
+func (v Giraffe) Relatives() {
+	// TBC
+}
+
+func (v Giraffe) Special() bool {
+	return false
 }

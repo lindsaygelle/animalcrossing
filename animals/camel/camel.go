@@ -1,21 +1,32 @@
 package camel
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/camel/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Camel is an Animal Crossing animal type.
 type Camel struct{}
 
-func (c Camel) Id() string {
+func (v Camel) Alternate() {
+	// TBC
+}
+
+func (v Camel) Icon() {
+	// TBC
+}
+
+func (v Camel) Id() string {
 	return "camel"
 }
 
-func (c Camel) Special() bool {
-	return true
+func (v Camel) Fictional() bool {
+	return false
 }
 
-func (c Camel) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Camel) Languages() {
+	// TBC
+}
+
+func (v Camel) Relatives() {
+	// TBC
+}
+
+func (v Camel) Special() bool {
+	return false
 }

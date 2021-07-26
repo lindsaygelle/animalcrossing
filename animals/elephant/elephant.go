@@ -1,30 +1,32 @@
 package elephant
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/elephant/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Elephant is an Animal Crossing animal type.
 type Elephant struct{}
 
-func (e Elephant) Id() string {
+func (v Elephant) Alternate() {
+	// TBC
+}
+
+func (v Elephant) Icon() {
+	// TBC
+}
+
+func (v Elephant) Id() string {
 	return "elephant"
 }
 
-func (e Elephant) Special() bool {
+func (v Elephant) Fictional() bool {
 	return false
 }
 
-func (e Elephant) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Elephant) Languages() {
+	// TBC
+}
+
+func (v Elephant) Relatives() {
+	// TBC
+}
+
+func (v Elephant) Special() bool {
+	return false
 }

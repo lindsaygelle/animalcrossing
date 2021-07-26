@@ -1,30 +1,32 @@
 package lion
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/lion/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Lion is an Animal Crossing animal type.
 type Lion struct{}
 
-func (l Lion) Id() string {
+func (v Lion) Alternate() {
+	// TBC
+}
+
+func (v Lion) Icon() {
+	// TBC
+}
+
+func (v Lion) Id() string {
 	return "lion"
 }
 
-func (l Lion) Special() bool {
+func (v Lion) Fictional() bool {
 	return false
 }
 
-func (l Lion) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Lion) Languages() {
+	// TBC
+}
+
+func (v Lion) Relatives() {
+	// TBC
+}
+
+func (v Lion) Special() bool {
+	return false
 }

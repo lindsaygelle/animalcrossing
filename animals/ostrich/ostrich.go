@@ -1,30 +1,32 @@
 package ostrich
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/ostrich/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Ostrich is an Animal Crossing animal type.
 type Ostrich struct{}
 
-func (o Ostrich) Id() string {
+func (v Ostrich) Alternate() {
+	// TBC
+}
+
+func (v Ostrich) Icon() {
+	// TBC
+}
+
+func (v Ostrich) Id() string {
 	return "ostrich"
 }
 
-func (o Ostrich) Special() bool {
+func (v Ostrich) Fictional() bool {
 	return false
 }
 
-func (o Ostrich) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Ostrich) Languages() {
+	// TBC
+}
+
+func (v Ostrich) Relatives() {
+	// TBC
+}
+
+func (v Ostrich) Special() bool {
+	return false
 }

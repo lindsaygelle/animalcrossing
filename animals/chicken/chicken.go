@@ -1,31 +1,32 @@
 package chicken
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/chicken/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Chicken is an Animal Crossing animal type.
 type Chicken struct{}
 
-func (c Chicken) Id() string {
+func (v Chicken) Alternate() {
+	// TBC
+}
+
+func (v Chicken) Icon() {
+	// TBC
+}
+
+func (v Chicken) Id() string {
 	return "chicken"
 }
 
-func (c Chicken) Special() bool {
+func (v Chicken) Fictional() bool {
 	return false
 }
 
-func (c Chicken) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.DeNeutral{},
-		translations.En{},
-		translations.Es{},
-		translations.FrFemine{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Chicken) Languages() {
+	// TBC
+}
+
+func (v Chicken) Relatives() {
+	// TBC
+}
+
+func (v Chicken) Special() bool {
+	return false
 }

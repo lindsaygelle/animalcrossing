@@ -1,30 +1,32 @@
 package cow
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/cow/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Cow is an Animal Crossing animal type.
 type Cow struct{}
 
-func (c Cow) Id() string {
+func (v Cow) Alternate() {
+	// TBC
+}
+
+func (v Cow) Icon() {
+	// TBC
+}
+
+func (v Cow) Id() string {
 	return "cow"
 }
 
-func (c Cow) Special() bool {
+func (v Cow) Fictional() bool {
 	return false
 }
 
-func (c Cow) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.DeFemine{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.FrFemine{},
-		translations.ItFemine{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Cow) Languages() {
+	// TBC
+}
+
+func (v Cow) Relatives() {
+	// TBC
+}
+
+func (v Cow) Special() bool {
+	return false
 }

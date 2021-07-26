@@ -1,30 +1,32 @@
 package koala
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/koala/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Koala is an Animal Crossing animal type.
 type Koala struct{}
 
-func (k Koala) Id() string {
+func (v Koala) Alternate() {
+	// TBC
+}
+
+func (v Koala) Icon() {
+	// TBC
+}
+
+func (v Koala) Id() string {
 	return "koala"
 }
 
-func (k Koala) Special() bool {
+func (v Koala) Fictional() bool {
 	return false
 }
 
-func (k Koala) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Koala) Languages() {
+	// TBC
+}
+
+func (v Koala) Relatives() {
+	// TBC
+}
+
+func (v Koala) Special() bool {
+	return false
 }

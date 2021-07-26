@@ -1,32 +1,32 @@
 package duck
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/duck/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Duck is an Animal Crossing animal type.
 type Duck struct{}
 
-func (d Duck) Id() string {
+func (v Duck) Alternate() {
+	// TBC
+}
+
+func (v Duck) Icon() {
+	// TBC
+}
+
+func (v Duck) Id() string {
 	return "duck"
 }
 
-func (d Duck) Special() bool {
+func (v Duck) Fictional() bool {
 	return false
 }
 
-func (d Duck) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.DeFemine{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.Es{},
-		translations.FrFemine{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Duck) Languages() {
+	// TBC
+}
+
+func (v Duck) Relatives() {
+	// TBC
+}
+
+func (v Duck) Special() bool {
+	return false
 }

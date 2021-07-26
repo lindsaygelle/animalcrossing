@@ -1,30 +1,32 @@
 package hippopotamus
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/hippopotamus/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Hippopotamus is an Animal Crossing animal type.
 type Hippopotamus struct{}
 
-func (h Hippopotamus) Id() string {
+func (v Hippopotamus) Alternate() {
+	// TBC
+}
+
+func (v Hippopotamus) Icon() {
+	// TBC
+}
+
+func (v Hippopotamus) Id() string {
 	return "hippopotamus"
 }
 
-func (h Hippopotamus) Special() bool {
+func (v Hippopotamus) Fictional() bool {
 	return false
 }
 
-func (h Hippopotamus) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Hippopotamus) Languages() {
+	// TBC
+}
+
+func (v Hippopotamus) Relatives() {
+	// TBC
+}
+
+func (v Hippopotamus) Special() bool {
+	return false
 }

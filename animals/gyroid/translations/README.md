@@ -1,1 +1,0 @@
-# Gyroid translations

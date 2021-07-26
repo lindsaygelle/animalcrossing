@@ -1,33 +1,32 @@
 package horse
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/horse/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Horse is an Animal Crossing animal type.
 type Horse struct{}
 
-func (h Horse) Id() string {
+func (v Horse) Alternate() {
+	// TBC
+}
+
+func (v Horse) Icon() {
+	// TBC
+}
+
+func (v Horse) Id() string {
 	return "horse"
 }
 
-func (h Horse) Special() bool {
+func (v Horse) Fictional() bool {
 	return false
 }
 
-func (h Horse) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.DeNeutral{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.Es{},
-		translations.FrFemine{},
-		translations.Fr{},
-		translations.ItFemine{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Horse) Languages() {
+	// TBC
+}
+
+func (v Horse) Relatives() {
+	// TBC
+}
+
+func (v Horse) Special() bool {
+	return false
 }

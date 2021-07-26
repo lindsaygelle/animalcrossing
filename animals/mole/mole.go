@@ -1,21 +1,32 @@
 package mole
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/mole/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Mole is an Animal Crossing animal type.
 type Mole struct{}
 
-func (m Mole) Id() string {
+func (v Mole) Alternate() {
+	// TBC
+}
+
+func (v Mole) Icon() {
+	// TBC
+}
+
+func (v Mole) Id() string {
 	return "mole"
 }
 
-func (m Mole) Special() bool {
-	return true
+func (v Mole) Fictional() bool {
+	return false
 }
 
-func (m Mole) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Mole) Languages() {
+	// TBC
+}
+
+func (v Mole) Relatives() {
+	// TBC
+}
+
+func (v Mole) Special() bool {
+	return false
 }

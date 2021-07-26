@@ -1,6 +1,32 @@
 package reindeer
 
+// Reindeer is an Animal Crossing animal type.
 type Reindeer struct{}
 
-func (r Reindeer) Id() string    { return "reindeer" }
-func (r Reindeer) Special() bool { return true }
+func (v Reindeer) Alternate() {
+	// TBC
+}
+
+func (v Reindeer) Icon() {
+	// TBC
+}
+
+func (v Reindeer) Id() string {
+	return "reindeer"
+}
+
+func (v Reindeer) Fictional() bool {
+	return false
+}
+
+func (v Reindeer) Languages() {
+	// TBC
+}
+
+func (v Reindeer) Relatives() {
+	// TBC
+}
+
+func (v Reindeer) Special() bool {
+	return false
+}

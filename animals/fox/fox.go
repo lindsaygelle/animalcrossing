@@ -1,21 +1,32 @@
 package fox
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/fox/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Fox is an Animal Crossing animal type.
 type Fox struct{}
 
-func (f Fox) Id() string {
+func (v Fox) Alternate() {
+	// TBC
+}
+
+func (v Fox) Icon() {
+	// TBC
+}
+
+func (v Fox) Id() string {
 	return "fox"
 }
 
-func (f Fox) Special() bool {
-	return true
+func (v Fox) Fictional() bool {
+	return false
 }
 
-func (f Fox) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Fox) Languages() {
+	// TBC
+}
+
+func (v Fox) Relatives() {
+	// TBC
+}
+
+func (v Fox) Special() bool {
+	return false
 }

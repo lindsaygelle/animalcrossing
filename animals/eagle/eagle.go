@@ -1,30 +1,32 @@
 package eagle
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/eagle/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Eagle is an Animal Crossing animal type.
 type Eagle struct{}
 
-func (e Eagle) Id() string {
+func (v Eagle) Alternate() {
+	// TBC
+}
+
+func (v Eagle) Icon() {
+	// TBC
+}
+
+func (v Eagle) Id() string {
 	return "eagle"
 }
 
-func (e Eagle) Special() bool {
+func (v Eagle) Fictional() bool {
 	return false
 }
 
-func (e Eagle) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Eagle) Languages() {
+	// TBC
+}
+
+func (v Eagle) Relatives() {
+	// TBC
+}
+
+func (v Eagle) Special() bool {
+	return false
 }

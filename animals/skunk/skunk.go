@@ -1,6 +1,32 @@
 package skunk
 
+// Skunk is an Animal Crossing animal type.
 type Skunk struct{}
 
-func (s Skunk) Id() string    { return "skunk" }
-func (s Skunk) Special() bool { return true }
+func (v Skunk) Alternate() {
+	// TBC
+}
+
+func (v Skunk) Icon() {
+	// TBC
+}
+
+func (v Skunk) Id() string {
+	return "skunk"
+}
+
+func (v Skunk) Fictional() bool {
+	return false
+}
+
+func (v Skunk) Languages() {
+	// TBC
+}
+
+func (v Skunk) Relatives() {
+	// TBC
+}
+
+func (v Skunk) Special() bool {
+	return false
+}

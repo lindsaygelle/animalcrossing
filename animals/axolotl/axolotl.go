@@ -1,21 +1,32 @@
 package axolotl
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/axolotl/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Axolotl is an Animal Crossing animal type.
 type Axolotl struct{}
 
-func (a Axolotl) Id() string {
+func (v Axolotl) Alternate() {
+	// TBC
+}
+
+func (v Axolotl) Icon() {
+	// TBC
+}
+
+func (v Axolotl) Id() string {
 	return "axolotl"
 }
 
-func (a Axolotl) Special() bool {
-	return true
+func (v Axolotl) Fictional() bool {
+	return false
 }
 
-func (a Axolotl) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Axolotl) Languages() {
+	// TBC
+}
+
+func (v Axolotl) Relatives() {
+	// TBC
+}
+
+func (v Axolotl) Special() bool {
+	return false
 }

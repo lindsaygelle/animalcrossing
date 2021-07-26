@@ -1,1 +1,0 @@
-# Bear cub translations

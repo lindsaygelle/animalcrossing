@@ -1,21 +1,32 @@
 package dodo
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/dodo/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Dodo is an Animal Crossing animal type.
 type Dodo struct{}
 
-func (d Dodo) Id() string {
+func (v Dodo) Alternate() {
+	// TBC
+}
+
+func (v Dodo) Icon() {
+	// TBC
+}
+
+func (v Dodo) Id() string {
 	return "dodo"
 }
 
-func (d Dodo) Special() bool {
-	return true
+func (v Dodo) Fictional() bool {
+	return false
 }
 
-func (d Dodo) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Dodo) Languages() {
+	// TBC
+}
+
+func (v Dodo) Relatives() {
+	// TBC
+}
+
+func (v Dodo) Special() bool {
+	return false
 }

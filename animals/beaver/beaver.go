@@ -1,17 +1,32 @@
 package beaver
 
-import "github.com/lindsaygelle/animalcrossing/languages"
-
+// Beaver is an Animal Crossing animal type.
 type Beaver struct{}
 
-func (b Beaver) Id() string {
+func (v Beaver) Alternate() {
+	// TBC
+}
+
+func (v Beaver) Icon() {
+	// TBC
+}
+
+func (v Beaver) Id() string {
 	return "beaver"
 }
 
-func (b Beaver) Special() bool {
-	return true
+func (v Beaver) Fictional() bool {
+	return false
 }
 
-func (b Beaver) Translations() []languages.Translation {
-	return []languages.Translation{}
+func (v Beaver) Languages() {
+	// TBC
+}
+
+func (v Beaver) Relatives() {
+	// TBC
+}
+
+func (v Beaver) Special() bool {
+	return false
 }

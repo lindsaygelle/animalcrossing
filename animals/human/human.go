@@ -1,21 +1,32 @@
 package human
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/human/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Human is an Animal Crossing animal type.
 type Human struct{}
 
-func (h Human) Id() string {
+func (v Human) Alternate() {
+	// TBC
+}
+
+func (v Human) Icon() {
+	// TBC
+}
+
+func (v Human) Id() string {
 	return "human"
 }
 
-func (h Human) Special() bool {
-	return true
+func (v Human) Fictional() bool {
+	return false
 }
 
-func (h Human) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Human) Languages() {
+	// TBC
+}
+
+func (v Human) Relatives() {
+	// TBC
+}
+
+func (v Human) Special() bool {
+	return false
 }

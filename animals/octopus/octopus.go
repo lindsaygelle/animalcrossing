@@ -1,30 +1,32 @@
 package octopus
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/octopus/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Octopus is an Animal Crossing animal type.
 type Octopus struct{}
 
-func (o Octopus) Id() string {
+func (v Octopus) Alternate() {
+	// TBC
+}
+
+func (v Octopus) Icon() {
+	// TBC
+}
+
+func (v Octopus) Id() string {
 	return "octopus"
 }
 
-func (o Octopus) Special() bool {
+func (v Octopus) Fictional() bool {
 	return false
 }
 
-func (o Octopus) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Octopus) Languages() {
+	// TBC
+}
+
+func (v Octopus) Relatives() {
+	// TBC
+}
+
+func (v Octopus) Special() bool {
+	return false
 }

@@ -1,32 +1,32 @@
 package monkey
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/monkey/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Monkey is an Animal Crossing animal type.
 type Monkey struct{}
 
-func (m Monkey) Id() string {
+func (v Monkey) Alternate() {
+	// TBC
+}
+
+func (v Monkey) Icon() {
+	// TBC
+}
+
+func (v Monkey) Id() string {
 	return "monkey"
 }
 
-func (m Monkey) Special() bool {
+func (v Monkey) Fictional() bool {
 	return false
 }
 
-func (m Monkey) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.Es{},
-		translations.FrFemine{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Monkey) Languages() {
+	// TBC
+}
+
+func (v Monkey) Relatives() {
+	// TBC
+}
+
+func (v Monkey) Special() bool {
+	return false
 }

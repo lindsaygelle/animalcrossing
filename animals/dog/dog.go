@@ -1,34 +1,32 @@
 package dog
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/dog/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Dog is an Animal Crossing animal type.
 type Dog struct{}
 
-func (d Dog) Id() string {
+func (v Dog) Alternate() {
+	// TBC
+}
+
+func (v Dog) Icon() {
+	// TBC
+}
+
+func (v Dog) Id() string {
 	return "dog"
 }
 
-func (d Dog) Special() bool {
+func (v Dog) Fictional() bool {
 	return false
 }
 
-func (d Dog) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.Es{},
-		translations.FrFemine{},
-		translations.Fr{},
-		translations.ItFemine{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.RuFemine{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Dog) Languages() {
+	// TBC
+}
+
+func (v Dog) Relatives() {
+	// TBC
+}
+
+func (v Dog) Special() bool {
+	return false
 }

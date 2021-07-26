@@ -1,30 +1,32 @@
 package alligator
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/alligator/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Alligator is an Animal Crossing animal type.
 type Alligator struct{}
 
-func (a Alligator) Id() string {
+func (v Alligator) Alternate() {
+	// TBC
+}
+
+func (v Alligator) Icon() {
+	// TBC
+}
+
+func (v Alligator) Id() string {
 	return "alligator"
 }
 
-func (a Alligator) Special() bool {
+func (v Alligator) Fictional() bool {
 	return false
 }
 
-func (a Alligator) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Alligator) Languages() {
+	// TBC
+}
+
+func (v Alligator) Relatives() {
+	// TBC
+}
+
+func (v Alligator) Special() bool {
+	return false
 }

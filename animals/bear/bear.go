@@ -1,30 +1,32 @@
 package bear
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/bear/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Bear is an Animal Crossing animal type.
 type Bear struct{}
 
-func (b Bear) Id() string {
+func (v Bear) Alternate() {
+	// TBC
+}
+
+func (v Bear) Icon() {
+	// TBC
+}
+
+func (v Bear) Id() string {
 	return "bear"
 }
 
-func (b Bear) Special() bool {
+func (v Bear) Fictional() bool {
 	return false
 }
 
-func (b Bear) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Bear) Languages() {
+	// TBC
+}
+
+func (v Bear) Relatives() {
+	// TBC
+}
+
+func (v Bear) Special() bool {
+	return false
 }

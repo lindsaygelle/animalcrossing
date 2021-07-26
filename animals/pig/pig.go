@@ -1,6 +1,32 @@
 package pig
 
+// Pig is an Animal Crossing animal type.
 type Pig struct{}
 
-func (p Pig) Id() string    { return "pig" }
-func (p Pig) Special() bool { return false }
+func (v Pig) Alternate() {
+	// TBC
+}
+
+func (v Pig) Icon() {
+	// TBC
+}
+
+func (v Pig) Id() string {
+	return "pig"
+}
+
+func (v Pig) Fictional() bool {
+	return false
+}
+
+func (v Pig) Languages() {
+	// TBC
+}
+
+func (v Pig) Relatives() {
+	// TBC
+}
+
+func (v Pig) Special() bool {
+	return false
+}

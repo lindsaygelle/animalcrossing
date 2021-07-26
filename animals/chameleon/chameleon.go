@@ -1,21 +1,32 @@
 package chameleon
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/chameleon/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Chameleon is an Animal Crossing animal type.
 type Chameleon struct{}
 
-func (c Chameleon) Id() string {
+func (v Chameleon) Alternate() {
+	// TBC
+}
+
+func (v Chameleon) Icon() {
+	// TBC
+}
+
+func (v Chameleon) Id() string {
 	return "chameleon"
 }
 
-func (c Chameleon) Special() bool {
-	return true
+func (v Chameleon) Fictional() bool {
+	return false
 }
 
-func (c Chameleon) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Chameleon) Languages() {
+	// TBC
+}
+
+func (v Chameleon) Relatives() {
+	// TBC
+}
+
+func (v Chameleon) Special() bool {
+	return false
 }

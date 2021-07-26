@@ -1,21 +1,32 @@
 package hedgehog
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/hedgehog/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Hedgehog is an Animal Crossing animal type.
 type Hedgehog struct{}
 
-func (h Hedgehog) Id() string {
+func (v Hedgehog) Alternate() {
+	// TBC
+}
+
+func (v Hedgehog) Icon() {
+	// TBC
+}
+
+func (v Hedgehog) Id() string {
 	return "hedgehog"
 }
 
-func (h Hedgehog) Special() bool {
-	return true
+func (v Hedgehog) Fictional() bool {
+	return false
 }
 
-func (h Hedgehog) Value() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Hedgehog) Languages() {
+	// TBC
+}
+
+func (v Hedgehog) Relatives() {
+	// TBC
+}
+
+func (v Hedgehog) Special() bool {
+	return false
 }

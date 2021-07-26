@@ -1,21 +1,32 @@
 package boar
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/boar/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Boar is an Animal Crossing animal type.
 type Boar struct{}
 
-func (b Boar) Id() string {
+func (v Boar) Alternate() {
+	// TBC
+}
+
+func (v Boar) Icon() {
+	// TBC
+}
+
+func (v Boar) Id() string {
 	return "boar"
 }
 
-func (b Boar) Special() bool {
-	return true
+func (v Boar) Fictional() bool {
+	return false
 }
 
-func (b Boar) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Boar) Languages() {
+	// TBC
+}
+
+func (v Boar) Relatives() {
+	// TBC
+}
+
+func (v Boar) Special() bool {
+	return false
 }

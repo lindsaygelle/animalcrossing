@@ -1,30 +1,32 @@
 package anteater
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/anteater/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Anteater is an Animal Crossing animal type.
 type Anteater struct{}
 
-func (a Anteater) Id() string {
+func (v Anteater) Alternate() {
+	// TBC
+}
+
+func (v Anteater) Icon() {
+	// TBC
+}
+
+func (v Anteater) Id() string {
 	return "anteater"
 }
 
-func (a Anteater) Special() bool {
+func (v Anteater) Fictional() bool {
 	return false
 }
 
-func (a Anteater) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Anteater) Languages() {
+	// TBC
+}
+
+func (v Anteater) Relatives() {
+	// TBC
+}
+
+func (v Anteater) Special() bool {
+	return false
 }

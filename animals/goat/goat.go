@@ -1,33 +1,32 @@
 package goat
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/goat/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Goat is an Animal Crossing animal type.
 type Goat struct{}
 
-func (g Goat) Id() string {
+func (v Goat) Alternate() {
+	// TBC
+}
+
+func (v Goat) Icon() {
+	// TBC
+}
+
+func (v Goat) Id() string {
 	return "goat"
 }
 
-func (g Goat) Special() bool {
+func (v Goat) Fictional() bool {
 	return false
 }
 
-func (g Goat) Translation() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.Es{},
-		translations.FrFemine{},
-		translations.Fr{},
-		translations.ItFemine{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Goat) Languages() {
+	// TBC
+}
+
+func (v Goat) Relatives() {
+	// TBC
+}
+
+func (v Goat) Special() bool {
+	return false
 }

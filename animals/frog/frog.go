@@ -1,30 +1,32 @@
 package frog
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/frog/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Frog is an Animal Crossing animal type.
 type Frog struct{}
 
-func (f Frog) Id() string {
+func (v Frog) Alternate() {
+	// TBC
+}
+
+func (v Frog) Icon() {
+	// TBC
+}
+
+func (v Frog) Id() string {
 	return "frog"
 }
 
-func (f Frog) Special() bool {
+func (v Frog) Fictional() bool {
 	return false
 }
 
-func (f Frog) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Frog) Languages() {
+	// TBC
+}
+
+func (v Frog) Relatives() {
+	// TBC
+}
+
+func (v Frog) Special() bool {
+	return false
 }

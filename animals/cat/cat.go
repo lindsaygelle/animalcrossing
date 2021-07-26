@@ -1,34 +1,32 @@
 package cat
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/cat/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Cat is an Animal Crossing animal type.
 type Cat struct{}
 
-func (c Cat) Id() string {
+func (v Cat) Alternate() {
+	// TBC
+}
+
+func (v Cat) Icon() {
+	// TBC
+}
+
+func (v Cat) Id() string {
 	return "cat"
 }
 
-func (c Cat) Special() bool {
+func (v Cat) Fictional() bool {
 	return false
 }
 
-func (c Cat) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.DeFemine{},
-		translations.De{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.Es{},
-		translations.FrFemine{},
-		translations.ItFemine{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.RuFemine{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Cat) Languages() {
+	// TBC
+}
+
+func (v Cat) Relatives() {
+	// TBC
+}
+
+func (v Cat) Special() bool {
+	return false
 }

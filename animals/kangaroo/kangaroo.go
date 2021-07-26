@@ -1,30 +1,32 @@
 package kangaroo
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/kangaroo/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Kangaroo is an Animal Crossing animal type.
 type Kangaroo struct{}
 
-func (k Kangaroo) Id() string {
+func (v Kangaroo) Alternate() {
+	// TBC
+}
+
+func (v Kangaroo) Icon() {
+	// TBC
+}
+
+func (v Kangaroo) Id() string {
 	return "kangaroo"
 }
 
-func (k Kangaroo) Special() bool {
+func (v Kangaroo) Fictional() bool {
 	return false
 }
 
-func (k Kangaroo) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Kangaroo) Languages() {
+	// TBC
+}
+
+func (v Kangaroo) Relatives() {
+	// TBC
+}
+
+func (v Kangaroo) Special() bool {
+	return false
 }

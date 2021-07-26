@@ -1,31 +1,32 @@
 package mouse
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/mouse/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Mouse is an Animal Crossing animal type.
 type Mouse struct{}
 
-func (m Mouse) Id() string {
+func (v Mouse) Alternate() {
+	// TBC
+}
+
+func (v Mouse) Icon() {
+	// TBC
+}
+
+func (v Mouse) Id() string {
 	return "mouse"
 }
 
-func (m Mouse) Special() bool {
+func (v Mouse) Fictional() bool {
 	return false
 }
 
-func (m Mouse) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.De{},
-		translations.En{},
-		translations.EsFemine{},
-		translations.Es{},
-		translations.Fr{},
-		translations.It{},
-		translations.Jp{},
-		translations.Ko{},
-		translations.Nl{},
-		translations.Ru{},
-		translations.Zh{}}
+func (v Mouse) Languages() {
+	// TBC
+}
+
+func (v Mouse) Relatives() {
+	// TBC
+}
+
+func (v Mouse) Special() bool {
+	return false
 }

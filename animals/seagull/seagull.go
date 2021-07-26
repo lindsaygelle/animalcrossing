@@ -1,6 +1,32 @@
 package seagull
 
+// Seagull is an Animal Crossing animal type.
 type Seagull struct{}
 
-func (s Seagull) Id() string    { return "seagull" }
-func (s Seagull) Special() bool { return true }
+func (v Seagull) Alternate() {
+	// TBC
+}
+
+func (v Seagull) Icon() {
+	// TBC
+}
+
+func (v Seagull) Id() string {
+	return "seagull"
+}
+
+func (v Seagull) Fictional() bool {
+	return false
+}
+
+func (v Seagull) Languages() {
+	// TBC
+}
+
+func (v Seagull) Relatives() {
+	// TBC
+}
+
+func (v Seagull) Special() bool {
+	return false
+}

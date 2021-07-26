@@ -1,21 +1,32 @@
 package alpaca
 
-import (
-	"github.com/lindsaygelle/animalcrossing/animals/alpaca/translations"
-	"github.com/lindsaygelle/animalcrossing/languages"
-)
-
+// Alpaca is an Animal Crossing animal type.
 type Alpaca struct{}
 
-func (a Alpaca) Id() string {
+func (v Alpaca) Alternate() {
+	// TBC
+}
+
+func (v Alpaca) Icon() {
+	// TBC
+}
+
+func (v Alpaca) Id() string {
 	return "alpaca"
 }
 
-func (a Alpaca) Special() bool {
-	return true
+func (v Alpaca) Fictional() bool {
+	return false
 }
 
-func (a Alpaca) Translations() []languages.Translation {
-	return []languages.Translation{
-		translations.En{}}
+func (v Alpaca) Languages() {
+	// TBC
+}
+
+func (v Alpaca) Relatives() {
+	// TBC
+}
+
+func (v Alpaca) Special() bool {
+	return false
 }
