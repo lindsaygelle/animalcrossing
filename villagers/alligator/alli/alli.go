@@ -7,7 +7,9 @@ import (
 	s "github.com/lindsaygelle/animalcrossing/species/alligator"
 )
 
-// Alli is an Alligator Animal Crossing villager.
+// Alli is an Animal Crossing villager.
+//
+// Alli is an Alligator.
 type Alli struct{}
 
 func (v Alli) Appearances() {
