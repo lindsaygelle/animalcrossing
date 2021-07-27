@@ -1,6 +1,7 @@
 package alli
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/lindsaygelle/animalcrossing/villagers"
@@ -33,7 +34,7 @@ func (v Alli) BirthdayMonth() time.Month {
 }
 
 func (v Alli) Code() string {
-	return "crd02"
+	return fmt.Sprintf("%s%d", v.Alligator.Code(), v.Number())
 }
 
 func (v Alli) Debut() {

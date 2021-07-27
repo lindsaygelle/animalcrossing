@@ -1,6 +1,7 @@
 package boots
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/lindsaygelle/animalcrossing/villagers"
@@ -33,7 +34,7 @@ func (v Boots) BirthdayMonth() time.Month {
 }
 
 func (v Boots) Code() string {
-	return "crd03"
+	return fmt.Sprintf("%s%d", v.Alligator.Code(), v.Number())
 }
 
 func (v Boots) Debut() {

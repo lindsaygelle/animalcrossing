@@ -1,6 +1,7 @@
 package del
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/lindsaygelle/animalcrossing/villagers"
@@ -33,7 +34,7 @@ func (v Del) BirthdayMonth() time.Month {
 }
 
 func (v Del) Code() string {
-	return "crd04"
+	return fmt.Sprintf("%s%d", v.Alligator.Code(), v.Number())
 }
 
 func (v Del) Debut() {

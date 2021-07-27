@@ -1,6 +1,7 @@
 package alfonso
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/lindsaygelle/animalcrossing/villagers"
@@ -33,7 +34,7 @@ func (v Alfonso) BirthdayMonth() time.Month {
 }
 
 func (v Alfonso) Code() string {
-	return "crd01"
+	return fmt.Sprintf("%s%d", v.Alligator.Code(), v.Number())
 }
 
 func (v Alfonso) Debut() {

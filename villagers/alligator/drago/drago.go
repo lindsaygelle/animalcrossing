@@ -1,6 +1,7 @@
 package drago
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/lindsaygelle/animalcrossing/villagers"
@@ -33,7 +34,7 @@ func (v Drago) BirthdayMonth() time.Month {
 }
 
 func (v Drago) Code() string {
-	return "crd05"
+	return fmt.Sprintf("%s%d", v.Alligator.Code(), v.Number())
 }
 
 func (v Drago) Debut() {

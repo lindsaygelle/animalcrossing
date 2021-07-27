@@ -12,6 +12,10 @@ func (v Alligator) Animal() string {
 	return (a.Alligator{}).Id()
 }
 
+func (v Alligator) Code() string {
+	return "crd"
+}
+
 func (v Alligator) Species() string {
 	return (s.Alligator{}).Id()
 }

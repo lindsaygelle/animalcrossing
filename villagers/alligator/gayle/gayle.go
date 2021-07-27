@@ -1,6 +1,7 @@
 package gayle
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/lindsaygelle/animalcrossing/villagers"
@@ -33,7 +34,7 @@ func (v Gayle) BirthdayMonth() time.Month {
 }
 
 func (v Gayle) Code() string {
-	return "crd06"
+	return fmt.Sprintf("%s%d", v.Alligator.Code(), v.Number())
 }
 
 func (v Gayle) Debut() {
