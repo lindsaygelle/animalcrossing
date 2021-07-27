@@ -8,12 +8,36 @@ import (
 // Alli is an Animal Crossing villager.
 type Alli struct{}
 
+func (v Alli) Appearances() {
+	// TBC
+}
+
 func (v Alli) Animal() string {
 	return (a.Alligator{}).Id()
 }
 
+func (v Alli) Astrology() {
+	// TBC
+}
+
+func (v Alli) Birthday() {
+	// TBC
+}
+
+func (v Alli) Code() string {
+	return "crd01"
+}
+
 func (v Alli) Gender() string {
 	return "female"
+}
+
+func (v Alli) Icon() {
+	// TBC
+}
+
+func (v Alli) Id() string {
+	return "alli"
 }
 
 func (v Alli) Languages() {
