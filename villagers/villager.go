@@ -22,6 +22,7 @@ type Villager interface {
 	// Id is the villagers identifier.
 	Id() string
 	Languages()
+	Number() uint8
 	// Personality is the villagers personality type.
 	Personality() string
 	// Special is whether the villager is a special or normal character.

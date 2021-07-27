@@ -37,7 +37,7 @@ func (v Boots) BirthdayMonth() time.Month {
 }
 
 func (v Boots) Code() string {
-	return "crd02"
+	return "crd03"
 }
 
 func (v Boots) Gender() string {
@@ -54,6 +54,10 @@ func (v Boots) Id() string {
 
 func (v Boots) Languages() {
 	// TBC
+}
+
+func (v Boots) Number() uint8 {
+	return 3
 }
 
 func (v Boots) Personality() string {

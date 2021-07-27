@@ -56,6 +56,10 @@ func (v Alli) Languages() {
 	// TBC
 }
 
+func (v Alli) Number() uint8 {
+	return 2
+}
+
 func (v Alli) Personality() string {
 	return "snooty"
 }
