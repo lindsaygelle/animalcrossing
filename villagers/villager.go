@@ -23,11 +23,12 @@ type Villager interface {
 	Id() string
 	// Languages is the villagers names in various languages.
 	Languages() []interface{ Value() string }
+	// Number is the villagers numeric identifier.
 	Number() uint8
 	// Personality is the villagers personality type.
 	Personality() string
 	// Special is whether the villager is a special or normal character.
 	Special() bool
-	// Species is the villageres species type.
+	// Species is the villagers species type.
 	Species() string
 }

@@ -1,91 +1,91 @@
-package alfonso
+package drago
 
 type chineseSimplified struct{}
 
 func (v chineseSimplified) Value() string {
-	return "阿泥"
+	return "阿龙"
 }
 
 type chineseTraditional struct{}
 
 func (v chineseTraditional) Value() string {
-	return "阿泥"
+	return "阿龍"
 }
 
 type dutch struct{}
 
 func (v dutch) Value() string {
-	return "Alfonso"
+	return "Drago"
 }
 
 type english struct{}
 
 func (v english) Value() string {
-	return "Alfonso"
+	return "Drago"
 }
 
 type french struct{}
 
 func (v french) Value() string {
-	return "Alphonse"
+	return "Drago"
 }
 
 type frenchQuebec struct{}
 
 func (v frenchQuebec) Value() string {
-	return "Alphonse"
+	return "Drago"
 }
 
 type german struct{}
 
 func (v german) Value() string {
-	return "Markus"
+	return "Frederik"
 }
 
 type italian struct{}
 
 func (v italian) Value() string {
-	return "Alfonso"
+	return "Dragonio"
 }
 
 type japanese struct{}
 
 func (v japanese) Value() string {
-	return "アルベルト"
+	return "タツオ"
 }
 
 type korean struct{}
 
 func (v korean) Value() string {
-	return "알베르트"
+	return "용남이"
 }
 
 type polish struct{}
 
 func (v polish) Value() string {
-	return "Alfonso"
+	return "Drago"
 }
 
 type portuguese struct{}
 
 func (v portuguese) Value() string {
-	return "Alfonso"
+	return "Drago"
 }
 
 type russian struct{}
 
 func (v russian) Value() string {
-	return "Альфонсо"
+	return "Драго"
 }
 
 type spanish struct{}
 
 func (v spanish) Value() string {
-	return "Kaimán"
+	return "Dragonio"
 }
 
 type spanishLatinAmerica struct{}
 
 func (v spanishLatinAmerica) Value() string {
-	return "Kaimán"
+	return "Dragonio"
 }

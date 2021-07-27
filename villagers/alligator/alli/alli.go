@@ -37,7 +37,7 @@ func (v Alli) BirthdayMonth() time.Month {
 }
 
 func (v Alli) Code() string {
-	return "crd01"
+	return "crd02"
 }
 
 func (v Alli) Gender() string {
