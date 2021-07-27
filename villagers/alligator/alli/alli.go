@@ -52,8 +52,23 @@ func (v Alli) Id() string {
 	return "alli"
 }
 
-func (v Alli) Languages() {
-	// TBC
+func (v Alli) Languages() []interface{ Value() string } {
+	return []interface{ Value() string }{
+		chineseSimplified{},
+		chineseTraditional{},
+		dutch{},
+		english{},
+		french{},
+		frenchQuebec{},
+		german{},
+		italian{},
+		japanese{},
+		korean{},
+		polish{},
+		portuguese{},
+		russian{},
+		spanish{},
+		spanishLatinAmerica{}}
 }
 
 func (v Alli) Number() uint8 {

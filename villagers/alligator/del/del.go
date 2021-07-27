@@ -52,8 +52,23 @@ func (v Del) Id() string {
 	return "del"
 }
 
-func (v Del) Languages() {
-	// TBC
+func (v Del) Languages() []interface{ Value() string } {
+	return []interface{ Value() string }{
+		chineseSimplified{},
+		chineseTraditional{},
+		dutch{},
+		english{},
+		french{},
+		frenchQuebec{},
+		german{},
+		italian{},
+		japanese{},
+		korean{},
+		polish{},
+		portuguese{},
+		russian{},
+		spanish{},
+		spanishLatinAmerica{}}
 }
 
 func (v Del) Number() uint8 {

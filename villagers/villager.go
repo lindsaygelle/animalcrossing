@@ -21,7 +21,8 @@ type Villager interface {
 	Icon()
 	// Id is the villagers identifier.
 	Id() string
-	Languages()
+	// Languages is the villagers names in various languages.
+	Languages() []interface{ Value() string }
 	Number() uint8
 	// Personality is the villagers personality type.
 	Personality() string

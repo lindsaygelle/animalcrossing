@@ -52,8 +52,23 @@ func (v Boots) Id() string {
 	return "boots"
 }
 
-func (v Boots) Languages() {
-	// TBC
+func (v Boots) Languages() []interface{ Value() string } {
+	return []interface{ Value() string }{
+		chineseSimplified{},
+		chineseTraditional{},
+		dutch{},
+		english{},
+		french{},
+		frenchQuebec{},
+		german{},
+		italian{},
+		japanese{},
+		korean{},
+		polish{},
+		portuguese{},
+		russian{},
+		spanish{},
+		spanishLatinAmerica{}}
 }
 
 func (v Boots) Number() uint8 {
