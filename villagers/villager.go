@@ -6,10 +6,12 @@ type Villager interface {
 	Appearances()
 	// Astrology is the villagers astrological star sign.
 	Astrology() string
+	// AstrologyIcon is the villagers astrological start sign emoji.
+	AstrologyIcon() string
 	// Animal is the villagers animal type.
 	Animal() string
 	// Birthday is the villagers birthday calendar day.
-	Birthday() int
+	Birthday() uint
 	// BirthdayMonth is the villagers birthday calendar month.
 	BirthdayMonth() time.Month
 	// Code is the villagers alpha-numeric identifier.

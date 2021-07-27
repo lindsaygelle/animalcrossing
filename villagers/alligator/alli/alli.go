@@ -22,6 +22,10 @@ func (v Alli) Astrology() string {
 	return "scorpio"
 }
 
+func (v Alli) AstrologyIcon() string {
+	return "♏"
+}
+
 func (v Alli) Birthday() uint8 {
 	return 8
 }
