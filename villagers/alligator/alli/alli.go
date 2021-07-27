@@ -1,11 +1,13 @@
 package alli
 
 import (
+	"time"
+
 	a "github.com/lindsaygelle/animalcrossing/animals/alligator"
 	s "github.com/lindsaygelle/animalcrossing/species/alligator"
 )
 
-// Alli is an Animal Crossing villager.
+// Alli is an Alligator Animal Crossing villager.
 type Alli struct{}
 
 func (v Alli) Appearances() {
@@ -16,12 +18,16 @@ func (v Alli) Animal() string {
 	return (a.Alligator{}).Id()
 }
 
-func (v Alli) Astrology() {
-	// TBC
+func (v Alli) Astrology() string {
+	return "scorpio"
 }
 
-func (v Alli) Birthday() {
-	// TBC
+func (v Alli) Birthday() uint8 {
+	return 8
+}
+
+func (v Alli) BirthdayMonth() time.Month {
+	return time.November
 }
 
 func (v Alli) Code() string {

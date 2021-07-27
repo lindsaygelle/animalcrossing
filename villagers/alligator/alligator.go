@@ -5,11 +5,12 @@ import (
 	"github.com/lindsaygelle/animalcrossing/villagers/alligator/alli"
 )
 
+// Alligator is a Animal Crossing villager type.
 type Alligator interface {
 	v.Villager
 }
 
 var (
 	Alligators = map[string]Alligator{
-		"alli": alli.Alli{}}
+		(alli.Alli{}.Id()): (alli.Alli{})}
 )
