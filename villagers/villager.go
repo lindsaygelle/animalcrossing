@@ -11,7 +11,7 @@ type Villager interface {
 	// Animal is the villagers animal type.
 	Animal() string
 	// Birthday is the villagers birthday calendar day.
-	Birthday() uint
+	Birthday() uint8
 	// BirthdayMonth is the villagers birthday calendar month.
 	BirthdayMonth() time.Month
 	// Code is the villagers alpha-numeric identifier.
