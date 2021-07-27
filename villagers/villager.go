@@ -16,6 +16,7 @@ type Villager interface {
 	BirthdayMonth() time.Month
 	// Code is the villagers alpha-numeric identifier.
 	Code() string
+	Debut()
 	// Gender is the villagers gender.
 	Gender() string
 	Icon()

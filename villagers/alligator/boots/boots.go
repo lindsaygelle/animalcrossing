@@ -3,21 +3,17 @@ package boots
 import (
 	"time"
 
-	a "github.com/lindsaygelle/animalcrossing/animals/alligator"
-	s "github.com/lindsaygelle/animalcrossing/species/alligator"
+	"github.com/lindsaygelle/animalcrossing/villagers"
+	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
 
 // Boots is an Animal Crossing villager.
-//
-// Boots is an Alligator.
-type Boots struct{}
+type Boots struct {
+	alligator.Alligator
+}
 
 func (v Boots) Appearances() {
 	// TBC
-}
-
-func (v Boots) Animal() string {
-	return (a.Alligator{}).Id()
 }
 
 func (v Boots) Astrology() string {
@@ -38,6 +34,10 @@ func (v Boots) BirthdayMonth() time.Month {
 
 func (v Boots) Code() string {
 	return "crd03"
+}
+
+func (v Boots) Debut() {
+	// TBC
 }
 
 func (v Boots) Gender() string {
@@ -83,6 +83,6 @@ func (v Boots) Special() bool {
 	return false
 }
 
-func (v Boots) Species() string {
-	return (s.Alligator{}).Id()
-}
+var (
+	_ villagers.Villager = (Boots{})
+)

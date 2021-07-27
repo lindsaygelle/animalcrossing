@@ -3,21 +3,17 @@ package drago
 import (
 	"time"
 
-	a "github.com/lindsaygelle/animalcrossing/animals/alligator"
-	s "github.com/lindsaygelle/animalcrossing/species/alligator"
+	"github.com/lindsaygelle/animalcrossing/villagers"
+	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
 
 // Drago is an Animal Crossing villager.
-//
-// Drago is an Alligator.
-type Drago struct{}
+type Drago struct {
+	alligator.Alligator
+}
 
 func (v Drago) Appearances() {
 	// TBC
-}
-
-func (v Drago) Animal() string {
-	return (a.Alligator{}).Id()
 }
 
 func (v Drago) Astrology() string {
@@ -38,6 +34,10 @@ func (v Drago) BirthdayMonth() time.Month {
 
 func (v Drago) Code() string {
 	return "crd05"
+}
+
+func (v Drago) Debut() {
+	// TBC
 }
 
 func (v Drago) Gender() string {
@@ -83,6 +83,6 @@ func (v Drago) Special() bool {
 	return false
 }
 
-func (v Drago) Species() string {
-	return (s.Alligator{}).Id()
-}
+var (
+	_ villagers.Villager = (Drago{})
+)

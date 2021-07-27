@@ -1,24 +1,17 @@
 package alligator
 
 import (
-	v "github.com/lindsaygelle/animalcrossing/villagers"
-
-	"github.com/lindsaygelle/animalcrossing/villagers/alligator/alfonso"
-	"github.com/lindsaygelle/animalcrossing/villagers/alligator/alli"
-	"github.com/lindsaygelle/animalcrossing/villagers/alligator/boots"
-	"github.com/lindsaygelle/animalcrossing/villagers/alligator/del"
+	a "github.com/lindsaygelle/animalcrossing/animals/alligator"
+	s "github.com/lindsaygelle/animalcrossing/species/alligator"
 )
 
 // Alligator is a Animal Crossing villager type.
-type Alligator interface {
-	v.Villager
+type Alligator struct{}
+
+func (v Alligator) Animal() string {
+	return (a.Alligator{}).Id()
 }
 
-var (
-	// Alligators is a map of Animal Crossing Alligator villagers.
-	Alligators = map[string]Alligator{
-		(alfonso.Alfonso{}).Id(): alfonso.Alfonso{},
-		(alli.Alli{}).Id():       alli.Alli{},
-		(boots.Boots{}).Id():     boots.Boots{},
-		(del.Del{}).Id():         del.Del{}}
-)
+func (v Alligator) Species() string {
+	return (s.Alligator{}).Id()
+}

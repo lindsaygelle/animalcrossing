@@ -3,21 +3,17 @@ package alfonso
 import (
 	"time"
 
-	a "github.com/lindsaygelle/animalcrossing/animals/alligator"
-	s "github.com/lindsaygelle/animalcrossing/species/alligator"
+	"github.com/lindsaygelle/animalcrossing/villagers"
+	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
 
 // Alfonso is an Animal Crossing villager.
-//
-// Alfonso is an Alligator.
-type Alfonso struct{}
+type Alfonso struct {
+	alligator.Alligator
+}
 
 func (v Alfonso) Appearances() {
 	// TBC
-}
-
-func (v Alfonso) Animal() string {
-	return (a.Alligator{}).Id()
 }
 
 func (v Alfonso) Astrology() string {
@@ -38,6 +34,10 @@ func (v Alfonso) BirthdayMonth() time.Month {
 
 func (v Alfonso) Code() string {
 	return "crd01"
+}
+
+func (v Alfonso) Debut() {
+	// TBC
 }
 
 func (v Alfonso) Gender() string {
@@ -83,6 +83,6 @@ func (v Alfonso) Special() bool {
 	return false
 }
 
-func (v Alfonso) Species() string {
-	return (s.Alligator{}).Id()
-}
+var (
+	_ villagers.Villager = (Alfonso{})
+)

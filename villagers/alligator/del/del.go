@@ -3,21 +3,17 @@ package del
 import (
 	"time"
 
-	a "github.com/lindsaygelle/animalcrossing/animals/alligator"
-	s "github.com/lindsaygelle/animalcrossing/species/alligator"
+	"github.com/lindsaygelle/animalcrossing/villagers"
+	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
 
 // Del is an Animal Crossing villager.
-//
-// Del is an Alligator.
-type Del struct{}
+type Del struct {
+	alligator.Alligator
+}
 
 func (v Del) Appearances() {
 	// TBC
-}
-
-func (v Del) Animal() string {
-	return (a.Alligator{}).Id()
 }
 
 func (v Del) Astrology() string {
@@ -38,6 +34,10 @@ func (v Del) BirthdayMonth() time.Month {
 
 func (v Del) Code() string {
 	return "crd04"
+}
+
+func (v Del) Debut() {
+	// TBC
 }
 
 func (v Del) Gender() string {
@@ -83,6 +83,6 @@ func (v Del) Special() bool {
 	return false
 }
 
-func (v Del) Species() string {
-	return (s.Alligator{}).Id()
-}
+var (
+	_ villagers.Villager = (Del{})
+)
