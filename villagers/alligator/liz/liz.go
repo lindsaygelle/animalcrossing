@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/lindsaygelle/animalcrossing/astrology/virgo"
 	"github.com/lindsaygelle/animalcrossing/villagers"
 	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
@@ -11,6 +12,7 @@ import (
 // Liz is an Animal Crossing villager.
 type Liz struct {
 	alligator.Alligator
+	virgo.Virgo
 }
 
 func (v Liz) Appearances() {
@@ -18,11 +20,11 @@ func (v Liz) Appearances() {
 }
 
 func (v Liz) Astrology() string {
-	return "virgo"
+	return v.Virgo.Id()
 }
 
 func (v Liz) AstrologyIcon() string {
-	return "♍"
+	return v.Virgo.Icon()
 }
 
 func (v Liz) Birthday() uint8 {

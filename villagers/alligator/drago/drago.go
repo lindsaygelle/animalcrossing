@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/lindsaygelle/animalcrossing/astrology/aquarius"
 	"github.com/lindsaygelle/animalcrossing/villagers"
 	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
@@ -11,6 +12,7 @@ import (
 // Drago is an Animal Crossing villager.
 type Drago struct {
 	alligator.Alligator
+	aquarius.Aquarius
 }
 
 func (v Drago) Appearances() {
@@ -18,11 +20,11 @@ func (v Drago) Appearances() {
 }
 
 func (v Drago) Astrology() string {
-	return "aquarius"
+	return v.Aquarius.Id()
 }
 
 func (v Drago) AstrologyIcon() string {
-	return "♒"
+	return v.Aquarius.Icon()
 }
 
 func (v Drago) Birthday() uint8 {

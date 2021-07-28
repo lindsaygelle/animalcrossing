@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/lindsaygelle/animalcrossing/astrology/scorpio"
 	"github.com/lindsaygelle/animalcrossing/villagers"
 	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
@@ -11,6 +12,7 @@ import (
 // Alli is an Animal Crossing villager.
 type Alli struct {
 	alligator.Alligator
+	scorpio.Scorpio
 }
 
 func (v Alli) Appearances() {
@@ -18,11 +20,11 @@ func (v Alli) Appearances() {
 }
 
 func (v Alli) Astrology() string {
-	return "scorpio"
+	return v.Scorpio.Id()
 }
 
 func (v Alli) AstrologyIcon() string {
-	return "♏"
+	return v.Scorpio.Icon()
 }
 
 func (v Alli) Birthday() uint8 {

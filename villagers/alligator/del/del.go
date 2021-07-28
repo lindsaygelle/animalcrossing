@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/lindsaygelle/animalcrossing/astrology/gemini"
 	"github.com/lindsaygelle/animalcrossing/villagers"
 	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
@@ -11,6 +12,7 @@ import (
 // Del is an Animal Crossing villager.
 type Del struct {
 	alligator.Alligator
+	gemini.Gemini
 }
 
 func (v Del) Appearances() {
@@ -18,11 +20,11 @@ func (v Del) Appearances() {
 }
 
 func (v Del) Astrology() string {
-	return "gemini"
+	return v.Gemini.Id()
 }
 
 func (v Del) AstrologyIcon() string {
-	return "♊"
+	return v.Gemini.Icon()
 }
 
 func (v Del) Birthday() uint8 {

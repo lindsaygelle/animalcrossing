@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/lindsaygelle/animalcrossing/astrology/gemini"
 	"github.com/lindsaygelle/animalcrossing/villagers"
 	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
@@ -11,6 +12,7 @@ import (
 // Alfonso is an Animal Crossing villager.
 type Alfonso struct {
 	alligator.Alligator
+	gemini.Gemini
 }
 
 func (v Alfonso) Appearances() {
@@ -18,11 +20,11 @@ func (v Alfonso) Appearances() {
 }
 
 func (v Alfonso) Astrology() string {
-	return "gemini"
+	return v.Gemini.Id()
 }
 
 func (v Alfonso) AstrologyIcon() string {
-	return "♊"
+	return v.Gemini.Icon()
 }
 
 func (v Alfonso) Birthday() uint8 {

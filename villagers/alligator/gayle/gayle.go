@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/lindsaygelle/animalcrossing/astrology/taurus"
 	"github.com/lindsaygelle/animalcrossing/villagers"
 	"github.com/lindsaygelle/animalcrossing/villagers/alligator"
 )
@@ -11,6 +12,7 @@ import (
 // Gayle is an Animal Crossing villager.
 type Gayle struct {
 	alligator.Alligator
+	taurus.Taurus
 }
 
 func (v Gayle) Appearances() {
@@ -18,11 +20,11 @@ func (v Gayle) Appearances() {
 }
 
 func (v Gayle) Astrology() string {
-	return "taurus"
+	return v.Taurus.Id()
 }
 
 func (v Gayle) AstrologyIcon() string {
-	return "♉"
+	return v.Taurus.Icon()
 }
 
 func (v Gayle) Birthday() uint8 {
