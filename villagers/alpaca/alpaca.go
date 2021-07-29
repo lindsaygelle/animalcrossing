@@ -1,4 +1,3 @@
-
 package alpaca
 
 import (
@@ -11,6 +10,10 @@ type Alpaca struct{}
 
 func (v Alpaca) Animal() string {
 	return (a.Alpaca{}).Id()
+}
+
+func (v Alpaca) Code() string {
+	return "alp"
 }
 
 func (v Alpaca) Species() string {
