@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// capricornusAmericanEnglish is the name of Capricornus in American English.
 	capricornusAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, capricornusId)}
 )
 
 var (
+	// capricornusNames are the names of Capricornus in various languages.
 	capricornusNames = names{
 		language.AmericanEnglish: capricornusAmericanEnglish}
 )

@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// hamster is the name of an Hamster in American English.
+	// hamsterNameAmericanEnglish is the name of an Hamster in American English.
 	hamsterNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(hamsterId)), 0}
 )

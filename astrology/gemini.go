@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// geminiAmericanEnglish is the name of Gemini in American English.
 	geminiAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, geminiId)}
 )
 
 var (
+	// geminiNames are the names of Gemini in various languages.
 	geminiNames = names{
 		language.AmericanEnglish: geminiAmericanEnglish}
 )

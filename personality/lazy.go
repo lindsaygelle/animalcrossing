@@ -12,11 +12,13 @@ const (
 )
 
 var (
+	// lazyAmericanEnglish is the name of Lazy in American English.
 	lazyAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(lazyId))}
 )
 
 var (
+	// lazyNames are the names of Lazy in various languages.
 	lazyNames = names{
 		language.AmericanEnglish: lazyAmericanEnglish}
 )

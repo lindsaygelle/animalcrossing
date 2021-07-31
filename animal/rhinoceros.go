@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// rhinoceros is the name of an Rhinoceros in American English.
+	// rhinocerosNameAmericanEnglish is the name of an Rhinoceros in American English.
 	rhinocerosNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(rhinocerosId)), 0}
 )

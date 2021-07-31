@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// frillneckedlizard is the name of an FrillneckedLizard in American English.
+	// frillneckedlizardNameAmericanEnglish is the name of an FrillneckedLizard in American English.
 	frillneckedlizardNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(frillneckedlizardId)), 0}
 )

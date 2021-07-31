@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// virgoAmericanEnglish is the name of Virgo in American English.
 	virgoAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, virgoId)}
 )
 
 var (
+	// virgoNames are the names of Virgo in various languages.
 	virgoNames = names{
 		language.AmericanEnglish: virgoAmericanEnglish}
 )

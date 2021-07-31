@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// giraffe is the name of an Giraffe in American English.
+	// giraffeNameAmericanEnglish is the name of an Giraffe in American English.
 	giraffeNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(giraffeId)), 0}
 )

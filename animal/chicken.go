@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// chicken is the name of an Chicken in American English.
+	// chickenNameAmericanEnglish is the name of an Chicken in American English.
 	chickenNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(chickenId)), 0}
 )

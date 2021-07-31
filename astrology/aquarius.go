@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// aquariusAmericanEnglishName is the name of Aquarius in American English.
 	aquariusAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, aquariusId)}
 )
 
 var (
+	// aquariusNames are the names of Aquarius in various languages.
 	aquariusNames = names{
 		language.AmericanEnglish: aquariusAmericanEnglish}
 )

@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// gyroid is the name of an Gyroid in American English.
+	// gyroidNameAmericanEnglish is the name of an Gyroid in American English.
 	gyroidNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(gyroidId)), 0}
 )

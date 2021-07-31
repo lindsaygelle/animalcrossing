@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// tapir is the name of an Tapir in American English.
+	// tapirNameAmericanEnglish is the name of an Tapir in American English.
 	tapirNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(tapirId)), 0}
 )

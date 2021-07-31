@@ -12,11 +12,13 @@ const (
 )
 
 var (
+	// snootyAmericanEnglish is the name of Snooty in American English.
 	snootyAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(snootyId))}
 )
 
 var (
+	// smugNames are the names of Snooty in various languages.
 	snootyNames = names{
 		language.AmericanEnglish: snootyAmericanEnglish}
 )

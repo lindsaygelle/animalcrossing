@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// ostrich is the name of an Ostrich in American English.
+	// ostrichNameAmericanEnglish is the name of an Ostrich in American English.
 	ostrichNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(ostrichId)), 0}
 )

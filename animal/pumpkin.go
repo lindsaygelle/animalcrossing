@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// pumpkin is the name of an Pumpkin in American English.
+	// pumpkinNameAmericanEnglish is the name of an Pumpkin in American English.
 	pumpkinNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(pumpkinId)), 0}
 )

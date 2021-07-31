@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// owl is the name of an Owl in American English.
+	// owlNameAmericanEnglish is the name of an Owl in American English.
 	owlNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(owlId)), 0}
 )

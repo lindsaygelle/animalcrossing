@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// axolotl is the name of an Axolotl in American English.
+	// axolotlNameAmericanEnglish is the name of an Axolotl in American English.
 	axolotlNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(axolotlId)), 0}
 )

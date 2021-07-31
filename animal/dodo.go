@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// dodo is the name of an Dodo in American English.
+	// dodoNameAmericanEnglish is the name of an Dodo in American English.
 	dodoNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(dodoId)), 0}
 )

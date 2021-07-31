@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// seagull is the name of an Seagull in American English.
+	// seagullNameAmericanEnglish is the name of an Seagull in American English.
 	seagullNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(seagullId)), 0}
 )

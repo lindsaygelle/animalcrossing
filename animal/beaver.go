@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// beaver is the name of an Beaver in American English.
+	// beaverNameAmericanEnglish is the name of an Beaver in American English.
 	beaverNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(beaverId)), 0}
 )

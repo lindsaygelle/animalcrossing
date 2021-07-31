@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// mole is the name of an Mole in American English.
+	// moleNameAmericanEnglish is the name of an Mole in American English.
 	moleNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(moleId)), 0}
 )

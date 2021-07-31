@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// hippopotamus is the name of an Hippopotamus in American English.
+	// hippopotamusNameAmericanEnglish is the name of an Hippopotamus in American English.
 	hippopotamusNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(hippopotamusId)), 0}
 )

@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// cat is the name of an Cat in American English.
+	// catNameAmericanEnglish is the name of an Cat in American English.
 	catNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(catId)), 0}
 )

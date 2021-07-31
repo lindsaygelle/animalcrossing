@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// camel is the name of an Camel in American English.
+	// camelNameAmericanEnglish is the name of an Camel in American English.
 	camelNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(camelId)), 0}
 )

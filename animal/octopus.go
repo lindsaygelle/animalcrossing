@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// octopus is the name of an Octopus in American English.
+	// octopusNameAmericanEnglish is the name of an Octopus in American English.
 	octopusNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(octopusId)), 0}
 )

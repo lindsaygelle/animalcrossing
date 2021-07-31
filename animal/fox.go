@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// fox is the name of an Fox in American English.
+	// foxNameAmericanEnglish is the name of an Fox in American English.
 	foxNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(foxId)), 0}
 )

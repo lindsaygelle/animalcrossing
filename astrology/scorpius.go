@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// scorpiusAmericanEnglish is the name of Scorpius in American English.
 	scorpiusAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, scorpiusId)}
 )
 
 var (
+	// scorpiusNames are the names of Scorpius in various languages.
 	scorpiusNames = names{
 		language.AmericanEnglish: scorpiusAmericanEnglish}
 )

@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// ariesAmericanEnglish is the name of Aries in American English.
 	ariesAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, ariesId)}
 )
 
 var (
+	// ariesNames are the names of Aries in various languages.
 	ariesNames = names{
 		language.AmericanEnglish: ariesAmericanEnglish}
 )

@@ -12,11 +12,13 @@ const (
 )
 
 var (
+	// peppyAmericanEnglish is the name of Peppy in American English.
 	peppyAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(peppyId))}
 )
 
 var (
+	// peppyNames are the names of Peppy in various languages.
 	peppyNames = names{
 		language.AmericanEnglish: peppyAmericanEnglish}
 )

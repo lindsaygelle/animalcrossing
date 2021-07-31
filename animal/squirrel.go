@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// squirrel is the name of an Squirrel in American English.
+	// squirrelNameAmericanEnglish is the name of an Squirrel in American English.
 	squirrelNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(squirrelId)), 0}
 )

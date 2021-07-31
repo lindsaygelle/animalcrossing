@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// reindeer is the name of an Reindeer in American English.
+	// reindeerNameAmericanEnglish is the name of an Reindeer in American English.
 	reindeerNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(reindeerId)), 0}
 )

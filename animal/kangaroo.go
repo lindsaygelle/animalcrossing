@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// kangaroo is the name of an Kangaroo in American English.
+	// kangarooNameAmericanEnglish is the name of an Kangaroo in American English.
 	kangarooNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(kangarooId)), 0}
 )

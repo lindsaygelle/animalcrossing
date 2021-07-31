@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// deer is the name of an Deer in American English.
+	// deerNameAmericanEnglish is the name of an Deer in American English.
 	deerNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(deerId)), 0}
 )

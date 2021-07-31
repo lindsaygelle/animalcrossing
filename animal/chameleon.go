@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// chameleon is the name of an Chameleon in American English.
+	// chameleonNameAmericanEnglish is the name of an Chameleon in American English.
 	chameleonNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(chameleonId)), 0}
 )

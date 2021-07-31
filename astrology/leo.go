@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// leoAmericanEnglish is the name of Leo in American English.
 	leoAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, leoId)}
 )
 
 var (
+	// leoNames are the names of Leo in various languages.
 	leoNames = names{
 		language.AmericanEnglish: leoAmericanEnglish}
 )

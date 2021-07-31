@@ -16,11 +16,13 @@ const (
 )
 
 var (
+	// sagittariusAmericanEnglish is the name of Sagittarius in American English.
 	sagittariusAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, sagittariusId)}
 )
 
 var (
+	// sagittariusNames are the names of Sagittarius in various languages.
 	sagittariusNames = names{
 		language.AmericanEnglish: sagittariusAmericanEnglish}
 )

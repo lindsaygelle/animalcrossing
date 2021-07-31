@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// mouse is the name of an Mouse in American English.
+	// mouseNameAmericanEnglish is the name of an Mouse in American English.
 	mouseNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(mouseId)), 0}
 )

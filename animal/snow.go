@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// snow is the name of an Snow in American English.
+	// snowNameAmericanEnglish is the name of an Snow in American English.
 	snowNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(snowId)), 0}
 )

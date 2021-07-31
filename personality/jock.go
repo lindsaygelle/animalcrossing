@@ -12,11 +12,13 @@ const (
 )
 
 var (
+	// jockAmericanEnglish is the name of Jock in American English.
 	jockAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(jockId))}
 )
 
 var (
+	// jockNames are the names of Jock in various languages.
 	jockNames = names{
 		language.AmericanEnglish: jockAmericanEnglish}
 )

@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// bearcub is the name of an Bearcub in American English.
+	// bearcubNameAmericanEnglish is the name of an Bearcub in American English.
 	bearcubNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(bearcubId)), 0}
 )

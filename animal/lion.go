@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	// lion is the name of an Lion in American English.
+	// lionNameAmericanEnglish is the name of an Lion in American English.
 	lionNameAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(lionId)), 0}
 )

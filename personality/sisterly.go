@@ -12,11 +12,13 @@ const (
 )
 
 var (
+	// sisterlyAmericanEnglish is the name of Sisterly in American English.
 	sisterlyAmericanEnglish = name{
 		translation.New(language.AmericanEnglish, strings.Title(sisterlyId))}
 )
 
 var (
+	// sisterlyNames are the names of Sisterly in various languages.
 	sisterlyNames = names{
 		language.AmericanEnglish: sisterlyAmericanEnglish}
 )
