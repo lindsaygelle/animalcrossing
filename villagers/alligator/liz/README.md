@@ -1,2 +1,0 @@
-# Liz
-![icon](./icon.png)

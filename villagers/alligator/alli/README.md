@@ -1,2 +1,0 @@
-# Alli
-![icon](./icon.png)

@@ -1,2 +1,0 @@
-# Pironkon
-![icon](./icon.png)

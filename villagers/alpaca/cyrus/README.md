@@ -1,2 +1,0 @@
-# Cyrus
-![icon](./icon.png)

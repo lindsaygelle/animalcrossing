@@ -1,2 +1,0 @@
-# Sly
-![icon](./icon.png)

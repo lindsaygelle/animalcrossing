@@ -1,2 +1,0 @@
-# Boots
-![icon](./icon.png)

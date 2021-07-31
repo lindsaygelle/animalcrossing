@@ -1,2 +1,0 @@
-# Del
-![icon](./icon.png)

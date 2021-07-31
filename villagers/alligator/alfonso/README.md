@@ -1,2 +1,0 @@
-# Alfonso
-![icon](./icon.png)

@@ -1,2 +1,0 @@
-# Drago
-![icon](./icon.png)
