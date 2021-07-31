@@ -1,8 +1,7 @@
 package villager
 
 import (
-	"reflect"
-
+	"github.com/lindsaygelle/animalcrossing/animal"
 	"github.com/lindsaygelle/animalcrossing/astrology"
 	"github.com/lindsaygelle/animalcrossing/birthday"
 	"github.com/lindsaygelle/animalcrossing/personality"
@@ -11,6 +10,7 @@ import (
 
 // Villager is an Animal Crossing villager.
 type Villager interface {
+	Animal() animal.Animal
 	Astrology() (astrology.Astrology, bool)
 	Birthday() birthday.Birthday
 	Catchphrases() translation.Translations
@@ -22,6 +22,7 @@ type Villager interface {
 
 // villager implements Villager.
 type villager struct {
+	animal       animal.Animal
 	astrology    astrology.Astrology
 	birthday     birthday.Birthday
 	catchphrases translation.Translations
@@ -31,8 +32,12 @@ type villager struct {
 	special      bool
 }
 
+func (v villager) Animal() animal.Animal {
+	return v.animal
+}
+
 func (v villager) Astrology() (astrology.Astrology, bool) {
-	return v.astrology, (reflect.ValueOf(v.astrology).IsZero())
+	return v.astrology, (v.astrology != nil)
 }
 
 func (v villager) Birthday() birthday.Birthday {
@@ -52,7 +57,7 @@ func (v villager) Names() translation.Translations {
 }
 
 func (v villager) Personality() (personality.Personality, bool) {
-	return v.personality, (reflect.ValueOf(v.personality).IsZero())
+	return v.personality, (v.personality != nil)
 }
 
 func (v villager) Special() bool {
