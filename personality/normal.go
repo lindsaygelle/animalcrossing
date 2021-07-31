@@ -13,14 +13,14 @@ const (
 
 var (
 	// normalAmericanEnglish is the name of Normal in American English.
-	normalAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(normalId))}
+	normalAmericanEnglish = translation.NewTranslation(
+		language.AmericanEnglish, strings.Title(normalId))
 )
 
 var (
 	// normalNames are the names of Normal in various languages.
-	normalNames = names{
-		language.AmericanEnglish: normalAmericanEnglish}
+	normalNames = translation.NewTranslations(
+		normalAmericanEnglish)
 )
 
 var (

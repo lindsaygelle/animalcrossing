@@ -1,10 +1,12 @@
 package astrology
 
+import "github.com/lindsaygelle/animalcrossing/translation"
+
 // Astrology is an astrologial star sign for an Animal Crossing villager.
 type Astrology interface {
 	Id() string
 	Longtitude() uint16
-	Names() Names
+	Names() translation.Translations
 	Symbol() string
 	Unicode() (string, bool)
 }
@@ -13,7 +15,7 @@ type Astrology interface {
 type astrology struct {
 	id         string
 	longtitude uint16
-	names      names
+	names      translation.Translations
 	symbol     string
 	unicode    string
 }
@@ -26,7 +28,7 @@ func (v astrology) Longtitude() uint16 {
 	return v.longtitude
 }
 
-func (v astrology) Names() Names {
+func (v astrology) Names() translation.Translations {
 	return v.names
 }
 

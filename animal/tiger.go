@@ -21,7 +21,7 @@ const (
 var (
 	// tigerNameAmericanEnglish is the name of an Tiger in American English.
 	tigerNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(tigerId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(tigerId)), 0}
 )
 
 var (

@@ -4,15 +4,18 @@ import (
 	"reflect"
 
 	"github.com/lindsaygelle/animalcrossing/astrology"
+	"github.com/lindsaygelle/animalcrossing/birthday"
 	"github.com/lindsaygelle/animalcrossing/personality"
+	"github.com/lindsaygelle/animalcrossing/translation"
 )
 
 // Villager is an Animal Crossing villager.
 type Villager interface {
 	Astrology() (astrology.Astrology, bool)
-	Catchphrases() Catchphrases
+	Birthday() birthday.Birthday
+	Catchphrases() translation.Translations
 	Id() string
-	Names() Names
+	Names() translation.Translations
 	Personality() (personality.Personality, bool)
 	Special() bool
 }
@@ -20,9 +23,10 @@ type Villager interface {
 // villager implements Villager.
 type villager struct {
 	astrology    astrology.Astrology
-	catchphrases catchphrases
+	birthday     birthday.Birthday
+	catchphrases translation.Translations
 	id           string
-	names        names
+	names        translation.Translations
 	personality  personality.Personality
 	special      bool
 }
@@ -31,7 +35,11 @@ func (v villager) Astrology() (astrology.Astrology, bool) {
 	return v.astrology, (reflect.ValueOf(v.astrology).IsZero())
 }
 
-func (v villager) Catchphrases() Catchphrases {
+func (v villager) Birthday() birthday.Birthday {
+	return v.birthday
+}
+
+func (v villager) Catchphrases() translation.Translations {
 	return v.catchphrases
 }
 
@@ -39,7 +47,7 @@ func (v villager) Id() string {
 	return v.id
 }
 
-func (v villager) Names() Names {
+func (v villager) Names() translation.Translations {
 	return v.names
 }
 

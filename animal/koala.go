@@ -21,7 +21,7 @@ const (
 var (
 	// koalaNameAmericanEnglish is the name of an Koala in American English.
 	koalaNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(koalaId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(koalaId)), 0}
 )
 
 var (

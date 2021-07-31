@@ -21,7 +21,7 @@ const (
 var (
 	// alpacaNameAmericanEnglish is the name of an Alpaca in American English.
 	alpacaNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(alpacaId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(alpacaId)), 0}
 )
 
 var (

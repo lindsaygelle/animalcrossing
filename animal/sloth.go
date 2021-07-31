@@ -21,7 +21,7 @@ const (
 var (
 	// slothNameAmericanEnglish is the name of an Sloth in American English.
 	slothNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(slothId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(slothId)), 0}
 )
 
 var (

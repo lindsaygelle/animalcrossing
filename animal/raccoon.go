@@ -21,7 +21,7 @@ const (
 var (
 	// raccoonNameAmericanEnglish is the name of an Raccoon in American English.
 	raccoonNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(raccoonId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(raccoonId)), 0}
 )
 
 var (

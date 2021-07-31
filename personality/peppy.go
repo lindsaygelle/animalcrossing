@@ -13,14 +13,14 @@ const (
 
 var (
 	// peppyAmericanEnglish is the name of Peppy in American English.
-	peppyAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(peppyId))}
+	peppyAmericanEnglish = translation.NewTranslation(
+		language.AmericanEnglish, strings.Title(peppyId))
 )
 
 var (
 	// peppyNames are the names of Peppy in various languages.
-	peppyNames = names{
-		language.AmericanEnglish: peppyAmericanEnglish}
+	peppyNames = translation.NewTranslations(
+		peppyAmericanEnglish)
 )
 
 var (

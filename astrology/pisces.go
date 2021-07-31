@@ -17,14 +17,14 @@ const (
 
 var (
 	// piscesAmericanEnglish is the name of Pisces in American English.
-	piscesAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, piscesId)}
+	piscesAmericanEnglish = translation.NewTranslation(
+		language.AmericanEnglish, piscesId)
 )
 
 var (
 	// piscesNames are the names of Pisces in various languages.
-	piscesNames = names{
-		language.AmericanEnglish: piscesAmericanEnglish}
+	piscesNames = translation.NewTranslations(
+		piscesAmericanEnglish)
 )
 
 var (

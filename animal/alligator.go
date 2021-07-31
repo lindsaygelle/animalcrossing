@@ -21,7 +21,7 @@ const (
 var (
 	// alligatorNameAmericanEnglish is the name of an Alligator in American English.
 	alligatorNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(alligatorId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(alligatorId)), 0}
 )
 
 var (

@@ -21,7 +21,7 @@ const (
 var (
 	// horseNameAmericanEnglish is the name of an Horse in American English.
 	horseNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(horseId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(horseId)), 0}
 )
 
 var (

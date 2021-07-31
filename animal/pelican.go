@@ -21,7 +21,7 @@ const (
 var (
 	// pelicanNameAmericanEnglish is the name of an Pelican in American English.
 	pelicanNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(pelicanId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(pelicanId)), 0}
 )
 
 var (

@@ -17,14 +17,14 @@ const (
 
 var (
 	// cancerAmericanEnglish is the name of Cancer in American English.
-	cancerAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, cancerId)}
+	cancerAmericanEnglish = translation.NewTranslation(
+		language.AmericanEnglish, cancerId)
 )
 
 var (
 	// cancerNames are the names of Cancer in various languages.
-	cancerNames = names{
-		language.AmericanEnglish: cancerAmericanEnglish}
+	cancerNames = translation.NewTranslations(
+		cancerAmericanEnglish)
 )
 
 var (

@@ -21,7 +21,7 @@ const (
 var (
 	// walrusNameAmericanEnglish is the name of an Walrus in American English.
 	walrusNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(walrusId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(walrusId)), 0}
 )
 
 var (

@@ -17,14 +17,14 @@ const (
 
 var (
 	// libraAmericanEnglish is the name of Libra in American English.
-	libraAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, libraId)}
+	libraAmericanEnglish = translation.NewTranslation(
+		language.AmericanEnglish, libraId)
 )
 
 var (
 	// libraNames are the names of Libra in various languages.
-	libraNames = names{
-		language.AmericanEnglish: libraAmericanEnglish}
+	libraNames = translation.NewTranslations(
+		libraAmericanEnglish)
 )
 
 var (

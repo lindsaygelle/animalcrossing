@@ -21,7 +21,7 @@ const (
 var (
 	// anteaterNameAmericanEnglish is the name of an Anteater in American English.
 	anteaterNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(anteaterId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(anteaterId)), 0}
 )
 
 var (

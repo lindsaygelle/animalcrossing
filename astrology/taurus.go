@@ -17,14 +17,14 @@ const (
 
 var (
 	// taurusAmericanEnglish is the name of Taurus in American English.
-	taurusAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, taurusId)}
+	taurusAmericanEnglish = translation.NewTranslation(
+		language.AmericanEnglish, taurusId)
 )
 
 var (
 	// taurusNames are the names of Taurus in various languages.
-	taurusNames = names{
-		language.AmericanEnglish: taurusAmericanEnglish}
+	taurusNames = translation.NewTranslations(
+		taurusAmericanEnglish)
 )
 
 var (

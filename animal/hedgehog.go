@@ -21,7 +21,7 @@ const (
 var (
 	// hedgehogNameAmericanEnglish is the name of an Hedgehog in American English.
 	hedgehogNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(hedgehogId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(hedgehogId)), 0}
 )
 
 var (

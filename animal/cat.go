@@ -21,7 +21,7 @@ const (
 var (
 	// catNameAmericanEnglish is the name of an Cat in American English.
 	catNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(catId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(catId)), 0}
 )
 
 var (

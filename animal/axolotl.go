@@ -21,7 +21,7 @@ const (
 var (
 	// axolotlNameAmericanEnglish is the name of an Axolotl in American English.
 	axolotlNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(axolotlId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(axolotlId)), 0}
 )
 
 var (

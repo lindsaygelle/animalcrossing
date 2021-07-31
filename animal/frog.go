@@ -21,7 +21,7 @@ const (
 var (
 	// frogNameAmericanEnglish is the name of an Frog in American English.
 	frogNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(frogId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(frogId)), 0}
 )
 
 var (

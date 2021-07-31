@@ -21,7 +21,7 @@ const (
 var (
 	// squirrelNameAmericanEnglish is the name of an Squirrel in American English.
 	squirrelNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(squirrelId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(squirrelId)), 0}
 )
 
 var (

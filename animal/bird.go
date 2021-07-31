@@ -21,7 +21,7 @@ const (
 var (
 	// birdNameAmericanEnglish is the name of an Bird in American English.
 	birdNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(birdId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(birdId)), 0}
 )
 
 var (

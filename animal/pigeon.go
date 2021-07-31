@@ -21,7 +21,7 @@ const (
 var (
 	// pigeonNameAmericanEnglish is the name of an Pigeon in American English.
 	pigeonNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(pigeonId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(pigeonId)), 0}
 )
 
 var (

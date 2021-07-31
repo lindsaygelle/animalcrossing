@@ -21,7 +21,7 @@ const (
 var (
 	// turkeyNameAmericanEnglish is the name of an Turkey in American English.
 	turkeyNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(turkeyId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(turkeyId)), 0}
 )
 
 var (

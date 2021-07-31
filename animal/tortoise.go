@@ -21,7 +21,7 @@ const (
 var (
 	// tortoiseNameAmericanEnglish is the name of an Tortoise in American English.
 	tortoiseNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(tortoiseId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(tortoiseId)), 0}
 )
 
 var (

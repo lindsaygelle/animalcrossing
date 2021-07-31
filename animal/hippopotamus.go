@@ -21,7 +21,7 @@ const (
 var (
 	// hippopotamusNameAmericanEnglish is the name of an Hippopotamus in American English.
 	hippopotamusNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(hippopotamusId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(hippopotamusId)), 0}
 )
 
 var (

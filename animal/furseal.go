@@ -21,7 +21,7 @@ const (
 var (
 	// fursealNameAmericanEnglish is the name of an Furseal in American English.
 	fursealNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(fursealId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(fursealId)), 0}
 )
 
 var (

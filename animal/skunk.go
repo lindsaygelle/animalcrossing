@@ -21,7 +21,7 @@ const (
 var (
 	// skunkNameAmericanEnglish is the name of an Skunk in American English.
 	skunkNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(skunkId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(skunkId)), 0}
 )
 
 var (

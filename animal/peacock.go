@@ -21,7 +21,7 @@ const (
 var (
 	// peacockNameAmericanEnglish is the name of an Peacock in American English.
 	peacockNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(peacockId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(peacockId)), 0}
 )
 
 var (

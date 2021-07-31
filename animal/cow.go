@@ -21,7 +21,7 @@ const (
 var (
 	// cowNameAmericanEnglish is the name of an Cow in American English.
 	cowNameAmericanEnglish = name{
-		translation.New(language.AmericanEnglish, strings.Title(cowId)), 0}
+		translation.NewTranslation(language.AmericanEnglish, strings.Title(cowId)), 0}
 )
 
 var (

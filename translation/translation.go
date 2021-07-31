@@ -22,8 +22,8 @@ func (v translation) Value() string {
 	return v.value
 }
 
-// New returns a new Translation.
-func New(language language.Tag, value string) Translation {
+// NewTranslation returns a new Translation.
+func NewTranslation(language language.Tag, value string) Translation {
 	return translation{
 		language: language,
 		value:    value}
