@@ -1,2 +1,2 @@
-// Package cole is an internal package and contains the Animal Crossing villager information for Cole.
+// Package cole exports the Animal Crossing villager Cole.
 package cole

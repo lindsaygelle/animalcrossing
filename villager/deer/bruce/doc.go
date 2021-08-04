@@ -1,2 +1,2 @@
-// Package bruce is an internal package and contains the Animal Crossing villager information for Bruce.
+// Package bruce exports the Animal Crossing villager Bruce.
 package bruce

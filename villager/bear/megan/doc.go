@@ -1,2 +1,2 @@
-// Package megan is an internal package and contains the Animal Crossing villager information for Megan.
+// Package megan exports the Animal Crossing villager Megan.
 package megan

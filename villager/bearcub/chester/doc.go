@@ -1,2 +1,2 @@
-// Package chester is an internal package and contains the Animal Crossing villager information for Chester.
+// Package chester exports the Animal Crossing villager Chester.
 package chester

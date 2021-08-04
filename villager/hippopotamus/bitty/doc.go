@@ -1,2 +1,2 @@
-// Package bitty is an internal package and contains the Animal Crossing villager information for Bitty.
+// Package bitty exports the Animal Crossing villager Bitty.
 package bitty

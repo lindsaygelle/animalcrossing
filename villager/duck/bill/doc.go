@@ -1,2 +1,2 @@
-// Package bill is an internal package and contains the Animal Crossing villager information for Bill.
+// Package bill exports the Animal Crossing villager Bill.
 package bill

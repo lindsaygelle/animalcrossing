@@ -1,2 +1,2 @@
-// Package otis is an internal package and contains the Animal Crossing villager information for Otis.
+// Package otis exports the Animal Crossing villager Otis.
 package otis

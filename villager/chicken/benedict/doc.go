@@ -1,2 +1,2 @@
-// Package benedict is an internal package and contains the Animal Crossing villager information for Benedict.
+// Package benedict exports the Animal Crossing villager Benedict.
 package benedict

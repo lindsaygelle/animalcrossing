@@ -1,2 +1,2 @@
-// Package dotty is an internal package and contains the Animal Crossing villager information for Dotty.
+// Package dotty exports the Animal Crossing villager Dotty.
 package dotty

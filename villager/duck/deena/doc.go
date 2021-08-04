@@ -1,2 +1,2 @@
-// Package deena is an internal package and contains the Animal Crossing villager information for Deena.
+// Package deena exports the Animal Crossing villager Deena.
 package deena

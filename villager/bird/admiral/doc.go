@@ -1,2 +1,2 @@
-// Package admiral is an internal package and contains the Animal Crossing villager information for Admiral.
+// Package admiral exports the Animal Crossing villager Admiral.
 package admiral

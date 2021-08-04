@@ -1,2 +1,2 @@
-// Package roald is an internal package and contains the Animal Crossing villager information for Roald.
+// Package roald exports the Animal Crossing villager Roald.
 package roald

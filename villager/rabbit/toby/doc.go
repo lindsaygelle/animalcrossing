@@ -1,2 +1,2 @@
-// Package toby is an internal package and contains the Animal Crossing villager information for Toby.
+// Package toby exports the Animal Crossing villager Toby.
 package toby

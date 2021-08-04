@@ -1,2 +1,2 @@
-// Package moe is an internal package and contains the Animal Crossing villager information for Moe.
+// Package moe exports the Animal Crossing villager Moe.
 package moe

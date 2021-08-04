@@ -1,2 +1,2 @@
-// Package sheldon is an internal package and contains the Animal Crossing villager information for Sheldon.
+// Package sheldon exports the Animal Crossing villager Sheldon.
 package sheldon

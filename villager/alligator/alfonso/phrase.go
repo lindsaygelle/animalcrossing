@@ -3,16 +3,16 @@ package alfonso
 import "golang.org/x/text/language"
 
 const (
-	phraseAmericanEnglish    string = ""
-	phraseFrench             string = ""
-	phraseGerman             string = ""
-	phraseItalian            string = ""
-	phraseJapanese           string = ""
-	phraseKorean             string = ""
-	phraseRussian            string = ""
-	phraseSpanish            string = ""
-	phraseSimplifiedChinese  string = ""
-	phraseTraditionalChinese string = ""
+	phraseAmericanEnglish    string = "it⁠'⁠sa me"
+	phraseFrench             string = "moi moi"
+	phraseGerman             string = "ahhhrg"
+	phraseItalian            string = "proprio"
+	phraseJapanese           string = "だワニ"
+	phraseKorean             string = "나아거"
+	phraseRussian            string = "это я"
+	phraseSpanish            string = "ñam-ñam"
+	phraseSimplifiedChinese  string = "鳄泥"
+	phraseTraditionalChinese string = "鱷泥"
 )
 
 var (

@@ -1,2 +1,2 @@
-// Package chuck is an internal package and contains the Animal Crossing villager information for Chuck.
+// Package chuck exports the Animal Crossing villager Chuck.
 package chuck

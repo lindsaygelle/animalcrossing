@@ -1,2 +1,2 @@
-// Package drake is an internal package and contains the Animal Crossing villager information for Drake.
+// Package drake exports the Animal Crossing villager Drake.
 package drake

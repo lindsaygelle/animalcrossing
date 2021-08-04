@@ -1,2 +1,2 @@
-// Package gigi is an internal package and contains the Animal Crossing villager information for Gigi.
+// Package gigi exports the Animal Crossing villager Gigi.
 package gigi

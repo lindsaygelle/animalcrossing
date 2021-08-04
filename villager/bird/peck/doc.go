@@ -1,2 +1,2 @@
-// Package peck is an internal package and contains the Animal Crossing villager information for Peck.
+// Package peck exports the Animal Crossing villager Peck.
 package peck

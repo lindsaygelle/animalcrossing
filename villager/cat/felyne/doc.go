@@ -1,2 +1,2 @@
-// Package felyne is an internal package and contains the Animal Crossing villager information for Felyne.
+// Package felyne exports the Animal Crossing villager Felyne.
 package felyne

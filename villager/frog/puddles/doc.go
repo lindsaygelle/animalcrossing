@@ -1,2 +1,2 @@
-// Package puddles is an internal package and contains the Animal Crossing villager information for Puddles.
+// Package puddles exports the Animal Crossing villager Puddles.
 package puddles

@@ -1,2 +1,2 @@
-// Package aisle is an internal package and contains the Animal Crossing villager information for Aisle.
+// Package aisle exports the Animal Crossing villager Aisle.
 package aisle

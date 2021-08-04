@@ -1,2 +1,2 @@
-// Package jacob is an internal package and contains the Animal Crossing villager information for Jacob.
+// Package jacob exports the Animal Crossing villager Jacob.
 package jacob

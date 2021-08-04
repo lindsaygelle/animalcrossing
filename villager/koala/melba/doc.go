@@ -1,2 +1,2 @@
-// Package melba is an internal package and contains the Animal Crossing villager information for Melba.
+// Package melba exports the Animal Crossing villager Melba.
 package melba

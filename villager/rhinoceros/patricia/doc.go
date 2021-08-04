@@ -1,2 +1,2 @@
-// Package patricia is an internal package and contains the Animal Crossing villager information for Patricia.
+// Package patricia exports the Animal Crossing villager Patricia.
 package patricia

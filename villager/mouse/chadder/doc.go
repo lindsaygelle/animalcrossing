@@ -1,2 +1,2 @@
-// Package chadder is an internal package and contains the Animal Crossing villager information for Chadder.
+// Package chadder exports the Animal Crossing villager Chadder.
 package chadder

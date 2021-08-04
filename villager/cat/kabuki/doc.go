@@ -1,2 +1,2 @@
-// Package kabuki is an internal package and contains the Animal Crossing villager information for Kabuki.
+// Package kabuki exports the Animal Crossing villager Kabuki.
 package kabuki

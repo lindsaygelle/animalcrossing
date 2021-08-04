@@ -1,2 +1,2 @@
-// Package marty is an internal package and contains the Animal Crossing villager information for Marty.
+// Package marty exports the Animal Crossing villager Marty.
 package marty

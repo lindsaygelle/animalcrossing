@@ -1,2 +1,2 @@
-// Package yuka is an internal package and contains the Animal Crossing villager information for Yuka.
+// Package yuka exports the Animal Crossing villager Yuka.
 package yuka

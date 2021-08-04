@@ -1,2 +1,2 @@
-// Package tank is an internal package and contains the Animal Crossing villager information for Tank.
+// Package tank exports the Animal Crossing villager Tank.
 package tank

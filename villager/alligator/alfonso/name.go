@@ -4,15 +4,15 @@ import "golang.org/x/text/language"
 
 const (
 	nameAmericanEnglish    string = "Alfonso"
-	nameFrench             string = ""
-	nameGerman             string = ""
-	nameItalian            string = ""
-	nameJapanese           string = ""
-	nameKorean             string = ""
-	nameRussian            string = ""
-	nameSpanish            string = ""
-	nameSimplifiedChinese  string = ""
-	nameTraditionalChinese string = ""
+	nameFrench             string = "Alphonse"
+	nameGerman             string = "Markus"
+	nameItalian            string = "Alfonso"
+	nameJapanese           string = "アルベルト"
+	nameKorean             string = "알베르트"
+	nameRussian            string = "Альфонсо"
+	nameSpanish            string = "Kaimán"
+	nameSimplifiedChinese  string = "阿泥"
+	nameTraditionalChinese string = "阿泥"
 )
 
 var (

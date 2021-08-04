@@ -1,2 +1,2 @@
-// Package derwin is an internal package and contains the Animal Crossing villager information for Derwin.
+// Package derwin exports the Animal Crossing villager Derwin.
 package derwin

@@ -1,2 +1,2 @@
-// Package gladys is an internal package and contains the Animal Crossing villager information for Gladys.
+// Package gladys exports the Animal Crossing villager Gladys.
 package gladys

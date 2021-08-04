@@ -1,2 +1,2 @@
-// Package anicotti is an internal package and contains the Animal Crossing villager information for Anicotti.
+// Package anicotti exports the Animal Crossing villager Anicotti.
 package anicotti

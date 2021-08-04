@@ -1,2 +1,2 @@
-// Package annalise is an internal package and contains the Animal Crossing villager information for Annalise.
+// Package annalise exports the Animal Crossing villager Annalise.
 package annalise

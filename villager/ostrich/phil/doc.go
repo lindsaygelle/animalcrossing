@@ -1,2 +1,2 @@
-// Package phil is an internal package and contains the Animal Crossing villager information for Phil.
+// Package phil exports the Animal Crossing villager Phil.
 package phil

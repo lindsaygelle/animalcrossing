@@ -1,2 +1,2 @@
-// Package chico is an internal package and contains the Animal Crossing villager information for Chico.
+// Package chico exports the Animal Crossing villager Chico.
 package chico

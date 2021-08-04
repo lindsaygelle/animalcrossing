@@ -1,2 +1,2 @@
-// Package harry is an internal package and contains the Animal Crossing villager information for Harry.
+// Package harry exports the Animal Crossing villager Harry.
 package harry

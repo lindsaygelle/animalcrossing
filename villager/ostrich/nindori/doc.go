@@ -1,2 +1,2 @@
-// Package nindori is an internal package and contains the Animal Crossing villager information for Nindori.
+// Package nindori exports the Animal Crossing villager Nindori.
 package nindori

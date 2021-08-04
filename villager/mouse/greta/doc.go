@@ -1,2 +1,2 @@
-// Package greta is an internal package and contains the Animal Crossing villager information for Greta.
+// Package greta exports the Animal Crossing villager Greta.
 package greta

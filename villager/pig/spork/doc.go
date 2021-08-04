@@ -1,2 +1,2 @@
-// Package spork is an internal package and contains the Animal Crossing villager information for Spork.
+// Package spork exports the Animal Crossing villager Spork.
 package spork

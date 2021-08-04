@@ -1,2 +1,2 @@
-// Package sylvia is an internal package and contains the Animal Crossing villager information for Sylvia.
+// Package sylvia exports the Animal Crossing villager Sylvia.
 package sylvia

@@ -1,2 +1,2 @@
-// Package kevin is an internal package and contains the Animal Crossing villager information for Kevin.
+// Package kevin exports the Animal Crossing villager Kevin.
 package kevin

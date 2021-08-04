@@ -1,2 +1,2 @@
-// Package koharu is an internal package and contains the Animal Crossing villager information for Koharu.
+// Package koharu exports the Animal Crossing villager Koharu.
 package koharu

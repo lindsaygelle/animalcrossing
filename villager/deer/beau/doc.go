@@ -1,2 +1,2 @@
-// Package beau is an internal package and contains the Animal Crossing villager information for Beau.
+// Package beau exports the Animal Crossing villager Beau.
 package beau

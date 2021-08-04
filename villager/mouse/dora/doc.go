@@ -1,2 +1,2 @@
-// Package dora is an internal package and contains the Animal Crossing villager information for Dora.
+// Package dora exports the Animal Crossing villager Dora.
 package dora

@@ -1,2 +1,2 @@
-// Package monty is an internal package and contains the Animal Crossing villager information for Monty.
+// Package monty exports the Animal Crossing villager Monty.
 package monty

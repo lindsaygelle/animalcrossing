@@ -1,2 +1,2 @@
-// Package flash is an internal package and contains the Animal Crossing villager information for Flash.
+// Package flash exports the Animal Crossing villager Flash.
 package flash

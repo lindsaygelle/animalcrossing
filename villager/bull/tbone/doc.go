@@ -1,2 +1,2 @@
-// Package tbone is an internal package and contains the Animal Crossing villager information for TBone.
+// Package tbone exports the Animal Crossing villager TBone.
 package tbone

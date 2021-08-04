@@ -1,2 +1,2 @@
-// Package sven is an internal package and contains the Animal Crossing villager information for Sven.
+// Package sven exports the Animal Crossing villager Sven.
 package sven

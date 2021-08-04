@@ -1,2 +1,2 @@
-// Package naomi is an internal package and contains the Animal Crossing villager information for Naomi.
+// Package naomi exports the Animal Crossing villager Naomi.
 package naomi

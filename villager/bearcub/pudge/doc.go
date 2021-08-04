@@ -1,2 +1,2 @@
-// Package pudge is an internal package and contains the Animal Crossing villager information for Pudge.
+// Package pudge exports the Animal Crossing villager Pudge.
 package pudge

@@ -1,2 +1,2 @@
-// Package antonio is an internal package and contains the Animal Crossing villager information for Antonio.
+// Package antonio exports the Animal Crossing villager Antonio.
 package antonio

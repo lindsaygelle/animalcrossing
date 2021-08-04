@@ -1,2 +1,2 @@
-// Package hans is an internal package and contains the Animal Crossing villager information for Hans.
+// Package hans exports the Animal Crossing villager Hans.
 package hans

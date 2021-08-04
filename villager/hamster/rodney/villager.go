@@ -6,7 +6,15 @@ import (
 )
 
 const (
+	gender string = "male"
+)
+
+const (
 	id string = "rodney"
+)
+
+const (
+	personality string = "smug"
 )
 
 const (
@@ -16,9 +24,12 @@ const (
 var (
 	// Villager is the villager information for Rodney.
 	Villager = villager.Villager{
-		Animal:  hamster.Animal,
-		Id:      id,
-		Name:    name,
-		Phrase:  phrase,
-		Special: special}
+		Animal:      hamster.Animal,
+		Gender:      gender,
+		Id:          id,
+		Key:         villager.Rodney,
+		Name:        name,
+		Personality: personality,
+		Phrase:      phrase,
+		Special:     special}
 )

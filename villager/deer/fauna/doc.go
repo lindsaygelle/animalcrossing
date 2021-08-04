@@ -1,2 +1,2 @@
-// Package fauna is an internal package and contains the Animal Crossing villager information for Fauna.
+// Package fauna exports the Animal Crossing villager Fauna.
 package fauna

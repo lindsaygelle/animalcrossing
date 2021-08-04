@@ -1,2 +1,2 @@
-// Package cyrano is an internal package and contains the Animal Crossing villager information for Cyrano.
+// Package cyrano exports the Animal Crossing villager Cyrano.
 package cyrano

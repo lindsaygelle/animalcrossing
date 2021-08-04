@@ -1,2 +1,2 @@
-// Package jitters is an internal package and contains the Animal Crossing villager information for Jitters.
+// Package jitters exports the Animal Crossing villager Jitters.
 package jitters

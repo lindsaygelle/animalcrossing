@@ -1,2 +1,2 @@
-// Package hector is an internal package and contains the Animal Crossing villager information for Hector.
+// Package hector exports the Animal Crossing villager Hector.
 package hector

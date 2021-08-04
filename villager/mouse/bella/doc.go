@@ -1,2 +1,2 @@
-// Package bella is an internal package and contains the Animal Crossing villager information for Bella.
+// Package bella exports the Animal Crossing villager Bella.
 package bella

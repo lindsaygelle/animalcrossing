@@ -1,2 +1,2 @@
-// Package frobert is an internal package and contains the Animal Crossing villager information for Frobert.
+// Package frobert exports the Animal Crossing villager Frobert.
 package frobert

@@ -1,2 +1,2 @@
-// Package julia is an internal package and contains the Animal Crossing villager information for Julia.
+// Package julia exports the Animal Crossing villager Julia.
 package julia

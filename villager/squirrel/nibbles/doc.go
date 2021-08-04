@@ -1,2 +1,2 @@
-// Package nibbles is an internal package and contains the Animal Crossing villager information for Nibbles.
+// Package nibbles exports the Animal Crossing villager Nibbles.
 package nibbles

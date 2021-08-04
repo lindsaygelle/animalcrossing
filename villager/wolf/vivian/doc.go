@@ -1,2 +1,2 @@
-// Package vivian is an internal package and contains the Animal Crossing villager information for Vivian.
+// Package vivian exports the Animal Crossing villager Vivian.
 package vivian

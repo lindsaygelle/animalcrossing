@@ -1,2 +1,2 @@
-// Package charlise is an internal package and contains the Animal Crossing villager information for Charlise.
+// Package charlise exports the Animal Crossing villager Charlise.
 package charlise

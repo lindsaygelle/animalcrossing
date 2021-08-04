@@ -1,2 +1,2 @@
-// Package katt is an internal package and contains the Animal Crossing villager information for Katt.
+// Package katt exports the Animal Crossing villager Katt.
 package katt

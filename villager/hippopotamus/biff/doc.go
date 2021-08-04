@@ -1,2 +1,2 @@
-// Package biff is an internal package and contains the Animal Crossing villager information for Biff.
+// Package biff exports the Animal Crossing villager Biff.
 package biff

@@ -1,2 +1,2 @@
-// Package velma is an internal package and contains the Animal Crossing villager information for Velma.
+// Package velma exports the Animal Crossing villager Velma.
 package velma

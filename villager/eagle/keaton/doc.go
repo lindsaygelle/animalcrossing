@@ -1,2 +1,2 @@
-// Package keaton is an internal package and contains the Animal Crossing villager information for Keaton.
+// Package keaton exports the Animal Crossing villager Keaton.
 package keaton

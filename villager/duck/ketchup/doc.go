@@ -1,2 +1,2 @@
-// Package ketchup is an internal package and contains the Animal Crossing villager information for Ketchup.
+// Package ketchup exports the Animal Crossing villager Ketchup.
 package ketchup

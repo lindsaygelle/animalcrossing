@@ -1,2 +1,2 @@
-// Package kiki is an internal package and contains the Animal Crossing villager information for Kiki.
+// Package kiki exports the Animal Crossing villager Kiki.
 package kiki

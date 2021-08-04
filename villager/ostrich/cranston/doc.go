@@ -1,2 +1,2 @@
-// Package cranston is an internal package and contains the Animal Crossing villager information for Cranston.
+// Package cranston exports the Animal Crossing villager Cranston.
 package cranston

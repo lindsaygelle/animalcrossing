@@ -1,2 +1,2 @@
-// Package vesta is an internal package and contains the Animal Crossing villager information for Vesta.
+// Package vesta exports the Animal Crossing villager Vesta.
 package vesta

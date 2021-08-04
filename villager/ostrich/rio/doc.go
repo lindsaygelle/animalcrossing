@@ -1,2 +1,2 @@
-// Package rio is an internal package and contains the Animal Crossing villager information for Rio.
+// Package rio exports the Animal Crossing villager Rio.
 package rio

@@ -1,2 +1,2 @@
-// Package apple is an internal package and contains the Animal Crossing villager information for Apple.
+// Package apple exports the Animal Crossing villager Apple.
 package apple

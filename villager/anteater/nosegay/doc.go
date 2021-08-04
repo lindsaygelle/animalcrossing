@@ -1,2 +1,2 @@
-// Package nosegay is an internal package and contains the Animal Crossing villager information for Nosegay.
+// Package nosegay exports the Animal Crossing villager Nosegay.
 package nosegay

@@ -1,2 +1,2 @@
-// Package rowan is an internal package and contains the Animal Crossing villager information for Rowan.
+// Package rowan exports the Animal Crossing villager Rowan.
 package rowan

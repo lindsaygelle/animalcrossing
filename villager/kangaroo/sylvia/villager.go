@@ -6,7 +6,15 @@ import (
 )
 
 const (
+	gender string = "female"
+)
+
+const (
 	id string = "sylvia"
+)
+
+const (
+	personality string = "sisterly"
 )
 
 const (
@@ -16,9 +24,12 @@ const (
 var (
 	// Villager is the villager information for Sylvia.
 	Villager = villager.Villager{
-		Animal:  kangaroo.Animal,
-		Id:      id,
-		Name:    name,
-		Phrase:  phrase,
-		Special: special}
+		Animal:      kangaroo.Animal,
+		Gender:      gender,
+		Id:          id,
+		Key:         villager.Sylvia,
+		Name:        name,
+		Personality: personality,
+		Phrase:      phrase,
+		Special:     special}
 )

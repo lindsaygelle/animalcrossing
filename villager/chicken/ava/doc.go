@@ -1,2 +1,2 @@
-// Package ava is an internal package and contains the Animal Crossing villager information for Ava.
+// Package ava exports the Animal Crossing villager Ava.
 package ava

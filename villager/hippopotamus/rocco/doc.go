@@ -1,2 +1,2 @@
-// Package rocco is an internal package and contains the Animal Crossing villager information for Rocco.
+// Package rocco exports the Animal Crossing villager Rocco.
 package rocco

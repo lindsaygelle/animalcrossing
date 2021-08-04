@@ -1,2 +1,2 @@
-// Package astrid is an internal package and contains the Animal Crossing villager information for Astrid.
+// Package astrid exports the Animal Crossing villager Astrid.
 package astrid

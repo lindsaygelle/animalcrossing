@@ -1,2 +1,2 @@
-// Package rollo is an internal package and contains the Animal Crossing villager information for Rollo.
+// Package rollo exports the Animal Crossing villager Rollo.
 package rollo

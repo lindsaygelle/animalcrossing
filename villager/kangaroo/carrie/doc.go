@@ -1,2 +1,2 @@
-// Package carrie is an internal package and contains the Animal Crossing villager information for Carrie.
+// Package carrie exports the Animal Crossing villager Carrie.
 package carrie

@@ -1,2 +1,2 @@
-// Package puck is an internal package and contains the Animal Crossing villager information for Puck.
+// Package puck exports the Animal Crossing villager Puck.
 package puck

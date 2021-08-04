@@ -1,2 +1,2 @@
-// Package butch is an internal package and contains the Animal Crossing villager information for Butch.
+// Package butch exports the Animal Crossing villager Butch.
 package butch

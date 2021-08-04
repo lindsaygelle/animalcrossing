@@ -1,2 +1,2 @@
-// Package bones is an internal package and contains the Animal Crossing villager information for Bones.
+// Package bones exports the Animal Crossing villager Bones.
 package bones

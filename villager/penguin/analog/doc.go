@@ -1,2 +1,2 @@
-// Package analog is an internal package and contains the Animal Crossing villager information for Analog.
+// Package analog exports the Animal Crossing villager Analog.
 package analog

@@ -1,2 +1,2 @@
-// Package margie is an internal package and contains the Animal Crossing villager information for Margie.
+// Package margie exports the Animal Crossing villager Margie.
 package margie

@@ -1,2 +1,2 @@
-// Package champagne is an internal package and contains the Animal Crossing villager information for Champagne.
+// Package champagne exports the Animal Crossing villager Champagne.
 package champagne

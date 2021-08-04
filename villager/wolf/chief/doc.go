@@ -1,2 +1,2 @@
-// Package chief is an internal package and contains the Animal Crossing villager information for Chief.
+// Package chief exports the Animal Crossing villager Chief.
 package chief

@@ -1,2 +1,2 @@
-// Package coach is an internal package and contains the Animal Crossing villager information for Coach.
+// Package coach exports the Animal Crossing villager Coach.
 package coach

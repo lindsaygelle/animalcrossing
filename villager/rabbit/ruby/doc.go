@@ -1,2 +1,2 @@
-// Package ruby is an internal package and contains the Animal Crossing villager information for Ruby.
+// Package ruby exports the Animal Crossing villager Ruby.
 package ruby

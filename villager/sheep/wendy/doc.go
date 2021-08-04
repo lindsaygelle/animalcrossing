@@ -1,2 +1,2 @@
-// Package wendy is an internal package and contains the Animal Crossing villager information for Wendy.
+// Package wendy exports the Animal Crossing villager Wendy.
 package wendy

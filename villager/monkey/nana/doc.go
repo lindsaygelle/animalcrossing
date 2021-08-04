@@ -1,2 +1,2 @@
-// Package nana is an internal package and contains the Animal Crossing villager information for Nana.
+// Package nana exports the Animal Crossing villager Nana.
 package nana

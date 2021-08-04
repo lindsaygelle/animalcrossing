@@ -1,2 +1,2 @@
-// Package kid is an internal package and contains the Animal Crossing villager information for Kid.
+// Package kid exports the Animal Crossing villager Kid.
 package kid

@@ -1,2 +1,2 @@
-// Package lily is an internal package and contains the Animal Crossing villager information for Lily.
+// Package lily exports the Animal Crossing villager Lily.
 package lily

@@ -1,2 +1,2 @@
-// Package rodney is an internal package and contains the Animal Crossing villager information for Rodney.
+// Package rodney exports the Animal Crossing villager Rodney.
 package rodney

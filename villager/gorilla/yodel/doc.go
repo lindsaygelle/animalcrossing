@@ -1,2 +1,2 @@
-// Package yodel is an internal package and contains the Animal Crossing villager information for Yodel.
+// Package yodel exports the Animal Crossing villager Yodel.
 package yodel

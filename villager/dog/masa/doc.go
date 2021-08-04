@@ -1,2 +1,2 @@
-// Package masa is an internal package and contains the Animal Crossing villager information for Masa.
+// Package masa exports the Animal Crossing villager Masa.
 package masa

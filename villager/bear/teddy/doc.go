@@ -1,2 +1,2 @@
-// Package teddy is an internal package and contains the Animal Crossing villager information for Teddy.
+// Package teddy exports the Animal Crossing villager Teddy.
 package teddy

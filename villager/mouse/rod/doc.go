@@ -1,2 +1,2 @@
-// Package rod is an internal package and contains the Animal Crossing villager information for Rod.
+// Package rod exports the Animal Crossing villager Rod.
 package rod

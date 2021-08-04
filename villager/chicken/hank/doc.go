@@ -1,2 +1,2 @@
-// Package hank is an internal package and contains the Animal Crossing villager information for Hank.
+// Package hank exports the Animal Crossing villager Hank.
 package hank

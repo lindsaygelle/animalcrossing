@@ -1,2 +1,2 @@
-// Package marcy is an internal package and contains the Animal Crossing villager information for Marcy.
+// Package marcy exports the Animal Crossing villager Marcy.
 package marcy

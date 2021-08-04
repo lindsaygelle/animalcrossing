@@ -1,2 +1,2 @@
-// Package nate is an internal package and contains the Animal Crossing villager information for Nate.
+// Package nate exports the Animal Crossing villager Nate.
 package nate

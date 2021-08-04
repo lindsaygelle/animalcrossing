@@ -1,2 +1,2 @@
-// Package frank is an internal package and contains the Animal Crossing villager information for Frank.
+// Package frank exports the Animal Crossing villager Frank.
 package frank

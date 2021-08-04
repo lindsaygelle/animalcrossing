@@ -1,2 +1,2 @@
-// Package jane is an internal package and contains the Animal Crossing villager information for Jane.
+// Package jane exports the Animal Crossing villager Jane.
 package jane

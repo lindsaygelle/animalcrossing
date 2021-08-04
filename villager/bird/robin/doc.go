@@ -1,2 +1,2 @@
-// Package robin is an internal package and contains the Animal Crossing villager information for Robin.
+// Package robin exports the Animal Crossing villager Robin.
 package robin

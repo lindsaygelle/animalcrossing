@@ -1,2 +1,2 @@
-// Package ankha is an internal package and contains the Animal Crossing villager information for Ankha.
+// Package ankha exports the Animal Crossing villager Ankha.
 package ankha

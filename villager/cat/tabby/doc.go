@@ -1,2 +1,2 @@
-// Package tabby is an internal package and contains the Animal Crossing villager information for Tabby.
+// Package tabby exports the Animal Crossing villager Tabby.
 package tabby

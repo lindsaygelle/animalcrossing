@@ -1,2 +1,2 @@
-// Package pietro is an internal package and contains the Animal Crossing villager information for Pietro.
+// Package pietro exports the Animal Crossing villager Pietro.
 package pietro

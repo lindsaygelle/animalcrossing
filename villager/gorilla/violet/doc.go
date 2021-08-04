@@ -1,2 +1,2 @@
-// Package violet is an internal package and contains the Animal Crossing villager information for Violet.
+// Package violet exports the Animal Crossing villager Violet.
 package violet

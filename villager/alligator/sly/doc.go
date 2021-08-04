@@ -1,2 +1,2 @@
-// Package sly is an internal package and contains the Animal Crossing villager information for Sly.
+// Package sly exports the Animal Crossing villager Sly.
 package sly

@@ -1,2 +1,2 @@
-// Package walker is an internal package and contains the Animal Crossing villager information for Walker.
+// Package walker exports the Animal Crossing villager Walker.
 package walker

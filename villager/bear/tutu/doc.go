@@ -1,2 +1,2 @@
-// Package tutu is an internal package and contains the Animal Crossing villager information for Tutu.
+// Package tutu exports the Animal Crossing villager Tutu.
 package tutu

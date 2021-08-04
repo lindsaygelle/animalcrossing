@@ -1,2 +1,2 @@
-// Package clay is an internal package and contains the Animal Crossing villager information for Clay.
+// Package clay exports the Animal Crossing villager Clay.
 package clay

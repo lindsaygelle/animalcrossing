@@ -1,2 +1,2 @@
-// Package klaus is an internal package and contains the Animal Crossing villager information for Klaus.
+// Package klaus exports the Animal Crossing villager Klaus.
 package klaus

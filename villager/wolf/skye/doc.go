@@ -1,2 +1,2 @@
-// Package skye is an internal package and contains the Animal Crossing villager information for Skye.
+// Package skye exports the Animal Crossing villager Skye.
 package skye

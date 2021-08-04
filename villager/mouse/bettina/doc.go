@@ -1,2 +1,2 @@
-// Package bettina is an internal package and contains the Animal Crossing villager information for Bettina.
+// Package bettina exports the Animal Crossing villager Bettina.
 package bettina

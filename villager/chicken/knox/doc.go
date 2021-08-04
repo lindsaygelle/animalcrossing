@@ -1,2 +1,2 @@
-// Package knox is an internal package and contains the Animal Crossing villager information for Knox.
+// Package knox exports the Animal Crossing villager Knox.
 package knox

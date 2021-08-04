@@ -1,2 +1,2 @@
-// Package weldon is an internal package and contains the Animal Crossing villager information for Weldon.
+// Package weldon exports the Animal Crossing villager Weldon.
 package weldon

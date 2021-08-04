@@ -1,2 +1,2 @@
-// Package diana is an internal package and contains the Animal Crossing villager information for Diana.
+// Package diana exports the Animal Crossing villager Diana.
 package diana

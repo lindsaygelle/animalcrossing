@@ -1,2 +1,2 @@
-// Package marcel is an internal package and contains the Animal Crossing villager information for Marcel.
+// Package marcel exports the Animal Crossing villager Marcel.
 package marcel

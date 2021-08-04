@@ -8,9 +8,13 @@ import (
 type Villager struct {
 	animal.Animal
 
-	Code    string
-	Id      string
-	Name    map[language.Tag]string
-	Phrase  map[language.Tag]string
-	Special bool
+	Appearance  Appearance
+	Code        string
+	Gender      string
+	Id          string
+	Key         Key
+	Name        map[language.Tag]string
+	Personality string
+	Phrase      map[language.Tag]string
+	Special     bool
 }

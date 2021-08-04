@@ -1,2 +1,2 @@
-// Package suee is an internal package and contains the Animal Crossing villager information for SueE.
+// Package suee exports the Animal Crossing villager SueE.
 package suee

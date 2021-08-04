@@ -1,2 +1,2 @@
-// Package flora is an internal package and contains the Animal Crossing villager information for Flora.
+// Package flora exports the Animal Crossing villager Flora.
 package flora

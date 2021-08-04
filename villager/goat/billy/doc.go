@@ -1,2 +1,2 @@
-// Package billy is an internal package and contains the Animal Crossing villager information for Billy.
+// Package billy exports the Animal Crossing villager Billy.
 package billy

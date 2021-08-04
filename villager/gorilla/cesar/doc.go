@@ -1,2 +1,2 @@
-// Package cesar is an internal package and contains the Animal Crossing villager information for Cesar.
+// Package cesar exports the Animal Crossing villager Cesar.
 package cesar

@@ -1,2 +1,2 @@
-// Package woolio is an internal package and contains the Animal Crossing villager information for Woolio.
+// Package woolio exports the Animal Crossing villager Woolio.
 package woolio

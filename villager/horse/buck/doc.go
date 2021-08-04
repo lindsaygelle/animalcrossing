@@ -1,2 +1,2 @@
-// Package buck is an internal package and contains the Animal Crossing villager information for Buck.
+// Package buck exports the Animal Crossing villager Buck.
 package buck

@@ -1,2 +1,2 @@
-// Package stitches is an internal package and contains the Animal Crossing villager information for Stitches.
+// Package stitches exports the Animal Crossing villager Stitches.
 package stitches

@@ -1,2 +1,2 @@
-// Package mott is an internal package and contains the Animal Crossing villager information for Mott.
+// Package mott exports the Animal Crossing villager Mott.
 package mott

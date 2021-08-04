@@ -1,2 +1,2 @@
-// Package flurry is an internal package and contains the Animal Crossing villager information for Flurry.
+// Package flurry exports the Animal Crossing villager Flurry.
 package flurry

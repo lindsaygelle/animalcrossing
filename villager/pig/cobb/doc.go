@@ -1,2 +1,2 @@
-// Package cobb is an internal package and contains the Animal Crossing villager information for Cobb.
+// Package cobb exports the Animal Crossing villager Cobb.
 package cobb

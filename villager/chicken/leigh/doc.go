@@ -1,2 +1,2 @@
-// Package leigh is an internal package and contains the Animal Crossing villager information for Leigh.
+// Package leigh exports the Animal Crossing villager Leigh.
 package leigh

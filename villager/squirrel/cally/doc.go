@@ -1,2 +1,2 @@
-// Package cally is an internal package and contains the Animal Crossing villager information for Cally.
+// Package cally exports the Animal Crossing villager Cally.
 package cally

@@ -1,2 +1,2 @@
-// Package jeremiah is an internal package and contains the Animal Crossing villager information for Jeremiah.
+// Package jeremiah exports the Animal Crossing villager Jeremiah.
 package jeremiah

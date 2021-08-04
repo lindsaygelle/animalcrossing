@@ -1,2 +1,2 @@
-// Package lucky is an internal package and contains the Animal Crossing villager information for Lucky.
+// Package lucky exports the Animal Crossing villager Lucky.
 package lucky

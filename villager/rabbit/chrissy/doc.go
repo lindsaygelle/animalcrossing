@@ -1,2 +1,2 @@
-// Package chrissy is an internal package and contains the Animal Crossing villager information for Chrissy.
+// Package chrissy exports the Animal Crossing villager Chrissy.
 package chrissy

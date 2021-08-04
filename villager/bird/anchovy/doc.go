@@ -1,2 +1,2 @@
-// Package anchovy is an internal package and contains the Animal Crossing villager information for Anchovy.
+// Package anchovy exports the Animal Crossing villager Anchovy.
 package anchovy

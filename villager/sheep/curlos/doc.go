@@ -1,2 +1,2 @@
-// Package curlos is an internal package and contains the Animal Crossing villager information for Curlos.
+// Package curlos exports the Animal Crossing villager Curlos.
 package curlos

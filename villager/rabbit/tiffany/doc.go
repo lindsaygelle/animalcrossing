@@ -1,2 +1,2 @@
-// Package tiffany is an internal package and contains the Animal Crossing villager information for Tiffany.
+// Package tiffany exports the Animal Crossing villager Tiffany.
 package tiffany

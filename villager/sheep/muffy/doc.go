@@ -1,2 +1,2 @@
-// Package muffy is an internal package and contains the Animal Crossing villager information for Muffy.
+// Package muffy exports the Animal Crossing villager Muffy.
 package muffy

@@ -1,2 +1,2 @@
-// Package opal is an internal package and contains the Animal Crossing villager information for Opal.
+// Package opal exports the Animal Crossing villager Opal.
 package opal

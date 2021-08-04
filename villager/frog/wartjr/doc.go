@@ -1,2 +1,2 @@
-// Package wartjr is an internal package and contains the Animal Crossing villager information for WartJr.
+// Package wartjr exports the Animal Crossing villager WartJr.
 package wartjr

@@ -1,2 +1,2 @@
-// Package moose is an internal package and contains the Animal Crossing villager information for Moose.
+// Package moose exports the Animal Crossing villager Moose.
 package moose

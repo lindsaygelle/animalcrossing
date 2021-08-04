@@ -1,2 +1,2 @@
-// Package quillson is an internal package and contains the Animal Crossing villager information for Quillson.
+// Package quillson exports the Animal Crossing villager Quillson.
 package quillson

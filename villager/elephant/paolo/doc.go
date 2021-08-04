@@ -1,2 +1,2 @@
-// Package paolo is an internal package and contains the Animal Crossing villager information for Paolo.
+// Package paolo exports the Animal Crossing villager Paolo.
 package paolo

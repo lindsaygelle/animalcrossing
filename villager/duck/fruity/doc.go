@@ -1,2 +1,2 @@
-// Package fruity is an internal package and contains the Animal Crossing villager information for Fruity.
+// Package fruity exports the Animal Crossing villager Fruity.
 package fruity

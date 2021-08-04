@@ -1,2 +1,2 @@
-// Package lulu is an internal package and contains the Animal Crossing villager information for Lulu.
+// Package lulu exports the Animal Crossing villager Lulu.
 package lulu

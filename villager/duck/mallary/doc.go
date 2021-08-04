@@ -1,2 +1,2 @@
-// Package mallary is an internal package and contains the Animal Crossing villager information for Mallary.
+// Package mallary exports the Animal Crossing villager Mallary.
 package mallary

@@ -1,2 +1,2 @@
-// Package cyd is an internal package and contains the Animal Crossing villager information for Cyd.
+// Package cyd exports the Animal Crossing villager Cyd.
 package cyd

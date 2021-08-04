@@ -1,2 +1,2 @@
-// Package cherry is an internal package and contains the Animal Crossing villager information for Cherry.
+// Package cherry exports the Animal Crossing villager Cherry.
 package cherry

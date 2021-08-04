@@ -1,2 +1,2 @@
-// Package deirdre is an internal package and contains the Animal Crossing villager information for Deirdre.
+// Package deirdre exports the Animal Crossing villager Deirdre.
 package deirdre

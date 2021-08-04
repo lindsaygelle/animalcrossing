@@ -1,2 +1,2 @@
-// Package wolfgang is an internal package and contains the Animal Crossing villager information for Wolfgang.
+// Package wolfgang exports the Animal Crossing villager Wolfgang.
 package wolfgang

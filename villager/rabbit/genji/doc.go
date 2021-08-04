@@ -1,2 +1,2 @@
-// Package genji is an internal package and contains the Animal Crossing villager information for Genji.
+// Package genji exports the Animal Crossing villager Genji.
 package genji

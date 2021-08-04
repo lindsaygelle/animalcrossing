@@ -1,2 +1,2 @@
-// Package elina is an internal package and contains the Animal Crossing villager information for Elina.
+// Package elina exports the Animal Crossing villager Elina.
 package elina

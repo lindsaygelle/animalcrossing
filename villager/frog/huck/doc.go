@@ -1,2 +1,2 @@
-// Package huck is an internal package and contains the Animal Crossing villager information for Huck.
+// Package huck exports the Animal Crossing villager Huck.
 package huck

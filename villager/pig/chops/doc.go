@@ -1,2 +1,2 @@
-// Package chops is an internal package and contains the Animal Crossing villager information for Chops.
+// Package chops exports the Animal Crossing villager Chops.
 package chops

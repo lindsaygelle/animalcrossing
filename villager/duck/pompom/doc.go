@@ -1,2 +1,2 @@
-// Package pompom is an internal package and contains the Animal Crossing villager information for Pompom.
+// Package pompom exports the Animal Crossing villager Pompom.
 package pompom

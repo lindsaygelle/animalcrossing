@@ -1,2 +1,2 @@
-// Package timbra is an internal package and contains the Animal Crossing villager information for Timbra.
+// Package timbra exports the Animal Crossing villager Timbra.
 package timbra

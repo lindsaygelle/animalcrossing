@@ -1,2 +1,2 @@
-// Package mint is an internal package and contains the Animal Crossing villager information for Mint.
+// Package mint exports the Animal Crossing villager Mint.
 package mint

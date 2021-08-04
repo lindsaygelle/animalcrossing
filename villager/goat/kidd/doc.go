@@ -1,2 +1,2 @@
-// Package kidd is an internal package and contains the Animal Crossing villager information for Kidd.
+// Package kidd exports the Animal Crossing villager Kidd.
 package kidd

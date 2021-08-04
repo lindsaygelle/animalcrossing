@@ -1,2 +1,2 @@
-// Package goldie is an internal package and contains the Animal Crossing villager information for Goldie.
+// Package goldie exports the Animal Crossing villager Goldie.
 package goldie

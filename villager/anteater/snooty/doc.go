@@ -1,2 +1,2 @@
-// Package snooty is an internal package and contains the Animal Crossing villager information for Snooty.
+// Package snooty exports the Animal Crossing villager Snooty.
 package snooty

@@ -1,2 +1,2 @@
-// Package punchy is an internal package and contains the Animal Crossing villager information for Punchy.
+// Package punchy exports the Animal Crossing villager Punchy.
 package punchy

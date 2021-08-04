@@ -1,2 +1,2 @@
-// Package tasha is an internal package and contains the Animal Crossing villager information for Tasha.
+// Package tasha exports the Animal Crossing villager Tasha.
 package tasha

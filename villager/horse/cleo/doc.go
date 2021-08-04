@@ -1,2 +1,2 @@
-// Package cleo is an internal package and contains the Animal Crossing villager information for Cleo.
+// Package cleo exports the Animal Crossing villager Cleo.
 package cleo

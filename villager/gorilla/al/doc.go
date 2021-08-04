@@ -1,2 +1,2 @@
-// Package al is an internal package and contains the Animal Crossing villager information for Al.
+// Package al exports the Animal Crossing villager Al.
 package al

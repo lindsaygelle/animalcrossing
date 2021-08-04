@@ -1,2 +1,2 @@
-// Package bunnie is an internal package and contains the Animal Crossing villager information for Bunnie.
+// Package bunnie exports the Animal Crossing villager Bunnie.
 package bunnie

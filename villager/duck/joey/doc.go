@@ -1,2 +1,2 @@
-// Package joey is an internal package and contains the Animal Crossing villager information for Joey.
+// Package joey exports the Animal Crossing villager Joey.
 package joey

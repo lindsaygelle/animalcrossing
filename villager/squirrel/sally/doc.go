@@ -1,2 +1,2 @@
-// Package sally is an internal package and contains the Animal Crossing villager information for Sally.
+// Package sally exports the Animal Crossing villager Sally.
 package sally

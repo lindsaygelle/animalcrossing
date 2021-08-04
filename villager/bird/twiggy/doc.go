@@ -1,2 +1,2 @@
-// Package twiggy is an internal package and contains the Animal Crossing villager information for Twiggy.
+// Package twiggy exports the Animal Crossing villager Twiggy.
 package twiggy

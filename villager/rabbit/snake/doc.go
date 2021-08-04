@@ -1,2 +1,2 @@
-// Package snake is an internal package and contains the Animal Crossing villager information for Snake.
+// Package snake exports the Animal Crossing villager Snake.
 package snake

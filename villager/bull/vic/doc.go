@@ -1,2 +1,2 @@
-// Package vic is an internal package and contains the Animal Crossing villager information for Vic.
+// Package vic exports the Animal Crossing villager Vic.
 package vic

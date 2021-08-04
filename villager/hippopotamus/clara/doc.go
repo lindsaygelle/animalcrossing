@@ -1,2 +1,2 @@
-// Package clara is an internal package and contains the Animal Crossing villager information for Clara.
+// Package clara exports the Animal Crossing villager Clara.
 package clara

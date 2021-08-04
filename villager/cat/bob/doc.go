@@ -1,2 +1,2 @@
-// Package bob is an internal package and contains the Animal Crossing villager information for Bob.
+// Package bob exports the Animal Crossing villager Bob.
 package bob

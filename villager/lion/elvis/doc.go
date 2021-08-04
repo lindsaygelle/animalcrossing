@@ -1,2 +1,2 @@
-// Package elvis is an internal package and contains the Animal Crossing villager information for Elvis.
+// Package elvis exports the Animal Crossing villager Elvis.
 package elvis

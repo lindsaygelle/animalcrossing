@@ -1,2 +1,2 @@
-// Package madamrosa is an internal package and contains the Animal Crossing villager information for MadamRosa.
+// Package madamrosa exports the Animal Crossing villager MadamRosa.
 package madamrosa

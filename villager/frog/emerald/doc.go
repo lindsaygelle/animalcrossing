@@ -1,2 +1,2 @@
-// Package emerald is an internal package and contains the Animal Crossing villager information for Emerald.
+// Package emerald exports the Animal Crossing villager Emerald.
 package emerald

@@ -1,2 +1,2 @@
-// Package bluebear is an internal package and contains the Animal Crossing villager information for Bluebear.
+// Package bluebear exports the Animal Crossing villager Bluebear.
 package bluebear

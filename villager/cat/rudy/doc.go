@@ -1,2 +1,2 @@
-// Package rudy is an internal package and contains the Animal Crossing villager information for Rudy.
+// Package rudy exports the Animal Crossing villager Rudy.
 package rudy

@@ -1,2 +1,2 @@
-// Package annalisa is an internal package and contains the Animal Crossing villager information for Annalisa.
+// Package annalisa exports the Animal Crossing villager Annalisa.
 package annalisa

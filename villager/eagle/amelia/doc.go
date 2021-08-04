@@ -1,2 +1,2 @@
-// Package amelia is an internal package and contains the Animal Crossing villager information for Amelia.
+// Package amelia exports the Animal Crossing villager Amelia.
 package amelia

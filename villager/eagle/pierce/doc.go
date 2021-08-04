@@ -1,2 +1,2 @@
-// Package pierce is an internal package and contains the Animal Crossing villager information for Pierce.
+// Package pierce exports the Animal Crossing villager Pierce.
 package pierce

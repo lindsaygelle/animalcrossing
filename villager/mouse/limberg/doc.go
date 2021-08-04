@@ -1,2 +1,2 @@
-// Package limberg is an internal package and contains the Animal Crossing villager information for Limberg.
+// Package limberg exports the Animal Crossing villager Limberg.
 package limberg

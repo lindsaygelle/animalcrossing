@@ -1,2 +1,2 @@
-// Package nobuo is an internal package and contains the Animal Crossing villager information for Nobuo.
+// Package nobuo exports the Animal Crossing villager Nobuo.
 package nobuo

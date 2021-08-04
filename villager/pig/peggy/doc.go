@@ -1,2 +1,2 @@
-// Package peggy is an internal package and contains the Animal Crossing villager information for Peggy.
+// Package peggy exports the Animal Crossing villager Peggy.
 package peggy

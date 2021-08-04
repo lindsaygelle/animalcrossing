@@ -1,2 +1,2 @@
-// Package poppy is an internal package and contains the Animal Crossing villager information for Poppy.
+// Package poppy exports the Animal Crossing villager Poppy.
 package poppy

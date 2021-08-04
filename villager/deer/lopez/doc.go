@@ -1,2 +1,2 @@
-// Package lopez is an internal package and contains the Animal Crossing villager information for Lopez.
+// Package lopez exports the Animal Crossing villager Lopez.
 package lopez

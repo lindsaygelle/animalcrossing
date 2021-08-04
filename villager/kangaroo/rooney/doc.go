@@ -1,2 +1,2 @@
-// Package rooney is an internal package and contains the Animal Crossing villager information for Rooney.
+// Package rooney exports the Animal Crossing villager Rooney.
 package rooney

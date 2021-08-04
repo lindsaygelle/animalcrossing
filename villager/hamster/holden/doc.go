@@ -1,2 +1,2 @@
-// Package holden is an internal package and contains the Animal Crossing villager information for Holden.
+// Package holden exports the Animal Crossing villager Holden.
 package holden

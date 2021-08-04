@@ -1,2 +1,2 @@
-// Package olivia is an internal package and contains the Animal Crossing villager information for Olivia.
+// Package olivia exports the Animal Crossing villager Olivia.
 package olivia

@@ -1,2 +1,2 @@
-// Package hamlet is an internal package and contains the Animal Crossing villager information for Hamlet.
+// Package hamlet exports the Animal Crossing villager Hamlet.
 package hamlet

@@ -1,2 +1,2 @@
-// Package erik is an internal package and contains the Animal Crossing villager information for Erik.
+// Package erik exports the Animal Crossing villager Erik.
 package erik

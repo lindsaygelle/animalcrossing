@@ -1,2 +1,2 @@
-// Package angus is an internal package and contains the Animal Crossing villager information for Angus.
+// Package angus exports the Animal Crossing villager Angus.
 package angus

@@ -1,2 +1,2 @@
-// Package kody is an internal package and contains the Animal Crossing villager information for Kody.
+// Package kody exports the Animal Crossing villager Kody.
 package kody

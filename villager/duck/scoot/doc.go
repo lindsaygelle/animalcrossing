@@ -1,2 +1,2 @@
-// Package scoot is an internal package and contains the Animal Crossing villager information for Scoot.
+// Package scoot exports the Animal Crossing villager Scoot.
 package scoot

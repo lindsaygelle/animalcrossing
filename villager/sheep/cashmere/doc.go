@@ -1,2 +1,2 @@
-// Package cashmere is an internal package and contains the Animal Crossing villager information for Cashmere.
+// Package cashmere exports the Animal Crossing villager Cashmere.
 package cashmere

@@ -1,2 +1,2 @@
-// Package aurora is an internal package and contains the Animal Crossing villager information for Aurora.
+// Package aurora exports the Animal Crossing villager Aurora.
 package aurora

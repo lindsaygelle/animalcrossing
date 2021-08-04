@@ -1,2 +1,2 @@
-// Package lionel is an internal package and contains the Animal Crossing villager information for Lionel.
+// Package lionel exports the Animal Crossing villager Lionel.
 package lionel

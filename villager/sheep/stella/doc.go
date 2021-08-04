@@ -1,2 +1,2 @@
-// Package stella is an internal package and contains the Animal Crossing villager information for Stella.
+// Package stella exports the Animal Crossing villager Stella.
 package stella

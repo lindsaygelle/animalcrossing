@@ -1,2 +1,2 @@
-// Package faith is an internal package and contains the Animal Crossing villager information for Faith.
+// Package faith exports the Animal Crossing villager Faith.
 package faith

@@ -1,2 +1,2 @@
-// Package shoukichi is an internal package and contains the Animal Crossing villager information for Shoukichi.
+// Package shoukichi exports the Animal Crossing villager Shoukichi.
 package shoukichi

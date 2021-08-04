@@ -1,2 +1,2 @@
-// Package lobo is an internal package and contains the Animal Crossing villager information for Lobo.
+// Package lobo exports the Animal Crossing villager Lobo.
 package lobo

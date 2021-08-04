@@ -1,2 +1,2 @@
-// Package hugh is an internal package and contains the Animal Crossing villager information for Hugh.
+// Package hugh exports the Animal Crossing villager Hugh.
 package hugh

@@ -1,2 +1,2 @@
-// Package dozer is an internal package and contains the Animal Crossing villager information for Dozer.
+// Package dozer exports the Animal Crossing villager Dozer.
 package dozer

@@ -1,2 +1,2 @@
-// Package barold is an internal package and contains the Animal Crossing villager information for Barold.
+// Package barold exports the Animal Crossing villager Barold.
 package barold

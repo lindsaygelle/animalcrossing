@@ -1,2 +1,2 @@
-// Package murphy is an internal package and contains the Animal Crossing villager information for Murphy.
+// Package murphy exports the Animal Crossing villager Murphy.
 package murphy

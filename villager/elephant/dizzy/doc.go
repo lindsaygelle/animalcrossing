@@ -1,2 +1,2 @@
-// Package dizzy is an internal package and contains the Animal Crossing villager information for Dizzy.
+// Package dizzy exports the Animal Crossing villager Dizzy.
 package dizzy

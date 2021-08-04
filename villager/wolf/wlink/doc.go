@@ -1,2 +1,2 @@
-// Package wlink is an internal package and contains the Animal Crossing villager information for WLink.
+// Package wlink exports the Animal Crossing villager WLink.
 package wlink

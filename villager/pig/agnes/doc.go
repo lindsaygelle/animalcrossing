@@ -1,2 +1,2 @@
-// Package agnes is an internal package and contains the Animal Crossing villager information for Agnes.
+// Package agnes exports the Animal Crossing villager Agnes.
 package agnes

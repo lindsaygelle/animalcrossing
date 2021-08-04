@@ -1,2 +1,2 @@
-// Package drift is an internal package and contains the Animal Crossing villager information for Drift.
+// Package drift exports the Animal Crossing villager Drift.
 package drift

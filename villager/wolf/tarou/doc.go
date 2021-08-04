@@ -1,2 +1,2 @@
-// Package tarou is an internal package and contains the Animal Crossing villager information for Tarou.
+// Package tarou exports the Animal Crossing villager Tarou.
 package tarou

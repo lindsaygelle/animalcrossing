@@ -1,2 +1,2 @@
-// Package claude is an internal package and contains the Animal Crossing villager information for Claude.
+// Package claude exports the Animal Crossing villager Claude.
 package claude

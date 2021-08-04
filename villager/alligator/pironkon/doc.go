@@ -1,2 +1,2 @@
-// Package pironkon is an internal package and contains the Animal Crossing villager information for Pironkon.
+// Package pironkon exports the Animal Crossing villager Pironkon.
 package pironkon

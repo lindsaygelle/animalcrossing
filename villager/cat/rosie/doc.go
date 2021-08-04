@@ -1,2 +1,2 @@
-// Package rosie is an internal package and contains the Animal Crossing villager information for Rosie.
+// Package rosie exports the Animal Crossing villager Rosie.
 package rosie

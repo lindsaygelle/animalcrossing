@@ -1,2 +1,2 @@
-// Package flo is an internal package and contains the Animal Crossing villager information for Flo.
+// Package flo exports the Animal Crossing villager Flo.
 package flo

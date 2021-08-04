@@ -1,2 +1,2 @@
-// Package midge is an internal package and contains the Animal Crossing villager information for Midge.
+// Package midge exports the Animal Crossing villager Midge.
 package midge

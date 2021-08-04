@@ -1,2 +1,2 @@
-// Package leonardo is an internal package and contains the Animal Crossing villager information for Leonardo.
+// Package leonardo exports the Animal Crossing villager Leonardo.
 package leonardo

@@ -1,2 +1,2 @@
-// Package raddle is an internal package and contains the Animal Crossing villager information for Raddle.
+// Package raddle exports the Animal Crossing villager Raddle.
 package raddle

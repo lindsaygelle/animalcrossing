@@ -1,2 +1,2 @@
-// Package hopper is an internal package and contains the Animal Crossing villager information for Hopper.
+// Package hopper exports the Animal Crossing villager Hopper.
 package hopper

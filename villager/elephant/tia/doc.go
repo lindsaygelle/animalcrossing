@@ -1,2 +1,2 @@
-// Package tia is an internal package and contains the Animal Crossing villager information for Tia.
+// Package tia exports the Animal Crossing villager Tia.
 package tia

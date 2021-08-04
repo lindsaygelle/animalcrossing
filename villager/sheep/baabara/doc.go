@@ -1,2 +1,2 @@
-// Package baabara is an internal package and contains the Animal Crossing villager information for Baabara.
+// Package baabara exports the Animal Crossing villager Baabara.
 package baabara

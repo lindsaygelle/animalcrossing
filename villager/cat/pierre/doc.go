@@ -1,2 +1,2 @@
-// Package pierre is an internal package and contains the Animal Crossing villager information for Pierre.
+// Package pierre exports the Animal Crossing villager Pierre.
 package pierre

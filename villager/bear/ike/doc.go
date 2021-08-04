@@ -1,2 +1,2 @@
-// Package ike is an internal package and contains the Animal Crossing villager information for Ike.
+// Package ike exports the Animal Crossing villager Ike.
 package ike

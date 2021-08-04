@@ -1,2 +1,2 @@
-// Package filly is an internal package and contains the Animal Crossing villager information for Filly.
+// Package filly exports the Animal Crossing villager Filly.
 package filly

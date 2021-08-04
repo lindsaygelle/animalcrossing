@@ -1,2 +1,2 @@
-// Package julian is an internal package and contains the Animal Crossing villager information for Julian.
+// Package julian exports the Animal Crossing villager Julian.
 package julian

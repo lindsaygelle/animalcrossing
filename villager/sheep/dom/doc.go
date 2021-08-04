@@ -1,2 +1,2 @@
-// Package dom is an internal package and contains the Animal Crossing villager information for Dom.
+// Package dom exports the Animal Crossing villager Dom.
 package dom

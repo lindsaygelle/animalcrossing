@@ -1,2 +1,2 @@
-// Package groucho is an internal package and contains the Animal Crossing villager information for Groucho.
+// Package groucho exports the Animal Crossing villager Groucho.
 package groucho

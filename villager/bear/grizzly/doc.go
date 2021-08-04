@@ -1,2 +1,2 @@
-// Package grizzly is an internal package and contains the Animal Crossing villager information for Grizzly.
+// Package grizzly exports the Animal Crossing villager Grizzly.
 package grizzly

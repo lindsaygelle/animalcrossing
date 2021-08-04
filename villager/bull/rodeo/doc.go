@@ -1,2 +1,2 @@
-// Package rodeo is an internal package and contains the Animal Crossing villager information for Rodeo.
+// Package rodeo exports the Animal Crossing villager Rodeo.
 package rodeo

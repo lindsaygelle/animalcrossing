@@ -1,2 +1,2 @@
-// Package henry is an internal package and contains the Animal Crossing villager information for Henry.
+// Package henry exports the Animal Crossing villager Henry.
 package henry

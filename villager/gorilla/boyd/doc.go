@@ -1,2 +1,2 @@
-// Package boyd is an internal package and contains the Animal Crossing villager information for Boyd.
+// Package boyd exports the Animal Crossing villager Boyd.
 package boyd

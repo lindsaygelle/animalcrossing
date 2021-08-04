@@ -1,2 +1,2 @@
-// Package doc is an internal package and contains the Animal Crossing villager information for Doc.
+// Package doc exports the Animal Crossing villager Doc.
 package doc

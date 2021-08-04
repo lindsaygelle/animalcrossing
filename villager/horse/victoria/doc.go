@@ -1,2 +1,2 @@
-// Package victoria is an internal package and contains the Animal Crossing villager information for Victoria.
+// Package victoria exports the Animal Crossing villager Victoria.
 package victoria

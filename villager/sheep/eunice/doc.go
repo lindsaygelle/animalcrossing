@@ -1,2 +1,2 @@
-// Package eunice is an internal package and contains the Animal Crossing villager information for Eunice.
+// Package eunice exports the Animal Crossing villager Eunice.
 package eunice

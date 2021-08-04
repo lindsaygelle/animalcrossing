@@ -1,2 +1,2 @@
-// Package biskit is an internal package and contains the Animal Crossing villager information for Biskit.
+// Package biskit exports the Animal Crossing villager Biskit.
 package biskit

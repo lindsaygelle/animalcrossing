@@ -1,2 +1,2 @@
-// Package papi is an internal package and contains the Animal Crossing villager information for Papi.
+// Package papi exports the Animal Crossing villager Papi.
 package papi

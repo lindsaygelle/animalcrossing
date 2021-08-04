@@ -1,2 +1,2 @@
-// Package sandy is an internal package and contains the Animal Crossing villager information for Sandy.
+// Package sandy exports the Animal Crossing villager Sandy.
 package sandy

@@ -1,2 +1,2 @@
-// Package chai is an internal package and contains the Animal Crossing villager information for Chai.
+// Package chai exports the Animal Crossing villager Chai.
 package chai

@@ -1,2 +1,2 @@
-// Package zell is an internal package and contains the Animal Crossing villager information for Zell.
+// Package zell exports the Animal Crossing villager Zell.
 package zell

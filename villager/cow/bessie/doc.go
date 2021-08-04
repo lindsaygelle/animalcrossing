@@ -1,2 +1,2 @@
-// Package bessie is an internal package and contains the Animal Crossing villager information for Bessie.
+// Package bessie exports the Animal Crossing villager Bessie.
 package bessie

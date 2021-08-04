@@ -1,2 +1,2 @@
-// Package pinky is an internal package and contains the Animal Crossing villager information for Pinky.
+// Package pinky exports the Animal Crossing villager Pinky.
 package pinky

@@ -1,2 +1,2 @@
-// Package curt is an internal package and contains the Animal Crossing villager information for Curt.
+// Package curt exports the Animal Crossing villager Curt.
 package curt

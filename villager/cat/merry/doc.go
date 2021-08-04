@@ -1,2 +1,2 @@
-// Package merry is an internal package and contains the Animal Crossing villager information for Merry.
+// Package merry exports the Animal Crossing villager Merry.
 package merry

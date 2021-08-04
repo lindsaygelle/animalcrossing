@@ -1,2 +1,2 @@
-// Package nan is an internal package and contains the Animal Crossing villager information for Nan.
+// Package nan exports the Animal Crossing villager Nan.
 package nan

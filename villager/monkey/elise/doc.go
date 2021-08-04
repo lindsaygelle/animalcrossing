@@ -1,2 +1,2 @@
-// Package elise is an internal package and contains the Animal Crossing villager information for Elise.
+// Package elise exports the Animal Crossing villager Elise.
 package elise

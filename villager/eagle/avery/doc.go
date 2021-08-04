@@ -1,2 +1,2 @@
-// Package avery is an internal package and contains the Animal Crossing villager information for Avery.
+// Package avery exports the Animal Crossing villager Avery.
 package avery

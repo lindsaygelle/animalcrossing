@@ -1,2 +1,2 @@
-// Package benjamin is an internal package and contains the Animal Crossing villager information for Benjamin.
+// Package benjamin exports the Animal Crossing villager Benjamin.
 package benjamin

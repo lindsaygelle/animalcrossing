@@ -1,2 +1,2 @@
-// Package megumi is an internal package and contains the Animal Crossing villager information for Megumi.
+// Package megumi exports the Animal Crossing villager Megumi.
 package megumi

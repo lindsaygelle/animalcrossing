@@ -1,2 +1,2 @@
-// Package judy is an internal package and contains the Animal Crossing villager information for Judy.
+// Package judy exports the Animal Crossing villager Judy.
 package judy

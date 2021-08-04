@@ -1,2 +1,2 @@
-// Package sherb is an internal package and contains the Animal Crossing villager information for Sherb.
+// Package sherb exports the Animal Crossing villager Sherb.
 package sherb

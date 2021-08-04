@@ -1,2 +1,2 @@
-// Package sydney is an internal package and contains the Animal Crossing villager information for Sydney.
+// Package sydney exports the Animal Crossing villager Sydney.
 package sydney

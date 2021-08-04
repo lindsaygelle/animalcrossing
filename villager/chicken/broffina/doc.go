@@ -1,2 +1,2 @@
-// Package broffina is an internal package and contains the Animal Crossing villager information for Broffina.
+// Package broffina exports the Animal Crossing villager Broffina.
 package broffina

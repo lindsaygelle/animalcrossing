@@ -1,2 +1,2 @@
-// Package bea is an internal package and contains the Animal Crossing villager information for Bea.
+// Package bea exports the Animal Crossing villager Bea.
 package bea

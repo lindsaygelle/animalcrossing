@@ -1,2 +1,2 @@
-// Package gwen is an internal package and contains the Animal Crossing villager information for Gwen.
+// Package gwen exports the Animal Crossing villager Gwen.
 package gwen

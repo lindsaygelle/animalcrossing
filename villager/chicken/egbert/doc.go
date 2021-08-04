@@ -1,2 +1,2 @@
-// Package egbert is an internal package and contains the Animal Crossing villager information for Egbert.
+// Package egbert exports the Animal Crossing villager Egbert.
 package egbert

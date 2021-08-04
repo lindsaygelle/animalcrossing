@@ -1,2 +1,2 @@
-// Package bigtop is an internal package and contains the Animal Crossing villager information for BigTop.
+// Package bigtop exports the Animal Crossing villager BigTop.
 package bigtop

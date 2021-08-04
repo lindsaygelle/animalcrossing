@@ -1,2 +1,2 @@
-// Package bud is an internal package and contains the Animal Crossing villager information for Bud.
+// Package bud exports the Animal Crossing villager Bud.
 package bud

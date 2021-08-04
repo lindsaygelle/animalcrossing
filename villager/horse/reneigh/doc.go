@@ -1,2 +1,2 @@
-// Package reneigh is an internal package and contains the Animal Crossing villager information for Reneigh.
+// Package reneigh exports the Animal Crossing villager Reneigh.
 package reneigh

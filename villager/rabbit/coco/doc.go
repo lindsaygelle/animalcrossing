@@ -1,2 +1,2 @@
-// Package coco is an internal package and contains the Animal Crossing villager information for Coco.
+// Package coco exports the Animal Crossing villager Coco.
 package coco

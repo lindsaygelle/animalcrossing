@@ -1,2 +1,2 @@
-// Package rocket is an internal package and contains the Animal Crossing villager information for Rocket.
+// Package rocket exports the Animal Crossing villager Rocket.
 package rocket

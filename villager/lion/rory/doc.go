@@ -1,2 +1,2 @@
-// Package rory is an internal package and contains the Animal Crossing villager information for Rory.
+// Package rory exports the Animal Crossing villager Rory.
 package rory

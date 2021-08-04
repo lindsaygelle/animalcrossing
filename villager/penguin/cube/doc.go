@@ -1,2 +1,2 @@
-// Package cube is an internal package and contains the Animal Crossing villager information for Cube.
+// Package cube exports the Animal Crossing villager Cube.
 package cube

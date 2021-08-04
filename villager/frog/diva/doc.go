@@ -1,2 +1,2 @@
-// Package diva is an internal package and contains the Animal Crossing villager information for Diva.
+// Package diva exports the Animal Crossing villager Diva.
 package diva

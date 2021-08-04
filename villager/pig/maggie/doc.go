@@ -1,2 +1,2 @@
-// Package maggie is an internal package and contains the Animal Crossing villager information for Maggie.
+// Package maggie exports the Animal Crossing villager Maggie.
 package maggie

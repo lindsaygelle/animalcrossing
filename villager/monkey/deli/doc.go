@@ -1,2 +1,2 @@
-// Package deli is an internal package and contains the Animal Crossing villager information for Deli.
+// Package deli exports the Animal Crossing villager Deli.
 package deli

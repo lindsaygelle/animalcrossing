@@ -1,2 +1,2 @@
-// Package savannah is an internal package and contains the Animal Crossing villager information for Savannah.
+// Package savannah exports the Animal Crossing villager Savannah.
 package savannah

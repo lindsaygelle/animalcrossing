@@ -1,2 +1,2 @@
-// Package elmer is an internal package and contains the Animal Crossing villager information for Elmer.
+// Package elmer exports the Animal Crossing villager Elmer.
 package elmer

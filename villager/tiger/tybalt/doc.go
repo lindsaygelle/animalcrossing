@@ -1,2 +1,2 @@
-// Package tybalt is an internal package and contains the Animal Crossing villager information for Tybalt.
+// Package tybalt exports the Animal Crossing villager Tybalt.
 package tybalt

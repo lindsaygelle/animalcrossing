@@ -1,2 +1,2 @@
-// Package daisy is an internal package and contains the Animal Crossing villager information for Daisy.
+// Package daisy exports the Animal Crossing villager Daisy.
 package daisy

@@ -1,2 +1,2 @@
-// Package merengue is an internal package and contains the Animal Crossing villager information for Merengue.
+// Package merengue exports the Animal Crossing villager Merengue.
 package merengue

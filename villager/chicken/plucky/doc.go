@@ -1,2 +1,2 @@
-// Package plucky is an internal package and contains the Animal Crossing villager information for Plucky.
+// Package plucky exports the Animal Crossing villager Plucky.
 package plucky

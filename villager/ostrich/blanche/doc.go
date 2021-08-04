@@ -1,2 +1,2 @@
-// Package blanche is an internal package and contains the Animal Crossing villager information for Blanche.
+// Package blanche exports the Animal Crossing villager Blanche.
 package blanche

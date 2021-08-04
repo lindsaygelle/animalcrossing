@@ -1,2 +1,2 @@
-// Package renee is an internal package and contains the Animal Crossing villager information for Renee.
+// Package renee exports the Animal Crossing villager Renee.
 package renee

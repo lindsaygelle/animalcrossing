@@ -1,2 +1,2 @@
-// Package francine is an internal package and contains the Animal Crossing villager information for Francine.
+// Package francine exports the Animal Crossing villager Francine.
 package francine

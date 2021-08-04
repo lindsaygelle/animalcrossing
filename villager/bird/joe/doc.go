@@ -1,2 +1,2 @@
-// Package joe is an internal package and contains the Animal Crossing villager information for Joe.
+// Package joe exports the Animal Crossing villager Joe.
 package joe

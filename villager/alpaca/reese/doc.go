@@ -1,2 +1,2 @@
-// Package reese is an internal package and contains the Animal Crossing villager information for Reese.
+// Package reese exports the Animal Crossing villager Reese.
 package reese

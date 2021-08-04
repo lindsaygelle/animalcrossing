@@ -1,2 +1,2 @@
-// Package rhoda is an internal package and contains the Animal Crossing villager information for Rhoda.
+// Package rhoda exports the Animal Crossing villager Rhoda.
 package rhoda

@@ -1,2 +1,2 @@
-// Package blaire is an internal package and contains the Animal Crossing villager information for Blaire.
+// Package blaire exports the Animal Crossing villager Blaire.
 package blaire

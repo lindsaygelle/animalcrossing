@@ -1,2 +1,2 @@
-// Package candi is an internal package and contains the Animal Crossing villager information for Candi.
+// Package candi exports the Animal Crossing villager Candi.
 package candi

@@ -1,2 +1,2 @@
-// Package champ is an internal package and contains the Animal Crossing villager information for Champ.
+// Package champ exports the Animal Crossing villager Champ.
 package champ

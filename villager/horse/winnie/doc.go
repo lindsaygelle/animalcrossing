@@ -1,2 +1,2 @@
-// Package winnie is an internal package and contains the Animal Crossing villager information for Winnie.
+// Package winnie exports the Animal Crossing villager Winnie.
 package winnie

@@ -1,2 +1,2 @@
-// Package tiara is an internal package and contains the Animal Crossing villager information for Tiara.
+// Package tiara exports the Animal Crossing villager Tiara.
 package tiara

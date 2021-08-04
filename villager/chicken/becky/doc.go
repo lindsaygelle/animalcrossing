@@ -1,2 +1,2 @@
-// Package becky is an internal package and contains the Animal Crossing villager information for Becky.
+// Package becky exports the Animal Crossing villager Becky.
 package becky

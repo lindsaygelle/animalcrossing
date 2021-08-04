@@ -1,2 +1,2 @@
-// Package hornsby is an internal package and contains the Animal Crossing villager information for Hornsby.
+// Package hornsby exports the Animal Crossing villager Hornsby.
 package hornsby

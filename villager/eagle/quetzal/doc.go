@@ -1,2 +1,2 @@
-// Package quetzal is an internal package and contains the Animal Crossing villager information for Quetzal.
+// Package quetzal exports the Animal Crossing villager Quetzal.
 package quetzal

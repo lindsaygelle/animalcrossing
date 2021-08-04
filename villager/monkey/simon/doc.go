@@ -1,2 +1,2 @@
-// Package simon is an internal package and contains the Animal Crossing villager information for Simon.
+// Package simon exports the Animal Crossing villager Simon.
 package simon

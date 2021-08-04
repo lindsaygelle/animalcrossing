@@ -1,2 +1,2 @@
-// Package portia is an internal package and contains the Animal Crossing villager information for Portia.
+// Package portia exports the Animal Crossing villager Portia.
 package portia

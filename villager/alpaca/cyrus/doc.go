@@ -1,2 +1,2 @@
-// Package cyrus is an internal package and contains the Animal Crossing villager information for Cyrus.
+// Package cyrus exports the Animal Crossing villager Cyrus.
 package cyrus

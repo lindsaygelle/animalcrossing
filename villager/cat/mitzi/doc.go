@@ -1,2 +1,2 @@
-// Package mitzi is an internal package and contains the Animal Crossing villager information for Mitzi.
+// Package mitzi exports the Animal Crossing villager Mitzi.
 package mitzi

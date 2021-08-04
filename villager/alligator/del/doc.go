@@ -1,2 +1,2 @@
-// Package del is an internal package and contains the Animal Crossing villager information for Del.
+// Package del exports the Animal Crossing villager Del.
 package del

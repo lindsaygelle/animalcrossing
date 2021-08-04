@@ -1,2 +1,2 @@
-// Package pigleg is an internal package and contains the Animal Crossing villager information for Pigleg.
+// Package pigleg exports the Animal Crossing villager Pigleg.
 package pigleg

@@ -1,2 +1,2 @@
-// Package camofrog is an internal package and contains the Animal Crossing villager information for Camofrog.
+// Package camofrog exports the Animal Crossing villager Camofrog.
 package camofrog

@@ -1,2 +1,2 @@
-// Package marcie is an internal package and contains the Animal Crossing villager information for Marcie.
+// Package marcie exports the Animal Crossing villager Marcie.
 package marcie

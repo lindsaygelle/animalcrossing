@@ -1,2 +1,2 @@
-// Package drago is an internal package and contains the Animal Crossing villager information for Drago.
+// Package drago exports the Animal Crossing villager Drago.
 package drago

@@ -1,2 +1,2 @@
-// Package raymond is an internal package and contains the Animal Crossing villager information for Raymond.
+// Package raymond exports the Animal Crossing villager Raymond.
 package raymond

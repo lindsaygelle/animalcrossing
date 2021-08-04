@@ -1,2 +1,2 @@
-// Package aziz is an internal package and contains the Animal Crossing villager information for Aziz.
+// Package aziz exports the Animal Crossing villager Aziz.
 package aziz

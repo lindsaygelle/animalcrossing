@@ -1,2 +1,2 @@
-// Package bertha is an internal package and contains the Animal Crossing villager information for Bertha.
+// Package bertha exports the Animal Crossing villager Bertha.
 package bertha

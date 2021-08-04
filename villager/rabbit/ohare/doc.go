@@ -1,2 +1,2 @@
-// Package ohare is an internal package and contains the Animal Crossing villager information for OHare.
+// Package ohare exports the Animal Crossing villager OHare.
 package ohare

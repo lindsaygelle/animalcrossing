@@ -1,2 +1,2 @@
-// Package goose is an internal package and contains the Animal Crossing villager information for Goose.
+// Package goose exports the Animal Crossing villager Goose.
 package goose

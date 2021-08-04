@@ -1,2 +1,2 @@
-// Package oxford is an internal package and contains the Animal Crossing villager information for Oxford.
+// Package oxford exports the Animal Crossing villager Oxford.
 package oxford

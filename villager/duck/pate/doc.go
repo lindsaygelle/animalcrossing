@@ -1,2 +1,2 @@
-// Package pate is an internal package and contains the Animal Crossing villager information for Pate.
+// Package pate exports the Animal Crossing villager Pate.
 package pate

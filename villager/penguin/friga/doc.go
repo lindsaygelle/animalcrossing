@@ -1,2 +1,2 @@
-// Package friga is an internal package and contains the Animal Crossing villager information for Friga.
+// Package friga exports the Animal Crossing villager Friga.
 package friga

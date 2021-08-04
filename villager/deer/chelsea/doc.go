@@ -1,2 +1,2 @@
-// Package chelsea is an internal package and contains the Animal Crossing villager information for Chelsea.
+// Package chelsea exports the Animal Crossing villager Chelsea.
 package chelsea

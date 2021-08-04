@@ -1,2 +1,2 @@
-// Package beardo is an internal package and contains the Animal Crossing villager information for Beardo.
+// Package beardo exports the Animal Crossing villager Beardo.
 package beardo

@@ -1,2 +1,2 @@
-// Package pippy is an internal package and contains the Animal Crossing villager information for Pippy.
+// Package pippy exports the Animal Crossing villager Pippy.
 package pippy

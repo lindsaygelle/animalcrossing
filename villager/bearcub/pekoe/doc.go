@@ -1,2 +1,2 @@
-// Package pekoe is an internal package and contains the Animal Crossing villager information for Pekoe.
+// Package pekoe exports the Animal Crossing villager Pekoe.
 package pekoe

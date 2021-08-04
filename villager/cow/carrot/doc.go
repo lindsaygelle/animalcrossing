@@ -1,2 +1,2 @@
-// Package carrot is an internal package and contains the Animal Crossing villager information for Carrot.
+// Package carrot exports the Animal Crossing villager Carrot.
 package carrot

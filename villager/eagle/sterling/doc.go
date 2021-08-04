@@ -1,2 +1,2 @@
-// Package sterling is an internal package and contains the Animal Crossing villager information for Sterling.
+// Package sterling exports the Animal Crossing villager Sterling.
 package sterling

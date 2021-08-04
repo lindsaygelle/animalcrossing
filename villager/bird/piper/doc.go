@@ -1,2 +1,2 @@
-// Package piper is an internal package and contains the Animal Crossing villager information for Piper.
+// Package piper exports the Animal Crossing villager Piper.
 package piper

@@ -1,2 +1,2 @@
-// Package wade is an internal package and contains the Animal Crossing villager information for Wade.
+// Package wade exports the Animal Crossing villager Wade.
 package wade

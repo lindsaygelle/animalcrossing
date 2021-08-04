@@ -1,2 +1,2 @@
-// Package tad is an internal package and contains the Animal Crossing villager information for Tad.
+// Package tad exports the Animal Crossing villager Tad.
 package tad

@@ -1,2 +1,2 @@
-// Package mac is an internal package and contains the Animal Crossing villager information for Mac.
+// Package mac exports the Animal Crossing villager Mac.
 package mac

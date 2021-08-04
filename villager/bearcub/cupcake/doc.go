@@ -1,2 +1,2 @@
-// Package cupcake is an internal package and contains the Animal Crossing villager information for Cupcake.
+// Package cupcake exports the Animal Crossing villager Cupcake.
 package cupcake

@@ -1,2 +1,2 @@
-// Package rex is an internal package and contains the Animal Crossing villager information for Rex.
+// Package rex exports the Animal Crossing villager Rex.
 package rex

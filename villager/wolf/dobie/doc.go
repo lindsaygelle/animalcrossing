@@ -1,2 +1,2 @@
-// Package dobie is an internal package and contains the Animal Crossing villager information for Dobie.
+// Package dobie exports the Animal Crossing villager Dobie.
 package dobie

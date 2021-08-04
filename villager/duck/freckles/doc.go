@@ -1,2 +1,2 @@
-// Package freckles is an internal package and contains the Animal Crossing villager information for Freckles.
+// Package freckles exports the Animal Crossing villager Freckles.
 package freckles

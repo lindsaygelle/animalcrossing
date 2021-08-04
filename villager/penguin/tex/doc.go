@@ -1,2 +1,2 @@
-// Package tex is an internal package and contains the Animal Crossing villager information for Tex.
+// Package tex exports the Animal Crossing villager Tex.
 package tex

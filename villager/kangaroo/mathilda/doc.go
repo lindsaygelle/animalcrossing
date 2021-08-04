@@ -1,2 +1,2 @@
-// Package mathilda is an internal package and contains the Animal Crossing villager information for Mathilda.
+// Package mathilda exports the Animal Crossing villager Mathilda.
 package mathilda

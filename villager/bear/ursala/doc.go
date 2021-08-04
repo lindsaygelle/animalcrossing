@@ -1,2 +1,2 @@
-// Package ursala is an internal package and contains the Animal Crossing villager information for Ursala.
+// Package ursala exports the Animal Crossing villager Ursala.
 package ursala

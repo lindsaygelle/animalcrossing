@@ -1,2 +1,2 @@
-// Package rolf is an internal package and contains the Animal Crossing villager information for Rolf.
+// Package rolf exports the Animal Crossing villager Rolf.
 package rolf

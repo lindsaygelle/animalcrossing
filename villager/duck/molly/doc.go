@@ -1,2 +1,2 @@
-// Package molly is an internal package and contains the Animal Crossing villager information for Molly.
+// Package molly exports the Animal Crossing villager Molly.
 package molly

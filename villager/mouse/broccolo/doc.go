@@ -1,2 +1,2 @@
-// Package broccolo is an internal package and contains the Animal Crossing villager information for Broccolo.
+// Package broccolo exports the Animal Crossing villager Broccolo.
 package broccolo

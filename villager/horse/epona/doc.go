@@ -1,2 +1,2 @@
-// Package epona is an internal package and contains the Animal Crossing villager information for Epona.
+// Package epona exports the Animal Crossing villager Epona.
 package epona

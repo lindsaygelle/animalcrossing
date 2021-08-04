@@ -1,2 +1,2 @@
-// Package pancetti is an internal package and contains the Animal Crossing villager information for Pancetti.
+// Package pancetti exports the Animal Crossing villager Pancetti.
 package pancetti

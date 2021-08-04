@@ -1,2 +1,2 @@
-// Package caroline is an internal package and contains the Animal Crossing villager information for Caroline.
+// Package caroline exports the Animal Crossing villager Caroline.
 package caroline

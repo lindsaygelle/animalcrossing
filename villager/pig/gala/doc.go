@@ -1,2 +1,2 @@
-// Package gala is an internal package and contains the Animal Crossing villager information for Gala.
+// Package gala exports the Animal Crossing villager Gala.
 package gala

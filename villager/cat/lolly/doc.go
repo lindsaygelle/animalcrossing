@@ -1,2 +1,2 @@
-// Package lolly is an internal package and contains the Animal Crossing villager information for Lolly.
+// Package lolly exports the Animal Crossing villager Lolly.
 package lolly

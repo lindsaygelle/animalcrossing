@@ -1,2 +1,2 @@
-// Package peaches is an internal package and contains the Animal Crossing villager information for Peaches.
+// Package peaches exports the Animal Crossing villager Peaches.
 package peaches

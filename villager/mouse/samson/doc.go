@@ -1,2 +1,2 @@
-// Package samson is an internal package and contains the Animal Crossing villager information for Samson.
+// Package samson exports the Animal Crossing villager Samson.
 package samson

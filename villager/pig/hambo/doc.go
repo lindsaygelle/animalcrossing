@@ -1,2 +1,2 @@
-// Package hambo is an internal package and contains the Animal Crossing villager information for Hambo.
+// Package hambo exports the Animal Crossing villager Hambo.
 package hambo

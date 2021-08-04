@@ -1,2 +1,2 @@
-// Package chevre is an internal package and contains the Animal Crossing villager information for Chevre.
+// Package chevre exports the Animal Crossing villager Chevre.
 package chevre

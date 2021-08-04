@@ -1,2 +1,2 @@
-// Package hippeux is an internal package and contains the Animal Crossing villager information for Hippeux.
+// Package hippeux exports the Animal Crossing villager Hippeux.
 package hippeux

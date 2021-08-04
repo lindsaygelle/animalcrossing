@@ -1,2 +1,2 @@
-// Package kyle is an internal package and contains the Animal Crossing villager information for Kyle.
+// Package kyle exports the Animal Crossing villager Kyle.
 package kyle

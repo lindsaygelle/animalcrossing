@@ -1,2 +1,2 @@
-// Package gen is an internal package and contains the Animal Crossing villager information for Gen.
+// Package gen exports the Animal Crossing villager Gen.
 package gen

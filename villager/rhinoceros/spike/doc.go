@@ -1,2 +1,2 @@
-// Package spike is an internal package and contains the Animal Crossing villager information for Spike.
+// Package spike exports the Animal Crossing villager Spike.
 package spike

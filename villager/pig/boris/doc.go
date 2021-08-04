@@ -1,2 +1,2 @@
-// Package boris is an internal package and contains the Animal Crossing villager information for Boris.
+// Package boris exports the Animal Crossing villager Boris.
 package boris

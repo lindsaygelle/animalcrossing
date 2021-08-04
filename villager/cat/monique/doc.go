@@ -1,2 +1,2 @@
-// Package monique is an internal package and contains the Animal Crossing villager information for Monique.
+// Package monique exports the Animal Crossing villager Monique.
 package monique

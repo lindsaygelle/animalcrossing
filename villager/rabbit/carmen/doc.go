@@ -1,2 +1,2 @@
-// Package carmen is an internal package and contains the Animal Crossing villager information for Carmen.
+// Package carmen exports the Animal Crossing villager Carmen.
 package carmen

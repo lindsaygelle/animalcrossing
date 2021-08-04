@@ -1,2 +1,2 @@
-// Package willow is an internal package and contains the Animal Crossing villager information for Willow.
+// Package willow exports the Animal Crossing villager Willow.
 package willow

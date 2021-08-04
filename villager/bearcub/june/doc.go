@@ -1,2 +1,2 @@
-// Package june is an internal package and contains the Animal Crossing villager information for June.
+// Package june exports the Animal Crossing villager June.
 package june

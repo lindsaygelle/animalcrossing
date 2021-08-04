@@ -1,2 +1,2 @@
-// Package fang is an internal package and contains the Animal Crossing villager information for Fang.
+// Package fang exports the Animal Crossing villager Fang.
 package fang

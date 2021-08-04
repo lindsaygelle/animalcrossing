@@ -1,2 +1,2 @@
-// Package celia is an internal package and contains the Animal Crossing villager information for Celia.
+// Package celia exports the Animal Crossing villager Celia.
 package celia

@@ -1,2 +1,2 @@
-// Package clyde is an internal package and contains the Animal Crossing villager information for Clyde.
+// Package clyde exports the Animal Crossing villager Clyde.
 package clyde

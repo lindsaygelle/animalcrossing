@@ -1,2 +1,2 @@
-// Package tipper is an internal package and contains the Animal Crossing villager information for Tipper.
+// Package tipper exports the Animal Crossing villager Tipper.
 package tipper

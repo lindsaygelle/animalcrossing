@@ -1,2 +1,2 @@
-// Package anabelle is an internal package and contains the Animal Crossing villager information for Anabelle.
+// Package anabelle exports the Animal Crossing villager Anabelle.
 package anabelle

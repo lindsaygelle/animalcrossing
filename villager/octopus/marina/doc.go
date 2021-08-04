@@ -1,2 +1,2 @@
-// Package marina is an internal package and contains the Animal Crossing villager information for Marina.
+// Package marina exports the Animal Crossing villager Marina.
 package marina

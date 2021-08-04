@@ -1,2 +1,2 @@
-// Package mira is an internal package and contains the Animal Crossing villager information for Mira.
+// Package mira exports the Animal Crossing villager Mira.
 package mira

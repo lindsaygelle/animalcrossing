@@ -1,2 +1,2 @@
-// Package jambette is an internal package and contains the Animal Crossing villager information for Jambette.
+// Package jambette exports the Animal Crossing villager Jambette.
 package jambette

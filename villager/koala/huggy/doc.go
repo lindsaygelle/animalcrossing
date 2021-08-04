@@ -1,2 +1,2 @@
-// Package huggy is an internal package and contains the Animal Crossing villager information for Huggy.
+// Package huggy exports the Animal Crossing villager Huggy.
 package huggy

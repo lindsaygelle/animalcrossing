@@ -1,2 +1,2 @@
-// Package sparro is an internal package and contains the Animal Crossing villager information for Sparro.
+// Package sparro exports the Animal Crossing villager Sparro.
 package sparro

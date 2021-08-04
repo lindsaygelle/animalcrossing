@@ -1,2 +1,2 @@
-// Package olive is an internal package and contains the Animal Crossing villager information for Olive.
+// Package olive exports the Animal Crossing villager Olive.
 package olive

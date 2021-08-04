@@ -1,2 +1,2 @@
-// Package rizzo is an internal package and contains the Animal Crossing villager information for Rizzo.
+// Package rizzo exports the Animal Crossing villager Rizzo.
 package rizzo

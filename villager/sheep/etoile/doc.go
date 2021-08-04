@@ -1,2 +1,2 @@
-// Package etoile is an internal package and contains the Animal Crossing villager information for Etoile.
+// Package etoile exports the Animal Crossing villager Etoile.
 package etoile

@@ -1,2 +1,2 @@
-// Package prince is an internal package and contains the Animal Crossing villager information for Prince.
+// Package prince exports the Animal Crossing villager Prince.
 package prince

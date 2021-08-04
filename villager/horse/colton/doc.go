@@ -1,2 +1,2 @@
-// Package colton is an internal package and contains the Animal Crossing villager information for Colton.
+// Package colton exports the Animal Crossing villager Colton.
 package colton

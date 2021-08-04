@@ -1,2 +1,2 @@
-// Package stu is an internal package and contains the Animal Crossing villager information for Stu.
+// Package stu exports the Animal Crossing villager Stu.
 package stu

@@ -1,2 +1,2 @@
-// Package hazel is an internal package and contains the Animal Crossing villager information for Hazel.
+// Package hazel exports the Animal Crossing villager Hazel.
 package hazel

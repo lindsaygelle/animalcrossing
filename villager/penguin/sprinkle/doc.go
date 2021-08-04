@@ -1,2 +1,2 @@
-// Package sprinkle is an internal package and contains the Animal Crossing villager information for Sprinkle.
+// Package sprinkle exports the Animal Crossing villager Sprinkle.
 package sprinkle

@@ -1,2 +1,2 @@
-// Package phoebe is an internal package and contains the Animal Crossing villager information for Phoebe.
+// Package phoebe exports the Animal Crossing villager Phoebe.
 package phoebe

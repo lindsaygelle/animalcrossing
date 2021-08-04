@@ -1,2 +1,2 @@
-// Package pecan is an internal package and contains the Animal Crossing villager information for Pecan.
+// Package pecan exports the Animal Crossing villager Pecan.
 package pecan

@@ -1,2 +1,2 @@
-// Package ken is an internal package and contains the Animal Crossing villager information for Ken.
+// Package ken exports the Animal Crossing villager Ken.
 package ken

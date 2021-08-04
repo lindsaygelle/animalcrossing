@@ -1,2 +1,2 @@
-// Package maddie is an internal package and contains the Animal Crossing villager information for Maddie.
+// Package maddie exports the Animal Crossing villager Maddie.
 package maddie

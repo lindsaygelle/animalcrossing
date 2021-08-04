@@ -1,2 +1,2 @@
-// Package bubbles is an internal package and contains the Animal Crossing villager information for Bubbles.
+// Package bubbles exports the Animal Crossing villager Bubbles.
 package bubbles

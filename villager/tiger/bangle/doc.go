@@ -1,2 +1,2 @@
-// Package bangle is an internal package and contains the Animal Crossing villager information for Bangle.
+// Package bangle exports the Animal Crossing villager Bangle.
 package bangle

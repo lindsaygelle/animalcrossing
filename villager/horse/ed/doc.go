@@ -1,2 +1,2 @@
-// Package ed is an internal package and contains the Animal Crossing villager information for Ed.
+// Package ed exports the Animal Crossing villager Ed.
 package ed

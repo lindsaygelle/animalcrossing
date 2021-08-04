@@ -1,2 +1,2 @@
-// Package tammy is an internal package and contains the Animal Crossing villager information for Tammy.
+// Package tammy exports the Animal Crossing villager Tammy.
 package tammy

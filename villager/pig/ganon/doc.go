@@ -1,2 +1,2 @@
-// Package ganon is an internal package and contains the Animal Crossing villager information for Ganon.
+// Package ganon exports the Animal Crossing villager Ganon.
 package ganon

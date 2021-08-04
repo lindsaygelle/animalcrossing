@@ -1,2 +1,2 @@
-// Package agents is an internal package and contains the Animal Crossing villager information for AgentS.
+// Package agents exports the Animal Crossing villager AgentS.
 package agents
