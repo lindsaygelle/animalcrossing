@@ -9,6 +9,7 @@ type Villager struct {
 	animal.Animal
 
 	Appearance  Appearance
+	Birthday    Birthday
 	Code        string
 	Gender      string
 	Id          string

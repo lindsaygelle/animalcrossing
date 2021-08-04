@@ -6,6 +6,10 @@ import (
 )
 
 const (
+	code string = ""
+)
+
+const (
 	gender string = "male"
 )
 
@@ -25,6 +29,8 @@ var (
 	// Villager is the villager information for Leonardo.
 	Villager = villager.Villager{
 		Animal:      tiger.Animal,
+		Birthday:    birthday,
+		Code:        code,
 		Gender:      gender,
 		Id:          id,
 		Key:         villager.Leonardo,
