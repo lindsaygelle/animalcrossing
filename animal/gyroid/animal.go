@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	id string = "gyroid"	
+	id string = "gyroid"
 )
 
 var (

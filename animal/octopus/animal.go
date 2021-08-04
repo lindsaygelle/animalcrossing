@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	id string = "octopus"	
+	id string = "octopus"
 )
 
 var (

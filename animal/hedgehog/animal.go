@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	id string = "hedgehog"	
+	id string = "hedgehog"
 )
 
 var (
