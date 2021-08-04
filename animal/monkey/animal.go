@@ -12,5 +12,6 @@ var (
 	// Animal is the animal information for Monkeys.
 	Animal = animal.Animal{
 		Id:   id,
+		Key:  animal.Monkey,
 		Name: name}
 )

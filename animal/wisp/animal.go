@@ -12,5 +12,6 @@ var (
 	// Animal is the animal information for Wisps.
 	Animal = animal.Animal{
 		Id:   id,
+		Key:  animal.Wisp,
 		Name: name}
 )

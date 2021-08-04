@@ -12,5 +12,6 @@ var (
 	// Animal is the animal information for Gyroids.
 	Animal = animal.Animal{
 		Id:   id,
+		Key:  animal.Gyroid,
 		Name: name}
 )

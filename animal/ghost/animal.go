@@ -12,5 +12,6 @@ var (
 	// Animal is the animal information for Ghosts.
 	Animal = animal.Animal{
 		Id:   id,
+		Key:  animal.Ghost,
 		Name: name}
 )
