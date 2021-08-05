@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	code string = ""
+	code string = "crd02"
 )
 
 const (

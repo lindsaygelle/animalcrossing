@@ -3,28 +3,34 @@ package champ
 import "golang.org/x/text/language"
 
 const (
-	nameAmericanEnglish    string = "Champ"
-	nameFrench             string = ""
-	nameGerman             string = ""
-	nameItalian            string = ""
-	nameJapanese           string = ""
-	nameKorean             string = ""
-	nameRussian            string = ""
-	nameSpanish            string = ""
-	nameSimplifiedChinese  string = ""
-	nameTraditionalChinese string = ""
+	nameAmericanEnglish      string = "Champ"
+	nameCanadianFrench       string = "Thibaut"
+	nameDutch                string = ""
+	nameFrench               string = "Thibaut"
+	nameGerman               string = "Tschita"
+	nameItalian              string = "Champ"
+	nameJapanese             string = "さるお"
+	nameLatinAmericanSpanish string = "Mico"
+	nameKorean               string = "몽돌이"
+	nameRussian              string = ""
+	nameSpanish              string = "Mico"
+	nameSimplifiedChinese    string = ""
+	nameTraditionalChinese   string = ""
 )
 
 var (
 	name = map[language.Tag]string{
-		language.AmericanEnglish:    nameAmericanEnglish,
-		language.French:             nameFrench,
-		language.German:             nameGerman,
-		language.Italian:            nameItalian,
-		language.Japanese:           nameJapanese,
-		language.Korean:             nameKorean,
-		language.Russian:            nameRussian,
-		language.Spanish:            nameSpanish,
-		language.SimplifiedChinese:  nameSimplifiedChinese,
-		language.TraditionalChinese: nameTraditionalChinese}
+		language.AmericanEnglish:      nameAmericanEnglish,
+		language.CanadianFrench:       nameCanadianFrench,
+		language.Dutch:                nameDutch,
+		language.French:               nameFrench,
+		language.German:               nameGerman,
+		language.Italian:              nameItalian,
+		language.Japanese:             nameJapanese,
+		language.Korean:               nameKorean,
+		language.LatinAmericanSpanish: nameLatinAmericanSpanish,
+		language.Russian:              nameRussian,
+		language.Spanish:              nameSpanish,
+		language.SimplifiedChinese:    nameSimplifiedChinese,
+		language.TraditionalChinese:   nameTraditionalChinese}
 )

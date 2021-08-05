@@ -3,16 +3,16 @@ package alli
 import "golang.org/x/text/language"
 
 const (
-	phraseAmericanEnglish    string = ""
-	phraseFrench             string = ""
-	phraseGerman             string = ""
-	phraseItalian            string = ""
-	phraseJapanese           string = ""
-	phraseKorean             string = ""
-	phraseRussian            string = ""
-	phraseSpanish            string = ""
-	phraseSimplifiedChinese  string = ""
-	phraseTraditionalChinese string = ""
+	phraseAmericanEnglish    string = "graaagh"
+	phraseFrench             string = "graaagh"
+	phraseGerman             string = "graaach"
+	phraseItalian            string = "graaag"
+	phraseJapanese           string = "どすえ"
+	phraseKorean             string = "얘야"
+	phraseRussian            string = "гра-а-а"
+	phraseSpanish            string = "lagartija"
+	phraseSimplifiedChinese  string = "鳄鱼皮"
+	phraseTraditionalChinese string = "鱷魚皮"
 )
 
 var (

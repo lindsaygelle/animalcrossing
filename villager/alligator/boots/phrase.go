@@ -3,16 +3,16 @@ package boots
 import "golang.org/x/text/language"
 
 const (
-	phraseAmericanEnglish    string = ""
-	phraseFrench             string = ""
-	phraseGerman             string = ""
-	phraseItalian            string = ""
-	phraseJapanese           string = ""
-	phraseKorean             string = ""
-	phraseRussian            string = ""
-	phraseSpanish            string = ""
-	phraseSimplifiedChinese  string = ""
-	phraseTraditionalChinese string = ""
+	phraseAmericanEnglish    string = "munchie"
+	phraseFrench             string = "mariolle"
+	phraseGerman             string = "schmatzi"
+	phraseItalian            string = "gnammi"
+	phraseJapanese           string = "だぴょん"
+	phraseKorean             string = "만세"
+	phraseRussian            string = "кусь"
+	phraseSpanish            string = "crococroco"
+	phraseSimplifiedChinese  string = "跳"
+	phraseTraditionalChinese string = "跳"
 )
 
 var (
