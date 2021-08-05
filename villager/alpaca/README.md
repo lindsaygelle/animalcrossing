@@ -2,5 +2,5 @@
 
 |Name|Gender|Personality|
 |---|---|---|
-|[Cyrus](github.com/lindsaygelle/animalcrossing/villager/alpaca/cyrus)|male||
-|[Reese](github.com/lindsaygelle/animalcrossing/villager/alpaca/reese)|female||
+|[Cyrus](./cyrus)|male||
+|[Reese](./reese)|female||
