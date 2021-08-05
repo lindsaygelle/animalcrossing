@@ -1,6 +1,7 @@
 # Hippopotamus
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Bertha](github.com/lindsaygelle/animalcrossing/villager/hippopotamus/bertha)|female|normal|
 |[Biff](github.com/lindsaygelle/animalcrossing/villager/hippopotamus/biff)|male|jock|
 |[Bitty](github.com/lindsaygelle/animalcrossing/villager/hippopotamus/bitty)|female|snooty|

@@ -1,6 +1,7 @@
 # Dog
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Bea](github.com/lindsaygelle/animalcrossing/villager/dog/bea)|female|normal|
 |[Benjamin](github.com/lindsaygelle/animalcrossing/villager/dog/benjamin)|male|lazy|
 |[Biskit](github.com/lindsaygelle/animalcrossing/villager/dog/biskit)|male|lazy|

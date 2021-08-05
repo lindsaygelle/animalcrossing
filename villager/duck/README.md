@@ -1,6 +1,7 @@
 # Duck
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Bill](github.com/lindsaygelle/animalcrossing/villager/duck/bill)|male|jock|
 |[Deena](github.com/lindsaygelle/animalcrossing/villager/duck/deena)|female|normal|
 |[Derwin](github.com/lindsaygelle/animalcrossing/villager/duck/derwin)|male|lazy|

@@ -1,6 +1,7 @@
 # Bear
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Beardo](github.com/lindsaygelle/animalcrossing/villager/bear/beardo)|male|smug|
 |[Charlise](github.com/lindsaygelle/animalcrossing/villager/bear/charlise)|female|sisterly|
 |[Chow](github.com/lindsaygelle/animalcrossing/villager/bear/chow)|male|cranky|

@@ -1,6 +1,7 @@
 # Hamster
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Apple](github.com/lindsaygelle/animalcrossing/villager/hamster/apple)|female|peppy|
 |[Clay](github.com/lindsaygelle/animalcrossing/villager/hamster/clay)|male|lazy|
 |[Flurry](github.com/lindsaygelle/animalcrossing/villager/hamster/flurry)|female|normal|

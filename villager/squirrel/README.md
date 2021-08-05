@@ -1,6 +1,7 @@
 # Squirrel
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[AgentS](github.com/lindsaygelle/animalcrossing/villager/squirrel/agents)|female|peppy|
 |[Blaire](github.com/lindsaygelle/animalcrossing/villager/squirrel/blaire)|female|snooty|
 |[Cally](github.com/lindsaygelle/animalcrossing/villager/squirrel/cally)|female|normal|

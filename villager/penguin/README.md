@@ -1,6 +1,7 @@
 # Penguin
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Analog](github.com/lindsaygelle/animalcrossing/villager/penguin/analog)|male|jock|
 |[Aurora](github.com/lindsaygelle/animalcrossing/villager/penguin/aurora)|female|normal|
 |[Boomer](github.com/lindsaygelle/animalcrossing/villager/penguin/boomer)|male|lazy|

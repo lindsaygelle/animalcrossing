@@ -1,6 +1,7 @@
 # Cat
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Ankha](github.com/lindsaygelle/animalcrossing/villager/cat/ankha)|female|snooty|
 |[Bob](github.com/lindsaygelle/animalcrossing/villager/cat/bob)|male|lazy|
 |[Felicity](github.com/lindsaygelle/animalcrossing/villager/cat/felicity)|female|peppy|

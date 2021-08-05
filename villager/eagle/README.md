@@ -1,6 +1,7 @@
 # Eagle
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Amelia](github.com/lindsaygelle/animalcrossing/villager/eagle/amelia)|female|snooty|
 |[Apollo](github.com/lindsaygelle/animalcrossing/villager/eagle/apollo)|male|cranky|
 |[Avery](github.com/lindsaygelle/animalcrossing/villager/eagle/avery)|male|cranky|

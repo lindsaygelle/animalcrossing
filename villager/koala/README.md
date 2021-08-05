@@ -1,6 +1,7 @@
 # Koala
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Alice](github.com/lindsaygelle/animalcrossing/villager/koala/alice)|female|normal|
 |[Canberra](github.com/lindsaygelle/animalcrossing/villager/koala/canberra)|female|sisterly|
 |[Eugene](github.com/lindsaygelle/animalcrossing/villager/koala/eugene)|male|smug|

@@ -1,6 +1,7 @@
 # Bird
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Ace](github.com/lindsaygelle/animalcrossing/villager/bird/ace)|male|jock|
 |[Admiral](github.com/lindsaygelle/animalcrossing/villager/bird/admiral)|male|cranky|
 |[Anchovy](github.com/lindsaygelle/animalcrossing/villager/bird/anchovy)|male|lazy|

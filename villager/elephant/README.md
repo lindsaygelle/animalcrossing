@@ -1,6 +1,7 @@
 # Elephant
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Axel](github.com/lindsaygelle/animalcrossing/villager/elephant/axel)|male|jock|
 |[BigTop](github.com/lindsaygelle/animalcrossing/villager/elephant/bigtop)|male|lazy|
 |[Chai](github.com/lindsaygelle/animalcrossing/villager/elephant/chai)|female|peppy|

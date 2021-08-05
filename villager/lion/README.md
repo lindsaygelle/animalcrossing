@@ -1,6 +1,7 @@
 # Lion
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Aziz](github.com/lindsaygelle/animalcrossing/villager/lion/aziz)|male|jock|
 |[Bud](github.com/lindsaygelle/animalcrossing/villager/lion/bud)|male|jock|
 |[Elvis](github.com/lindsaygelle/animalcrossing/villager/lion/elvis)|male|cranky|

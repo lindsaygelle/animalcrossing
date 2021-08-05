@@ -1,6 +1,7 @@
 # Gorilla
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Al](github.com/lindsaygelle/animalcrossing/villager/gorilla/al)|male|lazy|
 |[Boone](github.com/lindsaygelle/animalcrossing/villager/gorilla/boone)|male|jock|
 |[Boyd](github.com/lindsaygelle/animalcrossing/villager/gorilla/boyd)|male|cranky|

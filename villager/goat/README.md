@@ -1,6 +1,7 @@
 # Goat
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Billy](github.com/lindsaygelle/animalcrossing/villager/goat/billy)|male|jock|
 |[Chevre](github.com/lindsaygelle/animalcrossing/villager/goat/chevre)|female|normal|
 |[Gruff](github.com/lindsaygelle/animalcrossing/villager/goat/gruff)|male|cranky|

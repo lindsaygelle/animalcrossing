@@ -1,6 +1,7 @@
 # Anteater
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Anabelle](github.com/lindsaygelle/animalcrossing/villager/anteater/anabelle)|female|peppy|
 |[Annalisa](github.com/lindsaygelle/animalcrossing/villager/anteater/annalisa)|female|normal|
 |[Antonio](github.com/lindsaygelle/animalcrossing/villager/anteater/antonio)|male|jock|

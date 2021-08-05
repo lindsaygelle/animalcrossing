@@ -1,6 +1,7 @@
 # Chicken
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Ava](github.com/lindsaygelle/animalcrossing/villager/chicken/ava)|female|normal|
 |[Becky](github.com/lindsaygelle/animalcrossing/villager/chicken/becky)|female|snooty|
 |[Benedict](github.com/lindsaygelle/animalcrossing/villager/chicken/benedict)|male|lazy|

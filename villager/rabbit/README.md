@@ -1,6 +1,7 @@
 # Rabbit
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Bonbon](github.com/lindsaygelle/animalcrossing/villager/rabbit/bonbon)|female|peppy|
 |[Bunnie](github.com/lindsaygelle/animalcrossing/villager/rabbit/bunnie)|female|peppy|
 |[Carmen](github.com/lindsaygelle/animalcrossing/villager/rabbit/carmen)|female|peppy|

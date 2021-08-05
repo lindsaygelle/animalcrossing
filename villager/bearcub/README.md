@@ -1,6 +1,7 @@
 # Bearcub
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Aisle](github.com/lindsaygelle/animalcrossing/villager/bearcub/aisle)|male|lazy|
 |[Barold](github.com/lindsaygelle/animalcrossing/villager/bearcub/barold)|male|lazy|
 |[Bluebear](github.com/lindsaygelle/animalcrossing/villager/bearcub/bluebear)|female|peppy|

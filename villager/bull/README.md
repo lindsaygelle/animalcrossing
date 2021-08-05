@@ -1,6 +1,7 @@
 # Bull
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Angus](github.com/lindsaygelle/animalcrossing/villager/bull/angus)|male|cranky|
 |[Chuck](github.com/lindsaygelle/animalcrossing/villager/bull/chuck)|male|cranky|
 |[Coach](github.com/lindsaygelle/animalcrossing/villager/bull/coach)|male|jock|

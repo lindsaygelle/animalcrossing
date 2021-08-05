@@ -1,6 +1,7 @@
 # Cow
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Belle](github.com/lindsaygelle/animalcrossing/villager/cow/belle)|female|peppy|
 |[Bessie](github.com/lindsaygelle/animalcrossing/villager/cow/bessie)|female|normal|
 |[Carrot](github.com/lindsaygelle/animalcrossing/villager/cow/carrot)|female|normal|

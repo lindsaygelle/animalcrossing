@@ -1,6 +1,7 @@
 # Alligator
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Alfonso](github.com/lindsaygelle/animalcrossing/villager/alligator/alfonso)|male|lazy|
 |[Alli](github.com/lindsaygelle/animalcrossing/villager/alligator/alli)|female|snooty|
 |[Boots](github.com/lindsaygelle/animalcrossing/villager/alligator/boots)|male|jock|

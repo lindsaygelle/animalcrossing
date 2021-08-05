@@ -1,6 +1,7 @@
 # Sheep
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Baabara](github.com/lindsaygelle/animalcrossing/villager/sheep/baabara)|female|snooty|
 |[Cashmere](github.com/lindsaygelle/animalcrossing/villager/sheep/cashmere)|female|snooty|
 |[Curlos](github.com/lindsaygelle/animalcrossing/villager/sheep/curlos)|male|smug|

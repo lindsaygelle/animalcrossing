@@ -1,6 +1,7 @@
 # Pig
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Agnes](github.com/lindsaygelle/animalcrossing/villager/pig/agnes)|female|sisterly|
 |[Boris](github.com/lindsaygelle/animalcrossing/villager/pig/boris)|male|cranky|
 |[Chops](github.com/lindsaygelle/animalcrossing/villager/pig/chops)|male|smug|

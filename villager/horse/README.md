@@ -1,6 +1,7 @@
 # Horse
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Annalise](github.com/lindsaygelle/animalcrossing/villager/horse/annalise)|female|snooty|
 |[Buck](github.com/lindsaygelle/animalcrossing/villager/horse/buck)|male|jock|
 |[Cleo](github.com/lindsaygelle/animalcrossing/villager/horse/cleo)|female|snooty|

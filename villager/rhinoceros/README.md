@@ -1,6 +1,7 @@
 # Rhinoceros
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Hornsby](github.com/lindsaygelle/animalcrossing/villager/rhinoceros/hornsby)|male|lazy|
 |[Merengue](github.com/lindsaygelle/animalcrossing/villager/rhinoceros/merengue)|female|normal|
 |[Patricia](github.com/lindsaygelle/animalcrossing/villager/rhinoceros/patricia)|female|normal|

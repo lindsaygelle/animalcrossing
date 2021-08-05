@@ -1,6 +1,7 @@
 # Ostrich
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Blanche](github.com/lindsaygelle/animalcrossing/villager/ostrich/blanche)|female|snooty|
 |[Cranston](github.com/lindsaygelle/animalcrossing/villager/ostrich/cranston)|male|lazy|
 |[Flora](github.com/lindsaygelle/animalcrossing/villager/ostrich/flora)|female|peppy|

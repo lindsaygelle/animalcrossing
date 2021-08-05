@@ -1,6 +1,7 @@
 # Monkey
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Champ](github.com/lindsaygelle/animalcrossing/villager/monkey/champ)|male|jock|
 |[Deli](github.com/lindsaygelle/animalcrossing/villager/monkey/deli)|male|lazy|
 |[Elise](github.com/lindsaygelle/animalcrossing/villager/monkey/elise)|female|snooty|

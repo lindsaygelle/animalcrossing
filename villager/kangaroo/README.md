@@ -1,6 +1,7 @@
 # Kangaroo
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Astrid](github.com/lindsaygelle/animalcrossing/villager/kangaroo/astrid)|female|snooty|
 |[Carrie](github.com/lindsaygelle/animalcrossing/villager/kangaroo/carrie)|female|normal|
 |[Kitt](github.com/lindsaygelle/animalcrossing/villager/kangaroo/kitt)|female|normal|

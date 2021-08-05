@@ -1,6 +1,7 @@
 # Frog
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Camofrog](github.com/lindsaygelle/animalcrossing/villager/frog/camofrog)|male|cranky|
 |[Cousteau](github.com/lindsaygelle/animalcrossing/villager/frog/cousteau)|male|jock|
 |[Croque](github.com/lindsaygelle/animalcrossing/villager/frog/croque)|male|cranky|

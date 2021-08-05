@@ -1,6 +1,7 @@
 # Mouse
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Anicotti](github.com/lindsaygelle/animalcrossing/villager/mouse/anicotti)|female|peppy|
 |[Bella](github.com/lindsaygelle/animalcrossing/villager/mouse/bella)|female|peppy|
 |[Bettina](github.com/lindsaygelle/animalcrossing/villager/mouse/bettina)|female|normal|

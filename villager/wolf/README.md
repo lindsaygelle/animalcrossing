@@ -1,6 +1,7 @@
 # Wolf
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Audie](github.com/lindsaygelle/animalcrossing/villager/wolf/audie)|female|peppy|
 |[Chief](github.com/lindsaygelle/animalcrossing/villager/wolf/chief)|male|cranky|
 |[Dobie](github.com/lindsaygelle/animalcrossing/villager/wolf/dobie)|male|cranky|

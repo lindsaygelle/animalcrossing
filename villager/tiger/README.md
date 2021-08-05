@@ -1,6 +1,7 @@
 # Tiger
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Bangle](github.com/lindsaygelle/animalcrossing/villager/tiger/bangle)|female|peppy|
 |[Bianca](github.com/lindsaygelle/animalcrossing/villager/tiger/bianca)|female|peppy|
 |[Claudia](github.com/lindsaygelle/animalcrossing/villager/tiger/claudia)|female|snooty|

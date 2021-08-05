@@ -1,6 +1,7 @@
 # Deer
 
-||Name||Gender||Personality||
+|Name|Gender|Personality|
+|---|---|---|
 |[Bam](github.com/lindsaygelle/animalcrossing/villager/deer/bam)|male|jock|
 |[Beau](github.com/lindsaygelle/animalcrossing/villager/deer/beau)|male|lazy|
 |[Bruce](github.com/lindsaygelle/animalcrossing/villager/deer/bruce)|male|cranky|
