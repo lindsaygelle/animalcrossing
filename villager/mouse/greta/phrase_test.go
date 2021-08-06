@@ -9,11 +9,14 @@ import (
 func TestPhrase(t *testing.T) {
 	tags := []language.Tag{
 		language.AmericanEnglish,
+		language.CanadianFrench,
+		language.Dutch,
 		language.French,
 		language.German,
 		language.Italian,
 		language.Japanese,
 		language.Korean,
+		language.LatinAmericanSpanish,
 		language.Russian,
 		language.Spanish,
 		language.SimplifiedChinese,
