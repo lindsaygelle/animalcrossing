@@ -1,16 +1,16 @@
 # Gorilla
 
-|Name|Gender|Personality|
-|---|---|---|
-|[Al](./al)|male|lazy|
-|[Boone](./boone)|male|jock|
-|[Boyd](./boyd)|male|cranky|
-|[Cesar](./cesar)|male|cranky|
-|[Hans](./hans)|male|smug|
-|[Jane](./jane)|female|snooty|
-|[Louie](./louie)|male|jock|
-|[Peewee](./peewee)|male|cranky|
-|[Rilla](./rilla)|female|peppy|
-|[Rocket](./rocket)|female|sisterly|
-|[Violet](./violet)|female|snooty|
-|[Yodel](./yodel)|male|lazy|
+|Icon|Name|Gender|Personality|
+|---|---|---|---|
+|![icon](./al/icon.png)|[Al](./al)|male|lazy|
+|![icon](./boone/icon.png)|[Boone](./boone)|male|jock|
+|![icon](./boyd/icon.png)|[Boyd](./boyd)|male|cranky|
+|![icon](./cesar/icon.png)|[Cesar](./cesar)|male|cranky|
+|![icon](./hans/icon.png)|[Hans](./hans)|male|smug|
+|![icon](./jane/icon.png)|[Jane](./jane)|female|snooty|
+|![icon](./louie/icon.png)|[Louie](./louie)|male|jock|
+|![icon](./peewee/icon.png)|[Peewee](./peewee)|male|cranky|
+|![icon](./rilla/icon.png)|[Rilla](./rilla)|female|peppy|
+|![icon](./rocket/icon.png)|[Rocket](./rocket)|female|sisterly|
+|![icon](./violet/icon.png)|[Violet](./violet)|female|snooty|
+|![icon](./yodel/icon.png)|[Yodel](./yodel)|male|lazy|

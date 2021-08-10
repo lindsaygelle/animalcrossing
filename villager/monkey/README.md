@@ -1,13 +1,13 @@
 # Monkey
 
-|Name|Gender|Personality|
-|---|---|---|
-|[Champ](./champ)|male|jock|
-|[Deli](./deli)|male|lazy|
-|[Elise](./elise)|female|snooty|
-|[Flip](./flip)|male|jock|
-|[Monty](./monty)|male|cranky|
-|[Nana](./nana)|female|normal|
-|[Shari](./shari)|female|sisterly|
-|[Simon](./simon)|male|lazy|
-|[Tammi](./tammi)|female|peppy|
+|Icon|Name|Gender|Personality|
+|---|---|---|---|
+|![icon](./champ/icon.png)|[Champ](./champ)|male|jock|
+|![icon](./deli/icon.png)|[Deli](./deli)|male|lazy|
+|![icon](./elise/icon.png)|[Elise](./elise)|female|snooty|
+|![icon](./flip/icon.png)|[Flip](./flip)|male|jock|
+|![icon](./monty/icon.png)|[Monty](./monty)|male|cranky|
+|![icon](./nana/icon.png)|[Nana](./nana)|female|normal|
+|![icon](./shari/icon.png)|[Shari](./shari)|female|sisterly|
+|![icon](./simon/icon.png)|[Simon](./simon)|male|lazy|
+|![icon](./tammi/icon.png)|[Tammi](./tammi)|female|peppy|

@@ -1,14 +1,14 @@
 # Eagle
 
-|Name|Gender|Personality|
-|---|---|---|
-|[Amelia](./amelia)|female|snooty|
-|[Apollo](./apollo)|male|cranky|
-|[Avery](./avery)|male|cranky|
-|[Buzz](./buzz)|male|cranky|
-|[Celia](./celia)|female|normal|
-|[Frank](./frank)|male|cranky|
-|[Keaton](./keaton)|male|smug|
-|[Pierce](./pierce)|male|jock|
-|[Quetzal](./quetzal)|male|jock|
-|[Sterling](./sterling)|male|jock|
+|Icon|Name|Gender|Personality|
+|---|---|---|---|
+|![icon](./amelia/icon.png)|[Amelia](./amelia)|female|snooty|
+|![icon](./apollo/icon.png)|[Apollo](./apollo)|male|cranky|
+|![icon](./avery/icon.png)|[Avery](./avery)|male|cranky|
+|![icon](./buzz/icon.png)|[Buzz](./buzz)|male|cranky|
+|![icon](./celia/icon.png)|[Celia](./celia)|female|normal|
+|![icon](./frank/icon.png)|[Frank](./frank)|male|cranky|
+|![icon](./keaton/icon.png)|[Keaton](./keaton)|male|smug|
+|![icon](./pierce/icon.png)|[Pierce](./pierce)|male|jock|
+|![icon](./quetzal/icon.png)|[Quetzal](./quetzal)|male|jock|
+|![icon](./sterling/icon.png)|[Sterling](./sterling)|male|jock|

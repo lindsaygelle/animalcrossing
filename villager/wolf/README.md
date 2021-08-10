@@ -1,17 +1,17 @@
 # Wolf
 
-|Name|Gender|Personality|
-|---|---|---|
-|[Audie](./audie)|female|peppy|
-|[Chief](./chief)|male|cranky|
-|[Dobie](./dobie)|male|cranky|
-|[Fang](./fang)|male|cranky|
-|[Freya](./freya)|female|snooty|
-|[Kyle](./kyle)|male|smug|
-|[Lobo](./lobo)|male|cranky|
-|[Skye](./skye)|female|normal|
-|[Tarou](./tarou)|male|jock|
-|[Vivian](./vivian)|female|snooty|
-|[WLink](./wlink)|male|smug|
-|[Whitney](./whitney)|female|snooty|
-|[Wolfgang](./wolfgang)|male|cranky|
+|Icon|Name|Gender|Personality|
+|---|---|---|---|
+|![icon](./audie/icon.png)|[Audie](./audie)|female|peppy|
+|![icon](./chief/icon.png)|[Chief](./chief)|male|cranky|
+|![icon](./dobie/icon.png)|[Dobie](./dobie)|male|cranky|
+|![icon](./fang/icon.png)|[Fang](./fang)|male|cranky|
+|![icon](./freya/icon.png)|[Freya](./freya)|female|snooty|
+|![icon](./kyle/icon.png)|[Kyle](./kyle)|male|smug|
+|![icon](./lobo/icon.png)|[Lobo](./lobo)|male|cranky|
+|![icon](./skye/icon.png)|[Skye](./skye)|female|normal|
+|![icon](./tarou/icon.png)|[Tarou](./tarou)|male|jock|
+|![icon](./vivian/icon.png)|[Vivian](./vivian)|female|snooty|
+|![icon](./wlink/icon.png)|[WLink](./wlink)|male|smug|
+|![icon](./whitney/icon.png)|[Whitney](./whitney)|female|snooty|
+|![icon](./wolfgang/icon.png)|[Wolfgang](./wolfgang)|male|cranky|

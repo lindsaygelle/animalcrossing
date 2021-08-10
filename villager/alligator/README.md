@@ -1,13 +1,13 @@
 # Alligator
 
-|Name|Gender|Personality|
-|---|---|---|
-|[Alfonso](./alfonso)|male|lazy|
-|[Alli](./alli)|female|snooty|
-|[Boots](./boots)|male|jock|
-|[Del](./del)|male|cranky|
-|[Drago](./drago)|male|lazy|
-|[Gayle](./gayle)|female|normal|
-|[Liz](./liz)|female|normal|
-|[Pironkon](./pironkon)|male|lazy|
-|[Sly](./sly)|male|jock|
+|Icon|Name|Gender|Personality|
+|---|---|---|---|
+|![icon](./alfonso/icon.png)|[Alfonso](./alfonso)|male|lazy|
+|![icon](./alli/icon.png)|[Alli](./alli)|female|snooty|
+|![icon](./boots/icon.png)|[Boots](./boots)|male|jock|
+|![icon](./del/icon.png)|[Del](./del)|male|cranky|
+|![icon](./drago/icon.png)|[Drago](./drago)|male|lazy|
+|![icon](./gayle/icon.png)|[Gayle](./gayle)|female|normal|
+|![icon](./liz/icon.png)|[Liz](./liz)|female|normal|
+|![icon](./pironkon/icon.png)|[Pironkon](./pironkon)|male|lazy|
+|![icon](./sly/icon.png)|[Sly](./sly)|male|jock|

@@ -1,15 +1,15 @@
 # Koala
 
-|Name|Gender|Personality|
-|---|---|---|
-|[Alice](./alice)|female|normal|
-|[Canberra](./canberra)|female|sisterly|
-|[Eugene](./eugene)|male|smug|
-|[Faith](./faith)|female|normal|
-|[Gonzo](./gonzo)|male|cranky|
-|[Huggy](./huggy)|female|peppy|
-|[Lyman](./lyman)|male|jock|
-|[Melba](./melba)|female|normal|
-|[Ozzie](./ozzie)|male|lazy|
-|[Sydney](./sydney)|female|normal|
-|[Yuka](./yuka)|female|snooty|
+|Icon|Name|Gender|Personality|
+|---|---|---|---|
+|![icon](./alice/icon.png)|[Alice](./alice)|female|normal|
+|![icon](./canberra/icon.png)|[Canberra](./canberra)|female|sisterly|
+|![icon](./eugene/icon.png)|[Eugene](./eugene)|male|smug|
+|![icon](./faith/icon.png)|[Faith](./faith)|female|normal|
+|![icon](./gonzo/icon.png)|[Gonzo](./gonzo)|male|cranky|
+|![icon](./huggy/icon.png)|[Huggy](./huggy)|female|peppy|
+|![icon](./lyman/icon.png)|[Lyman](./lyman)|male|jock|
+|![icon](./melba/icon.png)|[Melba](./melba)|female|normal|
+|![icon](./ozzie/icon.png)|[Ozzie](./ozzie)|male|lazy|
+|![icon](./sydney/icon.png)|[Sydney](./sydney)|female|normal|
+|![icon](./yuka/icon.png)|[Yuka](./yuka)|female|snooty|
