@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	code string = ""
+	code string = "pig14"
 )
 
 const (
@@ -30,7 +30,6 @@ var (
 	Villager = villager.Villager{
 		Animal:      pig.Animal,
 		Birthday:    birthday,
-		Code:        code,
 		Gender:      gender,
 		Id:          id,
 		Key:         villager.Chops,

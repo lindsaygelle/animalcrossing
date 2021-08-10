@@ -30,7 +30,6 @@ var (
 	Villager = villager.Villager{
 		Animal:      alligator.Animal,
 		Birthday:    birthday,
-		Code:        code,
 		Gender:      gender,
 		Id:          id,
 		Key:         villager.Boots,
