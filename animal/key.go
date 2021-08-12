@@ -71,6 +71,5 @@ const (
 	Turkey
 	Turtle
 	Walrus
-	Wisp
 	Wolf
 )
